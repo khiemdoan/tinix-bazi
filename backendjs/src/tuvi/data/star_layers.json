@@ -1,0 +1,583 @@
+{
+  "Tử Vi": {
+    "base": "Tử Vi là Đế tinh, bậc đế vương quân lâm thiên hạ, tượng trưng cho uy quyền, lãnh đạo, sự tôn quý và năng lực che chở giải ách.",
+    "brightness": {
+      "Miếu": ["Tử Vi Miếu vượng — Đế tinh tọa miếu, uy quyền tột đỉnh như vua giữa triều, phong thái đĩnh đạc khiến người người kính phục.", "Tử Vi đắc vị Miếu, khí chất vương giả phát tiết ra ngoài, không cần nói nhiều mà thiên hạ tự quy thuận.", "Miếu địa Tử Vi chiếu mệnh, sinh ra đã mang tướng quý, được người đời kính trọng, lo liệu chu toàn."],
+      "Vượng": ["Tử Vi Vượng địa, uy nghi lẫm liệt, phong thái đường hoàng. Tuy chưa đến đỉnh cao nhất nhưng sức ảnh hưởng rất lớn.", "Đế tinh vượng khí, tự tin và quyết đoán, dễ gây ấn tượng mạnh với người gặp lần đầu.", "Vượng vị Tử Vi, sáng như ngọc quý, mọi người tin tưởng giao phó trọng trách."],
+      "Đắc": ["Tử Vi Đắc địa, tạm đủ uy nhưng cần trợ thủ (Tả Hữu) mới phát huy trọn vẹn.", "Đế tinh ở mức đắc, có quyền nhưng chưa trọn vẹn, cần bồi đắp thêm uy tín.", "Đắc vị Tử Vi hữu lực tuy chưa toàn, nên kiên nhẫn xây dựng từ từ."],
+      "Lợi": ["Tử Vi Lợi địa, vẫn có phong thái nhưng không nổi bật, cần nỗ lực tự thân mới có kết quả.", "Đế tinh tại Lợi, uy nhỏ nhưng nếu tu dưỡng thì dần dần lớn mạnh."],
+      "Bình": ["Tử Vi Bình thường, không mạnh không yếu, như vua an phận thủ thường. Cần Cát tinh hỗ trợ mới phát triển.", "Đế tinh bình lặng, phong thái thanh nhã nhưng thiếu sức bứt phá, dễ an phận."],
+      "Bất": ["Tử Vi Bất lợi, như vua lỡ vận. Sức ảnh hưởng giảm nhưng bản chất cao quý vẫn còn. Cần dựa vào quý nhân.", "Đế tinh bất đắc, uy quyền bị kìm nén, dễ bị cấp dưới lấn lướt. Rèn đức để phục hưng."],
+      "Hãm": ["Tử Vi Hãm địa — Vua mất ngai, cô đơn trên đỉnh. Có chí lớn nhưng lực bất tòng tâm, dễ rơi vào cảnh cô lập.", "Đế tinh lạc hãm, thất thế lưu vong. Cuộc đời phải tự mình bước qua nghịch cảnh mới tìm lại được vị thế.", "Hãm địa Tử Vi, quý nhân xa cách, dễ bị tiểu nhân bao vây. Cần tu nhẫn và chờ thời."]
+    },
+    "palace": {
+      "Mệnh": ["Tử Vi chiếu Mệnh, bạn sinh ra đã mang phong thái của người dẫn dắt, lòng tự tôn cao và khả năng bao quát toàn cục.", "Đế tinh tọa Mệnh cung, từ nhỏ đã có tướng quý, được người lớn yêu mến và kỳ vọng.", "Mệnh cung có Tử Vi, tính cách đĩnh đạc, hay lo liệu cho người khác, thích làm chỗ dựa."],
+      "Tài Bạch": ["Tử Vi tọa Tài Bạch, kiếm tiền nhờ uy tín và kỹ năng quản lý. Tiêu xài phóng khoáng nhưng luôn giữ thể diện tài chính.", "Đế tinh nắm Tài cung, tiền bạc đến từ vị thế xã hội. Không bao giờ để mình rơi vào cảnh nghèo túng."],
+      "Quan Lộc": ["Tử Vi chiếu Quan Lộc, con đường công danh rộng mở. Rất hợp với các vị trí điều hành, quản lý cấp cao.", "Đế tinh tọa Quan, sự nghiệp vươn tới đỉnh cao như nước chảy về nguồn, tự nhiên mà thuận lợi."],
+      "Phu Thê": ["Tử Vi ở Phu Thê, kỳ vọng cao về bạn đời. Muốn tìm người xứng tầm, dễ dính vào mối tình với người có địa vị.", "Đế tinh chiếu Phu Thê, hôn nhân mang tính quyền quý nhưng dễ kiêu ngạo khiến đôi bên xa cách."],
+      "Thiên Di": ["Tử Vi tọa Thiên Di, ra ngoài xã hội được kính trọng, dễ gặp quý nhân ở nơi đất khách.", "Đế tinh chiếu Di cung, đi đâu cũng được tiếp đón trọng thị, đặc biệt thuận lợi cho buôn bán quốc tế."],
+      "Phúc Đức": ["Tử Vi ở Phúc Đức, tổ tiên có nguồn gốc danh giá. Phúc đức dày, tâm tính rộng lượng, hay làm từ thiện.", "Đế tinh tọa Phúc, tâm hồn cao thượng, thích hưởng thụ tinh thần hơn vật chất."],
+      "Phụ Mẫu": ["Tử Vi chiếu Phụ Mẫu, cha mẹ có địa vị xã hội hoặc tính cách uy nghiêm. Được gia đình bảo bọc tốt.", "Đế tinh tọa Phụ Mẫu, dòng họ có truyền thống quyền quý, cha mẹ kỳ vọng cao."],
+      "Huynh Đệ": ["Tử Vi tọa Huynh Đệ, anh chị em có người thành đạt. Tuy nhiên dễ có tranh chấp ngôi vị trong gia đình.", "Đế tinh chiếu Huynh Đệ, quan hệ anh em khá tốt nhưng bạn thường là người phải lo liệu."],
+      "Tử Nữ": ["Tử Vi ở Tử Nữ, con cái có tướng quý, học hành giỏi giang. Kỳ vọng cao với thế hệ sau.", "Đế tinh chiếu Tử Nữ, con cái mang phong thái lãnh đạo từ nhỏ, dễ thành đạt."],
+      "Tật Ách": ["Tử Vi tọa Tật Ách, sức khoẻ nền tốt nhưng dễ mắc bệnh quý nhân (cao huyết áp, tim mạch do áp lực). Cần kiểm soát stress.", "Đế tinh chiếu Tật Ách, bệnh tật ít nhưng hay lo lắng quá mức ảnh hưởng thần kinh."],
+      "Nô Bộc": ["Tử Vi ở Nô Bộc, cấp dưới và bạn bè tôn kính. Có sức ảnh hưởng lớn trong nhóm, dẫn dắt đội nhóm tốt.", "Đế tinh chiếu Nô Bộc, dễ thu phục nhân tâm, cấp dưới trung thành."],
+      "Điền Trạch": ["Tử Vi tọa Điền Trạch, nhà cửa khang trang, bất động sản có giá trị. Thích sống trong không gian sang trọng.", "Đế tinh chiếu Điền, gia đạo uy nghi, nhà cao cửa rộng, phong thuỷ tốt."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Tử Vi mang phong thái quân tử, uy nghi đĩnh đạc, nói ít làm nhiều, có khả năng gánh vác trọng trách.", "Nam nhân có Tử Vi, tướng mạo đường đường, dễ được cấp trên tin tưởng giao quyền.", "Đấng nam nhi dưới sao Tử Vi, lòng tự tôn cao ngất, kiêu hùng mà không kiêu ngạo."],
+      "Nữ": ["Nữ mệnh Tử Vi cực kỳ mạnh mẽ và độc lập, vừa đảm đang vừa quyền uy, dễ lấn át chồng nếu không khéo.", "Phận nữ nhi gặp Đế tinh, giỏi giang hơn nhiều nam nhân, sự nghiệp vượt bậc nhưng tình duyên hay lận đận.", "Nữ mệnh Tử Vi, xinh đẹp mà uy nghi, thiên hạ nể sợ nhiều hơn mến thương."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim bao bọc Đế tinh, tính cách như thép đã tôi — cứng rắn, quyết đoán tuyệt đối.",
+      "Mộc Tam Cục": "Ngũ hành Mộc nuôi dưỡng Đế tinh, phong thái nhân hậu hơn, biết bao dung nhưng đôi khi thiếu cương.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ xung quanh Đế tinh — mưu lược và uyển chuyển như nước, nhưng dễ do dự.",
+      "Hoả Lục Cục": "Ngũ hành Hoả thiêu đốt — Đế tinh gặp Hoả thì tham vọng bùng cháy mãnh liệt, quyết liệt nhưng dễ nóng nảy.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ ổn định — Đế tinh gặp Thổ thì bền vững trường tồn, ít rủi ro nhưng chậm phát triển."
+    }
+  },
+
+  "Thiên Cơ": {
+    "base": "Thiên Cơ là sao trí tuệ, mưu lược, đại diện cho sự tinh anh, nhạy bén và tư duy sắc bén tuyệt vời.",
+    "brightness": {
+      "Miếu": ["Thiên Cơ Miếu vượng — Trí tuệ siêu phàm, phân tích sắc bén như dao cắt. Khả năng giải quyết vấn đề phức tạp vượt trội.", "Miếu địa Thiên Cơ, đầu óc nhạy bén phi thường, nhìn qua là hiểu thấu, nghe qua là nắm bắt.", "Thiên Cơ đắc Miếu, mưu lược hơn người, tính toán trăm bước không sai."],
+      "Vượng": ["Thiên Cơ Vượng, trí tuệ sung mãn, ý tưởng tuôn trào. Rất giỏi lập kế hoạch chiến lược dài hạn.", "Vượng vị Thiên Cơ, đầu óc như máy tính, xử lý thông tin cực nhanh."],
+      "Đắc": ["Thiên Cơ Đắc địa, trí tuệ tốt nhưng cần rèn luyện mới phát huy hết tiềm năng.", "Đắc vị Thiên Cơ, thông minh vừa đủ để biết mình cần học thêm gì."],
+      "Lợi": ["Thiên Cơ Lợi địa, trí tuệ có nhưng dễ phân tán. Cần tập trung vào một lĩnh vực chuyên sâu."],
+      "Bình": ["Thiên Cơ Bình hòa, đầu óc ổn nhưng không xuất sắc. Cần quý nhân dẫn dắt.", "Bình vị Thiên Cơ, suy nghĩ giản đơn hơn, ít toan tính phức tạp."],
+      "Bất": ["Thiên Cơ Bất lợi, trí tuệ bị giao động, hay lo lắng vô cớ, dễ suy nghĩ tiêu cực.", "Bất đắc Thiên Cơ, đầu óc rối bời, khó tập trung vào mục tiêu dài hạn."],
+      "Hãm": ["Thiên Cơ Hãm địa — Trí tuệ bị lu mờ, hay tính sai bước, dễ rơi vào bẫy mưu hèn. Cần tu tập thiền định để lấy lại sự sáng suốt.", "Hãm địa Thiên Cơ, thông minh mà đoản mệnh, tính toán nhiều mà được ít."]
+    },
+    "palace": {
+      "Mệnh": ["Thiên Cơ tọa Mệnh, bạn cực kỳ thông minh, nhạy bén, thích suy luận và phân tích. Tuy nhiên dễ lo nghĩ nhiều, hay thay đổi ý định.", "Mệnh có Thiên Cơ, đầu óc luôn quay cuồng với ý tưởng, khó ngồi yên một chỗ."],
+      "Tài Bạch": ["Thiên Cơ ở Tài Bạch, kiếm tiền nhờ chất xám — ý tưởng, phát minh, sáng tạo.", "Trí tinh tọa Tài, tài chính thăng trầm vì đầu óc hay thay đổi chiến lược."],
+      "Quan Lộc": ["Thiên Cơ chiếu Quan Lộc, sự nghiệp phù hợp với vai trò quân sư, cố vấn, kỹ sư, lập trình viên.", "Trí tinh tọa Quan, con đường nghề nghiệp đa dạng, giỏi nhiều thứ nhưng cần chọn một thứ chuyên sâu."],
+      "Phu Thê": ["Thiên Cơ ở Phu Thê, cần bạn đời thông minh để tâm đầu ý hợp. Hôn nhân nhiều trao đổi trí tuệ.", "Trí tinh chiếu Phu Thê, tình cảm hay bị lý trí chi phối, đôi lúc quá phân tích mà quên cảm xúc."],
+      "Thiên Di": ["Thiên Cơ tọa Thiên Di, ra ngoài xã hội nhờ trí tuệ mà được trọng vọng.", "Trí tinh ở Di, đi xa học hành thường thành công."],
+      "Phúc Đức": ["Thiên Cơ tọa Phúc Đức, tâm trí luôn bận rộn, khó thư giãn. Nên học thiền để cân bằng.", "Trí tinh chiếu Phúc, phúc đức nằm ở trí tuệ, càng học càng có phước."],
+      "Phụ Mẫu": ["Thiên Cơ ở Phụ Mẫu, cha mẹ thông minh, gia đình coi trọng giáo dục.", "Trí tinh chiếu Phụ Mẫu, quan hệ với cha mẹ thiên về lý trí hơn tình cảm."],
+      "Huynh Đệ": ["Thiên Cơ ở Huynh Đệ, anh chị em thông minh nhưng hay tranh cãi.", "Trí tinh tọa Huynh Đệ, bạn bè là những người có học thức."],
+      "Tử Nữ": ["Thiên Cơ chiếu Tử Nữ, con cái rất thông minh, giỏi công nghệ, ham học hỏi.", "Trí tinh ở Tử Nữ, thế hệ sau có đầu óc sáng tạo vượt trội."],
+      "Tật Ách": ["Thiên Cơ tọa Tật Ách, dễ mắc bệnh thần kinh do suy nghĩ quá nhiều. Cẩn thận đau đầu, mất ngủ.", "Trí tinh ở Tật Ách, não bộ hoạt động quá tải, cần nghỉ ngơi đúng cách."],
+      "Nô Bộc": ["Thiên Cơ ở Nô Bộc, bạn bè và cấp dưới là người trí thức. Quan hệ xã giao dựa trên trí tuệ.", "Trí tinh chiếu Nô Bộc, dễ thu hút người cùng chí hướng tri thức."],
+      "Điền Trạch": ["Thiên Cơ ở Điền Trạch, hay thay đổi chỗ ở, nhà cửa nhiều sách vở, công nghệ.", "Trí tinh chiếu Điền, gia đạo thanh tịnh, thích không gian sáng tạo."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Thiên Cơ, thông minh lanh lợi, giỏi tính toán chiến lược. Tuy nhiên dễ bị coi là gian xảo nếu không chân thành.", "Nam nhân dưới sao Thiên Cơ, đa mưu túc trí, giỏi một vài lĩnh vực nhưng hay nhảy việc."],
+      "Nữ": ["Nữ mệnh Thiên Cơ, xinh đẹp và thông minh, đầu óc luôn quay cuồng ý tưởng, khó yên phận trong bếp.", "Phận nữ gặp Trí tinh, giỏi giang sắc sảo nhưng đôi lúc quá nhạy cảm, hay suy nghĩ nhiều."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim rèn trí tuệ thành lưỡi kiếm — phân tích sắc bén, cắt vào trọng tâm vấn đề.",
+      "Mộc Tam Cục": "Ngũ hành Mộc nuôi dưỡng trí tuệ tự nhiên — sáng tạo như mầm cây, phát triển không ngừng.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ hỗ trợ mưu lược — trí tuệ uyển chuyển như dòng nước, tìm đường xuyên qua mọi rào cản.",
+      "Hoả Lục Cục": "Ngũ hành Hoả đốt cháy trí tuệ — sáng rực nhưng nhanh tàn, cần biết điều tiết năng lượng.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ ổn định trí tuệ — suy nghĩ chín chắn, tuy chậm nhưng rất chắc chắn."
+    }
+  },
+
+  "Thái Dương": {
+    "base": "Thái Dương là mặt trời — quang minh chính đại, nhiệt huyết tràn trề, biểu tượng của sự cho đi và quyền lực ánh sáng.",
+    "brightness": {
+      "Miếu": ["Thái Dương Miếu — Mặt trời chói lọi giữa bầu trời, danh vọng hiển hách, sự nghiệp rạng rỡ bốn phương.", "Miếu địa Thái Dương, tựa vầng thái dương giữa trưa, ai nấy đều phải ngước nhìn.", "Nhật tinh đắc Miếu, quang minh lỗi lạc, con đường công danh rộng mở như đại lộ."],
+      "Vượng": ["Thái Dương Vượng, mặt trời buổi sáng — khí thế đang lên, tương lai tươi sáng. Sự nghiệp phát triển mạnh từ tuổi trẻ.", "Vượng vị Nhật tinh, ánh sáng bao phủ khắp nơi, nhiệt tình đáng ngưỡng mộ."],
+      "Đắc": ["Thái Dương Đắc địa, ánh sáng đủ dùng nhưng chưa chói lọi. Cần nỗ lực thêm mới toả sáng hoàn toàn.", "Đắc vị Nhật tinh, mặt trời sau mây, cần thời cơ để bứt phá."],
+      "Lợi": ["Thái Dương Lợi, ánh sáng vừa phải, không quá nổi bật nhưng vẫn ấm áp.", "Nhật tinh Lợi vị, sự nghiệp ổn định nhưng thiếu đột phá lớn."],
+      "Bình": ["Thái Dương Bình hòa, ánh sáng dịu — tính cách ôn hoà nhưng có chút thụ động.", "Bình vị Nhật tinh, mặt trời chiều — ấm nhưng không còn nóng bỏng."],
+      "Bất": ["Thái Dương Bất lợi, mặt trời sắp lặn, sức ảnh hưởng giảm dần. Tuổi trẻ vất vả, trung vận mới khá.", "Bất đắc Nhật tinh, ánh sáng mờ nhạt, dễ bị người đời hiểu lầm."],
+      "Hãm": ["Thái Dương Hãm địa — Mặt trời đêm, ráng sức toả sáng nhưng không ai nhìn thấy. Làm nhiều được ít, bao đồng mà chịu thiệt thòi.", "Hãm địa Nhật tinh, như ngọn đuốc giữa bão, anh hùng mạt vận, cống hiến mà không được ghi nhận.", "Nhật tinh lạc hãm, cuộc đời phải đốt cháy mình để soi đường cho kẻ khác, hi sinh lớn mà phần thưởng nhỏ."]
+    },
+    "palace": {
+      "Mệnh": ["Thái Dương tọa Mệnh, bạn có tính cách cởi mở, nhiệt tình, thích giúp đỡ người khác đến mức ôm đồm. Rất coi trọng danh dự.", "Nhật tinh chiếu Mệnh, sáng rực tự nhiên, thu hút ánh nhìn của mọi người xung quanh."],
+      "Tài Bạch": ["Thái Dương ở Tài Bạch, chi tiêu rộng rãi, xem danh tiếng hơn tiền bạc. Danh có trước rồi tài mới đến.", "Nhật tinh tọa Tài, tiền ra nhiều vì tính bao đồng, nhưng về lâu dài vẫn có lộc."],
+      "Quan Lộc": ["Thái Dương chiếu Quan Lộc, sự nghiệp toả sáng trong các ngành giáo dục, ngoại giao, truyền thông, chính trị.", "Nhật tinh tọa Quan, con đường công danh như mặt trời lên — chỉ có tiến không có lùi."],
+      "Phu Thê": ["Thái Dương ở Phu Thê, bạn đời là người nổi bật, nhiệt tình hoặc có địa vị.", "Nhật tinh chiếu Phu Thê, hôn nhân sáng sủa, nhưng dễ bị ảnh hưởng bởi dư luận."],
+      "Thiên Di": ["Thái Dương tọa Thiên Di, đi đâu cũng được chào đón, nổi tiếng ở nước ngoài.", "Nhật tinh ở Di cung, ánh sáng rọi khắp bốn phương, rất thuận lợi cho hoạt động quốc tế."],
+      "Phúc Đức": ["Thái Dương ở Phúc Đức, tâm hồn rộng lớn, hay làm phúc, phúc đức sâu dày.", "Nhật tinh chiếu Phúc, phước báo từ sự cho đi không toan tính."],
+      "Phụ Mẫu": ["Thái Dương ở Phụ Mẫu, cha có uy tín hoặc nhiệt tình. Quan hệ cha con tốt đẹp.", "Nhật tinh chiếu Phụ Mẫu, gia đình sáng sủa, cha mẹ là người đàng hoàng."],
+      "Huynh Đệ": ["Thái Dương ở Huynh Đệ, anh chị em nhiệt tình, hay giúp đỡ lẫn nhau.", "Nhật tinh tọa Huynh Đệ, tình anh em ấm áp nhưng dễ tranh luận nảy lửa."],
+      "Tử Nữ": ["Thái Dương chiếu Tử Nữ, con cái sáng sủa, thông minh, có chí hướng.", "Nhật tinh ở Tử Nữ, con trai đặc biệt nổi bật, có năng khiếu lãnh đạo."],
+      "Tật Ách": ["Thái Dương ở Tật Ách, cẩn thận bệnh mắt, đau đầu, huyết áp cao.", "Nhật tinh tọa Tật Ách, sức khoẻ bị ảnh hưởng bởi stress công việc."],
+      "Nô Bộc": ["Thái Dương tọa Nô Bộc, bạn bè đông đúc, nhiệt tình giúp đỡ.", "Nhật tinh chiếu Nô Bộc, dễ thu hút đông đảo người theo."],
+      "Điền Trạch": ["Thái Dương ở Điền Trạch, nhà cửa sáng sủa, hướng Đông tốt nhất.", "Nhật tinh chiếu Điền, gia đạo sáng sủa, tuy nhà hay ồn ào nhưng ấm cúng."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Thái Dương — chính nhân quân tử, nhiệt huyết bao la, thích gánh vác trọng trách cho gia đình và xã hội.", "Nam nhân dưới Nhật tinh, tính bao đồng, lo toan cho thiên hạ, là trụ cột đáng tin cậy."],
+      "Nữ": ["Nữ mệnh Thái Dương, tính cách phóng khoáng như nam giới. Giỏi giang nhưng tình duyên hay lận đận vì quá mạnh mẽ.", "Phận nữ gặp Nhật tinh, duyên phận với nam giới (cha, chồng) trắc trở, bản thân thì rất thành công."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim phản chiếu ánh sáng — mặt trời gặp gương, danh tiếng nhân đôi nhưng dễ bị áp lực dư luận.",
+      "Mộc Tam Cục": "Ngũ hành Mộc hấp thu ánh sáng — mặt trời nuôi cây, sự nghiệp phát triển tự nhiên, bền vững.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ phản xạ ánh sáng — mặt trời trên mặt nước, đẹp nhưng ảo, cần phân biệt thật giả.",
+      "Hoả Lục Cục": "Ngũ hành Hoả cộng hưởng — mặt trời gặp lửa, nhiệt huyết bùng nổ, nhưng dễ cháy quá mức.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ hấp thu nhiệt — mặt trời ấm đất, sự nghiệp bền bỉ, từ từ phát triển vững chắc."
+    }
+  },
+
+  "Vũ Khúc": {
+    "base": "Vũ Khúc là tài tinh hạng nặng — chủ về tiền tài, hành động thực tiễn, tính cách cương nghị và quyết đoán phi thường.",
+    "brightness": {
+      "Miếu": ["Vũ Khúc Miếu — Tài tinh cực vượng, kiếm tiền như rừng rút gió, nhanh gọn và quyết liệt.", "Miếu địa Vũ Khúc, mỗi bước đi đều tính bằng tiền, quyết đoán là bản năng."],
+      "Vượng": ["Vũ Khúc Vượng, tài lộc sung mãn, kinh doanh phát đạt. Tính cách thẳng thắn, không vòng vo.", "Vượng vị tài tinh, tiền bạc vào như nước chảy về đại dương."],
+      "Đắc": ["Vũ Khúc Đắc, tài lộc khá, kiếm tiền ổn định nhưng chưa bùng nổ.", "Đắc vị tài tinh, tiền bạc đủ dùng nhưng cần đầu tư thêm."],
+      "Bình": ["Vũ Khúc Bình hòa, tài lộc trung bình, cần nỗ lực nhiều mới giàu có.", "Bình vị tài tinh, không giàu không nghèo, cuộc sống đủ đầy."],
+      "Bất": ["Vũ Khúc Bất lợi, kiếm tiền vất vả, tiền vào lại ra. Cần kiên nhẫn giữ gìn.", "Bất đắc tài tinh, tiền bạc trôi chảy khó nắm, cần quản lý chặt."],
+      "Hãm": ["Vũ Khúc Hãm — Tài tinh lạc hãm, tiền bạc hao tán. Tuy giỏi kiếm nhưng giỏi tiêu hơn, cô đơn vì tiền.", "Hãm địa Vũ Khúc, cương quá thì gãy, cuộc đời nhiều lần trắng tay mới hiểu giá trị đồng tiền."]
+    },
+    "palace": {
+      "Mệnh": ["Vũ Khúc tọa Mệnh, tính tình dứt khoát, thẳng thắn, làm việc thực tế và quyết liệt. Phụ nữ mệnh Vũ Khúc thường giỏi giang vượt trội.", "Tài tinh chiếu Mệnh, con người hành động — nói là làm, không bao giờ nửa vời."],
+      "Tài Bạch": ["Vũ Khúc đích thị cai quản Tài Bạch. Kiếm tiền cực giỏi, thích hợp tài chính, đầu tư, kinh doanh lớn.", "Tài tinh chính vị, tiền bạc dồi dào, cách quản lý tài chính sắc sảo."],
+      "Quan Lộc": ["Vũ Khúc chiếu Quan Lộc, sự nghiệp liên quan tài chính, ngân hàng, hoặc những ngành cần sự sắt đá, kỷ luật.", "Tài tinh tọa Quan, con đường sự nghiệp gắn liền với đồng tiền."],
+      "Phu Thê": ["Vũ Khúc ở Phu Thê, hôn nhân thiên về lý trí. Bạn đời cứng rắn, quan hệ dựa trên lợi ích thực tế.", "Tài tinh chiếu Phu Thê, tình yêu lạnh lùng nhưng thủy chung, ít lãng mạn nhưng rất đáng tin."],
+      "Thiên Di": ["Vũ Khúc tọa Thiên Di, ra ngoài xã hội kiếm tiền giỏi, buôn bán quốc tế thuận lợi.", "Tài tinh ở Di cung, đi đâu cũng tìm được cơ hội kinh doanh."],
+      "Phúc Đức": ["Vũ Khúc ở Phúc Đức, phước báo nằm ở tài sản vật chất, nhà cửa, xe cộ đầy đủ.", "Tài tinh chiếu Phúc, an nhiên nhờ tiền bạc dư dả."],
+      "Phụ Mẫu": ["Vũ Khúc ở Phụ Mẫu, cha mẹ cương trực, gia đình kỷ luật. Được giáo dục nghiêm khắc.", "Tài tinh chiếu Phụ Mẫu, cha mẹ giỏi kiếm tiền, tuy nghiêm nhưng lo đủ cho con."],
+      "Huynh Đệ": ["Vũ Khúc ở Huynh Đệ, anh chị em có tính cạnh tranh. Quan hệ dựa trên lợi ích.", "Tài tinh tọa Huynh Đệ, anh em hợp tác kinh doanh dễ phát, nhưng cũng dễ mâu thuẫn về tiền."],
+      "Tử Nữ": ["Vũ Khúc chiếu Tử Nữ, con cái cứng rắn, biết kiếm tiền từ nhỏ.", "Tài tinh ở Tử Nữ, con cái có khiếu kinh doanh bẩm sinh."],
+      "Tật Ách": ["Vũ Khúc ở Tật Ách, cẩn thận bệnh phổi, xương khớp, tai nạn liên quan kim loại.", "Tài tinh tọa Tật Ách, stress vì tiền bạc ảnh hưởng sức khoẻ."],
+      "Nô Bộc": ["Vũ Khúc ở Nô Bộc, cấp dưới và bạn bè thực tế, quan hệ dựa trên lợi ích.", "Tài tinh chiếu Nô Bộc, hay làm ăn chung với bạn bè."],
+      "Điền Trạch": ["Vũ Khúc ở Điền Trạch, nhà cửa vững chắc, hay đầu tư bất động sản.", "Tài tinh chiếu Điền, tài sản bất động sản tích luỹ dồi dào."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Vũ Khúc, tính cách cương nghị sắt đá, làm việc hiệu quả, ít nói nhiều làm.", "Nam nhân dưới sao tài tinh, con đường làm giàu mở rộng, kinh doanh phát đạt."],
+      "Nữ": ["Nữ mệnh Vũ Khúc, cực kỳ giỏi giang, giành quyền chủ động trong gia đình. Tuy nhiên dễ khắc phu.", "Phận nữ gặp tài tinh, mạnh mẽ hơn nhiều nam nhân, tài chính tự chủ hoàn toàn."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim cộng hưởng tài tinh — Kim gặp Kim thì sắc bén phi thường, kiếm tiền nhanh như cắt.",
+      "Mộc Tam Cục": "Ngũ hành Mộc bị Kim khắc — kiếm tiền phải vất vả hơn nhưng bền vững, như đẽo gỗ thành ngọc.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ sinh Kim — tài lộc dồi dào tự nhiên, kim loại quý rửa sạch bằng nước.",
+      "Hoả Lục Cục": "Ngũ hành Hoả luyện Kim — kiếm tiền bằng mồ hôi lửa, vất vả nhưng thành quả vĩ đại.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ sinh Kim — đào vàng trong đất, tài lộc bền vững, tích tiểu thành đại."
+    }
+  },
+
+  "Thiên Đồng": {
+    "base": "Thiên Đồng là phúc tinh — biểu tượng của sự nhàn hạ, vui vẻ, thích hưởng thụ, tính tình có phần trẻ con.",
+    "brightness": {
+      "Miếu": ["Thiên Đồng Miếu — Phúc tinh cực vượng, cuộc đời phúc lộc dồi dào, sống vui vẻ, ít lo lắng.", "Miếu địa Thiên Đồng, phúc lộc đầy tràn như dòng suối mát, ai gặp cũng yêu mến."],
+      "Vượng": ["Thiên Đồng Vượng, cuộc sống sung túc nhàn hạ, lộc ăn chơi dồi dào.", "Vượng vị phúc tinh, tính cách ôn hoà đáng yêu, được lòng mọi người."],
+      "Đắc": ["Thiên Đồng Đắc, phúc lộc tạm đủ nhưng cần nỗ lực để duy trì.", "Đắc vị phúc tinh, cuộc sống thoải mái nhưng không thể lười biếng mãi."],
+      "Bình": ["Thiên Đồng Bình, cuộc đời bình yên nhưng thiếu hưng phấn.", "Bình vị phúc tinh, không giàu không nghèo, sống an bần lạc đạo."],
+      "Bất": ["Thiên Đồng Bất lợi, phúc lộc bị che khuất, cuộc sống nhiều lo toan bất ngờ.", "Bất đắc phúc tinh, muốn an nhàn mà không được, cứ bận bịu triền miên."],
+      "Hãm": ["Thiên Đồng Hãm — Phúc tinh lạc hãm, cuộc đời vất vả thiếu may mắn. Tuổi trẻ lao lung, phải tự mình vun đắp.", "Hãm địa Thiên Đồng, phúc mỏng họa dày, cần tu nhẫn mới tìm được bình an."]
+    },
+    "palace": {
+      "Mệnh": ["Thiên Đồng tọa Mệnh, bạn ôn hòa, dĩ hòa vi quý, thích cuộc sống nhàn hạ, không thích bon chen.", "Phúc tinh chiếu Mệnh, khuôn mặt phúc hậu, dáng vẻ đáng yêu, ai gặp cũng muốn gần gũi."],
+      "Tài Bạch": ["Thiên Đồng ở Tài Bạch, kiếm tiền nhẹ nhàng, lộc ăn không bao giờ thiếu nhưng khó giàu to.", "Phúc tinh tọa Tài, tài lộc đến tự nhiên, không cần quá nỗ lực."],
+      "Quan Lộc": ["Thiên Đồng chiếu Quan Lộc, hợp công việc tự do, ít áp lực, ngành dịch vụ, ẩm thực, giải trí.", "Phúc tinh tọa Quan, sự nghiệp nhẹ nhàng nhưng ổn định, không thích cạnh tranh khốc liệt."],
+      "Phu Thê": ["Thiên Đồng ở Phu Thê, bạn đời dễ thương, hiền lành nhưng hay ỷ lại.", "Phúc tinh chiếu Phu Thê, hôn nhân hòa thuận, ít cãi vã nhưng cũng ít lãng mạn."],
+      "Thiên Di": ["Thiên Đồng tọa Thiên Di, đi đâu cũng được đón tiếp nồng hậu, duyên phận tốt ở nơi xa.", "Phúc tinh ở Di, ra ngoài gặp nhiều may mắn, cuộc sống tha hương dễ chịu."],
+      "Phúc Đức": ["Thiên Đồng ở Phúc Đức, phúc đức cực dày, tâm hồn thư thái, sống an nhiên.", "Phúc tinh chính vị Phúc Đức, đây là vị trí tốt nhất — phúc trên phúc, an vui trọn đời."],
+      "Phụ Mẫu": ["Thiên Đồng ở Phụ Mẫu, cha mẹ hiền lành, gia đình ấm áp.", "Phúc tinh chiếu Phụ Mẫu, được cha mẹ yêu chiều, sống trong môi trường hạnh phúc."],
+      "Huynh Đệ": ["Thiên Đồng ở Huynh Đệ, anh chị em hoà thuận, bạn bè dễ mến.", "Phúc tinh tọa Huynh Đệ, quan hệ anh em êm ả, ít ganh đua."],
+      "Tử Nữ": ["Thiên Đồng chiếu Tử Nữ, con cái ngoan ngoãn, dễ nuôi, tính tình hiền lành.", "Phúc tinh ở Tử Nữ, thế hệ sau được phúc ấm nhiều."],
+      "Tật Ách": ["Thiên Đồng ở Tật Ách, sức khoẻ nền tốt nhưng dễ béo phì do thích ăn uống.", "Phúc tinh tọa Tật Ách, ít bệnh nặng nhưng hay mệt mỏi do lười vận động."],
+      "Nô Bộc": ["Thiên Đồng ở Nô Bộc, bạn bè và cấp dưới dễ mến, quan hệ hòa hảo.", "Phúc tinh chiếu Nô Bộc, bạn bè rộng, ai cũng quý mến."],
+      "Điền Trạch": ["Thiên Đồng ở Điền Trạch, nhà cửa ấm cúng, không cần xa hoa nhưng thoải mái.", "Phúc tinh chiếu Điền, gia đạo bình yên, nhà là nơi nghỉ ngơi tuyệt vời."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Thiên Đồng, phúc hậu hiền lành, tuy không quá quyết liệt nhưng được mọi người tin yêu.", "Nam nhân phúc tinh, cuộc sống thoải mái nhưng cần tránh lười biếng thì mới thành đạt."],
+      "Nữ": ["Nữ mệnh Thiên Đồng, khuôn mặt phúc hậu, dáng vẻ đáng yêu. Rất được chồng và gia đình chồng yêu thương.", "Phận nữ gặp phúc tinh, cuộc đời an nhàn, ít sóng gió, hôn nhân thuận lợi."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim rèn phúc — phúc lộc được đánh bóng, cuộc sống sang trọng hơn bình thường.",
+      "Mộc Tam Cục": "Ngũ hành Mộc nuôi phúc — phúc lộc sinh sôi tự nhiên, cuộc sống xanh mát như rừng.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ trôi phúc — phúc lộc dễ đến dễ đi, cần bám giữ.",
+      "Hoả Lục Cục": "Ngũ hành Hoả đốt phúc — tính an nhàn bị xáo trộn, cuộc sống nhiều biến động hơn.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ chứa phúc — phúc lộc vững như đất, bền bỉ qua thời gian."
+    }
+  },
+
+  "Liêm Trinh": {
+    "base": "Liêm Trinh là sao vừa mang tính tù (kỷ luật thép) vừa mang tính đào hoa (ảo vọng, nghệ thuật, quyến rũ).",
+    "brightness": {
+      "Miếu": ["Liêm Trinh Miếu — sức mạnh kỷ luật và nghệ thuật cùng bùng nổ, cực kỳ xuất sắc trong các lĩnh vực cần cả lý trí lẫn cảm xúc.", "Miếu địa Liêm Trinh, tựa ngọn lửa được kiểm soát — nóng nhưng không cháy."],
+      "Vượng": ["Liêm Trinh Vượng, tính kỷ luật và đào hoa đều mạnh, cuộc đời đa sắc nhưng có chiều sâu.", "Vượng vị tù tinh, quyền uy và nghệ thuật cùng đạt đỉnh."],
+      "Đắc": ["Liêm Trinh Đắc, tính kỷ luật khá nhưng đào hoa cũng khá, cần cân bằng hai mặt.", "Đắc vị tù tinh, nội lực tốt nhưng cần phương hướng rõ ràng."],
+      "Bình": ["Liêm Trinh Bình hòa, tính cách trung dung, không quá kỷ luật cũng không quá phóng túng."],
+      "Bất": ["Liêm Trinh Bất lợi, dễ dính vào chuyện phức tạp, giấy tờ rắc rối.", "Bất đắc tù tinh, tính kỷ luật bị phá vỡ, dễ sa ngã."],
+      "Hãm": ["Liêm Trinh Hãm — Tù tinh hãm, cực kỳ nguy hiểm nếu không tu tâm. Dễ dính vào vòng lao lý, kiện tụng, hoặc quan hệ bất chính.", "Hãm địa Liêm Trinh, ngọn lửa mất kiểm soát, thiêu đốt bản thân và người xung quanh."]
+    },
+    "palace": {
+      "Mệnh": ["Liêm Trinh tọa Mệnh, tính cách cực kỳ phức tạp — vừa ngay thẳng nghiêm khắc, vừa lãng mạn nhạy cảm. Rất khó đoán.", "Tù tinh chiếu Mệnh, con người đầy mâu thuẫn nội tại, vừa thiêm nghiêm vừa phóng túng."],
+      "Tài Bạch": ["Liêm Trinh ở Tài Bạch, tài lộc hay gặp bấp bênh, dính líu đến thị phi giấy tờ. Kiếm tiền nên minh bạch.", "Tù tinh tọa Tài, tiền bạc đến từ ngành pháp luật, thuế, hoặc nghệ thuật."],
+      "Quan Lộc": ["Liêm Trinh chiếu Quan Lộc, phát huy tốt trong pháp luật, thuế, công an, hoặc ngành nghệ thuật thị giác.", "Tù tinh tọa Quan, sự nghiệp lưỡng cực — hoặc cực kỳ kỷ luật hoặc cực kỳ nghệ thuật."],
+      "Phu Thê": ["Liêm Trinh ở Phu Thê, tình cảm phức tạp, dễ dính vào mối quan hệ đa chiều. Đào hoa nặng.", "Tù tinh chiếu Phu Thê, hôn nhân nhiều sóng gió, cần rất chân thành."],
+      "Thiên Di": ["Liêm Trinh ở Thiên Di, ra ngoài dễ gặp chuyện phức tạp, cẩn thận giấy tờ pháp lý.", "Tù tinh tọa Di, đi xa nên cẩn thận thị phi và kiện tụng."],
+      "Phúc Đức": ["Liêm Trinh ở Phúc Đức, tâm trí hay do dự giữa lý trí và cảm xúc.", "Tù tinh chiếu Phúc, nội tâm phong phú nhưng nhiều mâu thuẫn."],
+      "Phụ Mẫu": ["Liêm Trinh ở Phụ Mẫu, cha mẹ nghiêm khắc, gia phong kỷ luật.", "Tù tinh chiếu Phụ Mẫu, quan hệ cha mẹ dễ có áp lực."],
+      "Huynh Đệ": ["Liêm Trinh ở Huynh Đệ, anh chị em có tính cách phức tạp, quan hệ thiếu đơn giản."],
+      "Tử Nữ": ["Liêm Trinh chiếu Tử Nữ, con cái cá tính mạnh, không dễ dạy nhưng rất tài năng."],
+      "Tật Ách": ["Liêm Trinh ở Tật Ách, cẩn thận bệnh tim mạch, đường tiết niệu, các vấn đề nóng trong.", "Tù tinh tọa Tật Ách, stress nội tại ảnh hưởng tim phổi."],
+      "Nô Bộc": ["Liêm Trinh ở Nô Bộc, bạn bè phức tạp, cẩn thận bị lôi kéo vào chuyện rắc rối."],
+      "Điền Trạch": ["Liêm Trinh ở Điền Trạch, nhà cửa hay phải sửa chữa, dễ dính kiện tụng bất động sản."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Liêm Trinh, bên ngoài cứng rắn kỷ luật, bên trong là trái tim nghệ sĩ.", "Nam nhân dưới tù tinh, tham vọng lớn, dám liều, nhưng hay gặp thị phi."],
+      "Nữ": ["Nữ mệnh Liêm Trinh, xinh đẹp quyến rũ, tính cách mạnh mẽ nhưng nội tâm nhạy cảm.", "Phận nữ gặp tù tinh, đào hoa nặng, tình duyên nhiều sóng gió."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim rèn kỷ luật — tù tinh gặp Kim thì tính cương trực đạt đỉnh.",
+      "Mộc Tam Cục": "Ngũ hành Mộc nuôi nghệ thuật — Liêm Trinh gặp Mộc thì thiên về sáng tạo mỹ thuật.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ dập lửa — tính nóng nảy được kiềm chế, nhưng Liêm Trinh mất đi sự quyết liệt.",
+      "Hoả Lục Cục": "Ngũ hành Hoả cộng hưởng — Liêm Trinh gặp Hoả thì cực kỳ mãnh liệt, cần tu tâm.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ ổn định — tù tinh gặp Thổ thì kỷ luật bền vững, phát triển từ từ."
+    }
+  },
+
+  "Thiên Phủ": {
+    "base": "Thiên Phủ là Nam Đẩu tinh, cái kho của nhà trời, chủ về sự giàu có, ổn định, tích luỹ, sự ôn hòa và năng lực quản lý xuất chúng.",
+    "brightness": {
+      "Miếu": ["Thiên Phủ Miếu — Kho tàng đầy ắp, tiền bạc rủng rỉnh, cuộc sống an định vẹn toàn.", "Miếu địa Thiên Phủ, phong thái đỉnh đạc, không cần khoa trương vẫn toát lên vẻ giàu sang."],
+      "Vượng": ["Thiên Phủ Vượng, nguồn thu ổn định, quản lý tài chính xuất sắc, có tài tích luỹ.", "Vượng vị Thiên Phủ, luôn có kế hoạch dự phòng, sống chắc chắn và được nể trọng."],
+      "Đắc": ["Thiên Phủ Đắc, tiền tài no đủ, cuộc đời bình ổn, ít gặp sóng gió lớn.", "Đắc vị Thiên Phủ, biết giữ lộc tước, làm ăn chậm nhưng rất chắc chắn."],
+      "Bình": ["Thiên Phủ Bình, an phận thủ thường, tiền tài vừa đủ dùng không quá dư dả.", "Bình vị Thiên Phủ, năng lực quản lý tốt nhưng thiếu sự bứt phá lớn trong tài chính."],
+      "Bất": ["Thiên Phủ Bất lợi, dễ tiêu xài quá mức, kho khố gặp hao hụt.", "Bất đắc Thiên Phủ, quản lý tài chính lỏng lẻo dễ dẫn đến thất biên."],
+      "Hãm": ["Thiên Phủ Hãm (gặp Lộ/Không) — Kho rỗng, bên ngoài hào nhoáng bên trong rỗng tuếch. Hay lo toan phiền muộn vì vật chất.", "Hãm địa Thiên Phủ, làm nhiều nhưng giữ lại chẳng được bao nhiêu, vất vả mưu sinh."]
+    },
+    "palace": {
+      "Mệnh": ["Thiên Phủ tọa Mệnh, phong thái khoan thai, chín chắn. Tính tình cẩn thận, biết vun vén, tính toán chu toàn.", "Phủ tinh chiếu Mệnh, có tư chất của bậc quản lý đại tài, không bốc đồng."],
+      "Tài Bạch": ["Thiên Phủ ở Tài Bạch, cách giữ tiền cực tốt. Tài vận ổn định, tích tiểu thành đại, phù hợp đầu tư tích sản.", "Phủ tinh tọa Tài, ít khi túng thiếu, tài sản vào kho thì rất khó thoát ra."],
+      "Quan Lộc": ["Thiên Phủ chiếu Quan, thăng tiến tuần tự, vững chắc. Rất hợp quản lý, ngân hàng, thủ quỹ.", "Phủ tinh tọa Quan, sự nghiệp ổn định lâu dài, ít sóng gió thị phi."],
+      "Phu Thê": ["Thiên Phủ ở Phu Thê, bạn đời bao dung, chung thủy, giỏi quán xuyến gia đình.", "Phủ tinh chiếu Phu Thê, hôn nhân bền vững, vợ chồng chung tay quản lý tài sản."],
+      "Thiên Di": ["Thiên Phủ tọa Di, đi xa làm ăn gặp may mắn, dễ có quý nhân giúp đỡ về tài bạc.", "Phủ tinh ở Di, ra ngoài môi trường ổn định, được mọi người nể nang."],
+      "Phúc Đức": ["Thiên Phủ ở Phúc, phúc khí dày, tuổi thọ cao, tinh thần thư thái.", "Phủ tinh chiếu Phúc, được hưởng phúc ấm tổ tiên để lại, cuộc sống vui vẻ an nhàn."],
+      "Phụ Mẫu": ["Thiên Phủ ở Phụ Mẫu, cha mẹ đôn hậu, gia đình có nền tảng vật chất tốt.", "Phủ tinh chiếu Phụ Mẫu, được cha mẹ bảo bọc, cung cấp nền tảng vững vàng."],
+      "Huynh Đệ": ["Thiên Phủ ở Huynh Đệ, anh em hòa thuận, hay tương trợ nhau về tài chính."],
+      "Tử Nữ": ["Thiên Phủ chiếu Tử Nữ, con cái ngoan hiền, sau này có tài lộc tốt."],
+      "Tật Ách": ["Thiên Phủ ở Tật Ách, ít tai ương nhưng dễ mắc các bệnh về dạ dày, tiêu hoá.", "Phủ tinh tọa Tật Ách, thiên về các bệnh do ăn uống tẩm bổ quá đà."],
+      "Nô Bộc": ["Thiên Phủ ở Nô Bộc, cấp dưới trung thành, bạn bè kinh doanh đáng tin cậy."],
+      "Điền Trạch": ["Thiên Phủ ở Điền (Đại cát), nhà cửa khang trang, đất đai rộng lớn, ở cố định lâu dài.", "Phủ tinh chiếu Điền, điền sản dồi dào, là kho an toàn nhất của bản đời."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Thiên Phủ, phong độ, cẩn trọng, rất đáng tin cậy để phó thác việc lớn.", "Nam nhân Thiên Phủ giỏi tổ chức, là trụ cột gia đình vững chãi."],
+      "Nữ": ["Nữ mệnh Thiên Phủ, đoan trang, vượng phu ích tử, giỏi quán xuyến việc nhà và quản lý tài chính cho chồng.", "Nữ nhân Thiên Phủ là mẫu phụ nữ truyền thống, khéo giữ của, giữ lửa gia đình."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim tăng cường độ cứng rắn — tính cẩn trọng hóa bảo thủ, nhưng tiền bạc giữ như két sắt.",
+      "Mộc Tam Cục": "Ngũ hành Mộc khắc Thổ (Thiên Phủ) — kho báu nằm sâu trong rừng, vất vả tìm kiếm nhưng khi đạt được sẽ rất lớn.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ thấm vào Thổ — sinh tài dễ dàng, lộc tới tự nhiên như nước phù sa bù đắp bến bờ.",
+      "Hoả Lục Cục": "Ngũ hành Hoả sinh Thổ — năng lượng mạnh mẽ đẩy nhanh tiến trình làm giàu, sự nghiệp rực rỡ.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ đồng cung — Núi lại thêm núi, cực kỳ vững chãi, cả đời không lúc nào thiếu thốn."
+    }
+  },
+
+  "Thái Âm": {
+    "base": "Thái Âm là Mặt trăng, chủ về tinh thần, nghệ thuật, phụ nữ, điền trạch và sự dịu dàng, lãng mạn âm thầm.",
+    "brightness": {
+      "Miếu": ["Thái Âm Miếu — Trăng sáng tỏ vằng vặc tinh tú, nhan sắc đoan trang, tiền tài tự đến, thanh nhã tuyệt trần.", "Miếu địa Thái Âm, lộc trời cho, điền sản dồi dào, trực giác cực kỳ bén nhạy."],
+      "Vượng": ["Thái Âm Vượng, trăng rằm, cuộc đời êm ả, sự nghiệp thăng hoa trong các lĩnh vực tài chính, nghệ thuật.", "Vượng vị Thái Âm, tài lộc liên miên, dễ có nhà cửa từ sớm."],
+      "Đắc": ["Thái Âm Đắc, ánh trăng dịu mát, đủ thông minh và duyên dáng để xây dựng cơ ngơi tốt.", "Đắc vị Thái Âm, lãng mạn nhẹ nhàng, tài lộc đủ đầy."],
+      "Bình": ["Thái Âm Bình, trăng bị mây che mờ, tĩnh lặng, cuộc sống bình thường, thiếu sự bứt phá.", "Bình vị Thái Âm, tâm hồn hướng nội, thích sự yên bình tĩnh mịch."],
+      "Bất": ["Thái Âm Bất lợi, suy tư nhiều dễ mang ưu phiền, chuyện tình cảm hay có bóng râm.", "Bất đắc Nguyệt tinh, rắc rối về mặt danh tiếng, tài lộc thất thường."],
+      "Hãm": ["Thái Âm Hãm — Trăng xế, tài vận gian nan, mẹ hoặc vợ có bệnh, tình duyên vất vả, dễ buồn vô cớ.", "Hãm địa Thái Âm, mưu sự ban ngày dễ hỏng, nên làm việc về đêm. Nhọc nhằn kiếm tìm hạnh phúc."]
+    },
+    "palace": {
+      "Mệnh": ["Thái Âm tọa Mệnh, bạn có dáng vẻ thanh tú, tâm hồn yêu nghệ thuật, sạch sẽ và có trực giác rất lớn.", "Nguyệt tinh chiếu Mệnh, dịu dàng, biết quan tâm, thích giúp đỡ bằng cách âm thầm ủng hộ."],
+      "Tài Bạch": ["Thái Âm ở Tài Bạch (rất tốt), tiền bạc dồi dào, thường kiếm tiền qua những công việc nhẹ nhàng hoặc từ tiết kiệm đầu tư lâu dài.", "Nguyệt tinh tọa Tài, tài khí vượng, rất có duyên buôn bán điền sản."],
+      "Quan Lộc": ["Thái Âm chiếu Quan, hợp làm kế hoạch, văn chương, giáo dục, tài chính, nghệ thuật thiết kế.", "Nguyệt tinh tọa Quan, đường công danh không ồn ào nhưng lại đạt được địa vị cao nhờ khéo léo."],
+      "Phu Thê": ["Thái Âm ở Phu, nếu nam mệnh thì lấy vợ đẹp sắc sảo, giỏi giang; cung này chủ về sự gắn kết lãng mạn.", "Nguyệt tinh chiếu Phu Thê, đôi khi tình cảm thay đổi thất thường như thuỷ triều."],
+      "Thiên Di": ["Thái Âm tọa Di, ra ngoài nhiều người mến mộ (đặc biệt là phái nữ).", "Nguyệt tinh ở Di, giao thiệp khôn khéo, có tài xã giao."],
+      "Phúc Đức": ["Thái Âm ở Phúc, đời sống nội tâm phong phú, có khiếu tâm linh.", "Nguyệt tinh chiếu Phúc, tĩnh tâm thì trí sáng, phước lộc theo đó mà đến."],
+      "Phụ Mẫu": ["Thái Âm ở Phụ Mẫu, được thừa hưởng nhiều từ mẹ, quan hệ với phụ mẫu khăng khít.", "Nguyệt tinh chiếu Phụ Mẫu, mẹ là người lo toan vén khéo trong gia đình."],
+      "Huynh Đệ": ["Thái Âm ở Huynh Đệ, chị em gái có người giỏi giang, hỗ trợ nhau.", "Nguyệt tinh tọa Huynh, anh em nhường nhịn yêu thương."],
+      "Tử Nữ": ["Thái Âm chiếu Tử Nữ, con gái thường thông minh xinh đẹp, sinh con gái đầu lòng rất tốt."],
+      "Tật Ách": ["Thái Âm ở Tật, lưu ý các bệnh về mắt, thận, tiêu hoá kém.", "Nguyệt tinh tọa Tật, nam giới cẩn thận các tai nạn nhỏ do di chuyển ban đêm, nữ giới giữ gìn nội tiết."],
+      "Nô Bộc": ["Thái Âm ở Nô Bộc, nhiều bạn bè thuộc giới nữ hoặc người làm nghệ thuật."],
+      "Điền Trạch": ["Thái Âm ở Điền Trạch (Chính Vị), nhà cửa cực kỳ tươi đẹp, có khiếu buôn bán đất đai.", "Nguyệt tinh chiếu Điền, rất có lộc về bất động sản, hay được ở nhà đẹp."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Thái Âm, thường có vẻ ngoài thư sinh, cử chỉ nhẹ nhàng, dễ mẫn cảm với nghệ thuật và phụ nữ.", "Nam nhân Thái Âm giỏi nắm bắt tâm lý cử tọa, làm việc thiên về tư duy hơn cơ bắp."],
+      "Nữ": ["Nữ mệnh Thái Âm, nhan sắc tựa ánh trăng, vừa kiêu kỳ vừa lãng mạn, rất vượng tài.", "Phận nữ Thái Âm, đường duyên đào hoa, nếu đắc địa thì thập toàn thập mỹ."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim sinh Thuỷ (Thái Âm) — Nhờ sự rèn dũa mà tinh hoa toả sáng, sự nghiệp tăng tiến.",
+      "Mộc Tam Cục": "Ngũ hành Mộc hút Thuỷ — Phải chăm lo cho người khác nhiều, hy sinh bản thân.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ đồng hành — Trăng in đáy nước, tài hoa nhưng hay mộng tưởng.",
+      "Hoả Lục Cục": "Ngũ hành Hoả khắc Thuỷ — Có sự tranh đấu trong nội tâm, nhưng qua rèn luyện sẽ cực kỳ sắc sảo.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ khắc Thuỷ — Sinh kế phải tính toán vất vả, khó mà thảnh thơi."
+    }
+  },
+
+  "Tham Lang": {
+    "base": "Tham Lang là sao của sự biến động, khát vọng, lộc ăn uống, nghệ thuật, giao tế và cả sự đào hoa nhục dục.",
+    "brightness": {
+      "Miếu": ["Tham Lang Miếu — Phất lên như diều gặp gió, năng khiếu nghệ thuật đỉnh cao, tài ăn nói thu phục lòng người.", "Miếu địa Tham Lang, đa tài đa nghệ, tham vọng lớn kết hợp với thực học đem lại đại phú quý."],
+      "Vượng": ["Tham Lang Vượng, công danh rực sáng trong các ngành mới mẻ, giao tiếp siêu phàm, khéo léo bẩm sinh.", "Vượng vị Tham Lang, đam mê chinh phục cái mới, luôn sôi động và rực rỡ nhiệt huyết."],
+      "Đắc": ["Tham Lang Đắc, cuộc sống vui vẻ, không lo thiếu lộc ăn, đào hoa phong nhã.", "Đắc vị Tham Lang, có của để dành, giỏi về khoản vui chơi giải trí."],
+      "Bình": ["Tham Lang Bình, ham chơi hơn ham làm, hay thả hồn vào những thú vui nghệ thuật.", "Bình vị Tham Lang, bình yên nhưng dễ bị mê hoặc bởi dục vọng vật chất."],
+      "Bất": ["Tham Lang Bất lợi, mưu sự hay dở dang, vì tình mà lỡ việc.", "Bất đắc Tham Lang, đam mê tửu sắc dễ làm tiêu tan sự nghiệp nếu không kìm chế."],
+      "Hãm": ["Tham Lang Hãm — Phiêu bạt, giang hồ, cuộc đời chìm nổi, dục vọng che lấp lý trí, làm những chuyện ngang tàng.", "Hãm địa Tham Lang, họa từ đào hoa mà ra, phải tu tâm sửa tánh mới mong có thành quả hậu vận."]
+    },
+    "palace": {
+      "Mệnh": ["Tham Lang tọa Mệnh, bạn cực kỳ khéo léo, đa tài, nhiều đam mê, tham vọng lớn sống biết cách tận hưởng.", "Tham tinh chiếu Mệnh, thích mạo hiểm, không cam chịu cuộc sống tẻ nhạt, luôn tìm kiếm sự đổi mới."],
+      "Tài Bạch": ["Tham Lang ở Tài Bạch, hay có lộc bất ngờ (Hoành tài), kiếm tiền qua giao thương, giải trí hoặc ngành ăn uống.", "Tham tinh tọa Tài, bạo phát bạo tàn, rất chịu chi để tạo mqh sinh lời."],
+      "Quan Lộc": ["Tham Lang chiếu Quan, sự nghiệp thay đổi nhiều, thăng tiến nhờ tài giao tiếp, quan hệ rộng rãi.", "Tham tinh tọa Quan, hợp với các ngành truyền thông, khách sạn, ẩm thực, làm đẹp."],
+      "Phu Thê": ["Tham Lang ở Phu Thê, tình cảm nồng nhiệt nã đa tình. Người phối ngẫu hấp dẫn nhưng cẩn thận đào hoa cướp ngôi.", "Tham tinh chiếu Phu Thê, hôn nhân có nhiều sắc thái, yêu nhanh cưới vội."],
+      "Thiên Di": ["Tham Lang tọa Di, ra ngoài hay tụ họp, tiệc tùng, có quý nhân giúp nhưng cũng dính nhiều thị phi.", "Tham tinh ở Di, hoạt bát, dễ làm quen, rất có duyên ngoại giao."],
+      "Phúc Đức": ["Tham Lang ở Phúc, thích hưởng thụ cuộc sống, hay lo nghĩ nhưng dễ vượt qua vì tính lạc quan.", "Tham tinh chiếu Phúc, đời sống tinh thần phong phú, hướng ngoại."],
+      "Phụ Mẫu": ["Tham Lang ở Phụ Mẫu, cha mẹ phóng khoáng, thích xã giao.", "Tham tinh chiếu Phụ Mẫu, quan hệ với cha mẹ ít nhiều bị chi phối bởi lợi ích cá nhân."],
+      "Huynh Đệ": ["Tham Lang ở Huynh Đệ, anh chị em khác biệt tính cách, có người đi xa lập nghiệp."],
+      "Tử Nữ": ["Tham Lang chiếu Tử Nữ, con cái cá tính mạnh, thông minh bạo dạn."],
+      "Tật Ách": ["Tham Lang ở Tật Ách, chú ý các bệnh gan, mật, hoảng sợ thần kinh do làm việc quá độ.", "Tham tinh tọa Tật, cẩn thận tai nạn đường thuỷ hoặc các bệnh do ăn chơi gây ra."],
+      "Nô Bộc": ["Tham Lang ở Nô Bộc, bạn bè ba sơn bốn hướng, chơi bời thì vui nhưng làm ăn cần đo đếm.", "Tham tinh chiếu Nô, người dưới quyền hay thay lòng đổi dạ."],
+      "Điền Trạch": ["Tham Lang ở Điền Trạch, thích nhà cửa thiết kế độc đáo, thay đổi chỗ ở vài lần.", "Tham tinh chiếu Điền, nhà có lộc ăn lộc uống, khách khứa luôn đông đúc."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Tham Lang, hào hoa phong nhã, có tài ngoại giao xuất chúng, tham vọng lớn lao.", "Nam nhân Tham Lang, giỏi nắm bắt thời cuộc, thích mạo hiểm để chinh phục."],
+      "Nữ": ["Nữ mệnh Tham Lang, quyến rũ, cực kỳ cuốn hút, đa tài và giao tiếp xuất sắc.", "Phận nữ Tham Lang, nhan sắc dễ làm xiêu lòng người, giỏi việc xã hội hơn việc nhà."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim phạt Mộc (Tham Lang) — Kiểm soát được dục vọng, làm nên việc lớn nhờ trí tuệ thực nghiệm.",
+      "Mộc Tam Cục": "Ngũ hành Mộc đồng cung — Tham vọng tự sinh ngùn ngụt, rừng rậm chốn phong ba, cẩn thận lạc lối.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ dưỡng Mộc (Cách Phiếm Thuỷ Đào Hoa) — Tình cảm đa đoan, nghệ thuật phong phú nhưng tình trường sóng gió.",
+      "Hoả Lục Cục": "Ngũ hành Hoả sinh Mộc (Cách Tham Hỏa Tương Phùng) — Bộc phát danh tiếng thần tốc, phú quý bất ngờ đại thắng.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ (Tham Mộc khắc Thổ) — Mưu cầu vật chất mãnh liệt, làm việc tới cùng để đạt mục đích."
+    }
+  },
+
+  "Cự Môn": {
+    "base": "Cự Môn là Ám tinh, cái miệng lớn của bầu trời, đại diện cho ngôn ngữ, phản biện, thị phi, nghiên cứu sâu sắc và khả năng ngôn từ hùng biện.",
+    "brightness": {
+      "Miếu": ["Cự Môn Miếu — Miệng thét ra lửa, khả năng hùng biện xuất chúng, cực giỏi nghiên cứu, dễ thành chuyên gia.", "Miếu địa Cự Môn, tài ăn nói thu phục thiên hạ, lập luận sắc bén khiến người phản đối cũng phải khuất phục."],
+      "Vượng": ["Cự Môn Vượng, dùng lời nói hái ra tiền, ngành giáo dục, tư vấn, luật sư là chìa khoá thành công.", "Vượng vị Cự Môn, tư duy logic phản biện bén nhạy, tranh đấu nhưng mang lại kết quả tốt."],
+      "Đắc": ["Cự Môn Đắc, biết phân tích lợi hại, ăn nói khéo léo nhưng cẩn thận lời nói làm mất lòng.", "Đắc vị Cự Môn, có khiếu ăn nói, học lực tốt."],
+      "Bình": ["Cự Môn Bình, ít nói đôi lúc cố chấp, cuộc đời bình ổn nhưng dễ vướng hiểu lầm nhỏ.", "Bình vị Cự Môn, hay để tâm chuyện vụn vặt, mồm miệng hay gây xích mích."],
+      "Bất": ["Cự Môn Bất, tài hùng biện trở thành cãi cọ, học thức nhiều nhưng khó thi thố.", "Bất đắc Ám tinh, tính tình đa nghi, làm lỡ dở duyên cớ cơ hội."],
+      "Hãm": ["Cự Môn Hãm — Họa từ miệng mà ra (Khẩu thiệt thị phi), dính rắc rối pháp lý, cãi vã, bị dèm pha oán thán.", "Hãm địa Ám tinh, tâm cơ buồn bực, che giấu sự thật tự làm hại mình, cần học chữ 'Nhẫn'."]
+    },
+    "palace": {
+      "Mệnh": ["Cự Môn tọa Mệnh, bạn có tài ăn nói, phản biện tinh tế, hay phân tích sự việc đa chiều.", "Ám tinh chiếu Mệnh, trí não sâu sắc, nhìn thấu tâm can người khác nhưng hay bị thị phi."],
+      "Tài Bạch": ["Cự Môn ở Tài Bạch, dùng sự giao tiếp để hái lộc. Hợp sale, tư vấn, môi giới.", "Ám tinh tọa Tài, vì tiền mà hay xảy ra tranh cãi, tiền lộc thất thường nếu không minh bạch."],
+      "Quan Lộc": ["Cự Môn chiếu Quan, cực kỳ lý tưởng cho nhà nghiên cứu, luật sư, giáo sư, bác sĩ nội khoa.", "Ám tinh tọa Quan, con đường công danh cần sự kín kẽ, dùng tri thức làm vũ khí tiến thân."],
+      "Phu Thê": ["Cự Môn ở Phu Thê, vợ chồng khắc khẩu, yêu thương đấy nhưng cãi vã là cơm bữa.", "Ám tinh chiếu Phu Thê, hôn nhân cần nhiều bao dung để tránh rạn nứt từ những lời sát thương nhau."],
+      "Thiên Di": ["Cự Môn tọa Di, ra ngoài tranh luận tranh tài, đi xa dễ dính dư luận.", "Ám tinh ở Di, giao tiếp xã hội cẩn trọng kẻo vạ miệng, tài ngoại giao nếu dùng đúng sẽ rất quyền lực."],
+      "Phúc Đức": ["Cự Môn ở Phúc, trong tâm thức hay chất chứa âu lo, trăn trở.", "Ám tinh chiếu Phúc, cần thiền tịnh, buông xả tranh chấp miệng lưỡi để thọ mệnh bền lâu."],
+      "Phụ Mẫu": ["Cự Môn ở Phụ Mẫu, cha mẹ nghiêm khắc, khoảng cách thế hệ rộng, dễ bất đồng ý kiến.", "Ám tinh chiếu Phụ Mẫu, gia đạo đôi khi mâu thuẫn do thiếu chia sẻ đúng cách."],
+      "Huynh Đệ": ["Cự Môn ở Huynh Đệ, anh chị em khác tính nhau, tránh việc cãi vã chia tài sản."],
+      "Tử Nữ": ["Cự Môn chiếu Tử Nữ, con cái lý luận giỏi, hay cãi bướng nhưng thông minh."],
+      "Tật Ách": ["Cự Môn ở Tật Ách, đề phòng các bệnh về dạ dày, đường ruột, hô hấp.", "Ám tinh tọa Tật, những bệnh tiềm ẩn khó phát hiện, cần kiểm tra định kỳ."],
+      "Nô Bộc": ["Cự Môn ở Nô Bộc, cấp dưới phản biện giỏi, nhưng dễ có tiểu nhân núp lùm đâm chọt."],
+      "Điền Trạch": ["Cự Môn ở Điền Trạch, hàng xóm hay dèm pha, nhưng nếu buôn bán tại nhà lại tốt.", "Ám tinh chiếu Điền, điền sản dính dáng giấy tờ kiện tụng nếu không rõ ràng pháp lý ngay từ đầu."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Cự Môn, lý luận vô song, phân tích lão luyện, là một quân sư hay nhà phản biện xuất sắc.", "Nam nhân Cự Môn sắc sảo góc cạnh, không từ nan trước bất cứ cuộc tranh luận nào."],
+      "Nữ": ["Nữ mệnh Cự Môn, giỏi quan sát, sắc bén trong lời nói, đôi khi chua ngoa nhưng tâm tính bộc trực.", "Phận nữ Cự Môn, nên dùng tài ăn nói vào công việc để giảm bớt sát khí trong hôn nhân."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim rèn luyện lời nói — ngôn ngữ như gươm giáo, sát thương cao nhưng cực chuẩn.",
+      "Mộc Tam Cục": "Ngũ hành Mộc (Bị Thuỷ của Cự Môn sinh) — tài ăn nói nở rộ như cây cối, mang lại phước lộc.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ đồng hành — khả năng hùng biện trơn tru trôi chảy hùng hồn, nhưng dễ bị ảo tưởng về tài năng mình.",
+      "Hoả Lục Cục": "Ngũ hành Hoả khắc Thuỷ — lời nói sinh mâu thuẫn kịch liệt, tranh luận đỏ lửa, dễ nóng vội làm mất lòng ngay.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ khắc Thuỷ — lời nói bị kìm hãm, dễ bị uất ức bên trong bụng không tiện nói ra."
+    }
+  },
+
+  "Thiên Tướng": {
+    "base": "Thiên Tướng là Tể Tướng tinh, chiếc ấn quyền lực vĩ đại, đại diện cho sự phò tá, lòng ngay thẳng trượng nghĩa, và phong thái sang trọng tề chỉnh.",
+    "brightness": {
+      "Miếu": ["Thiên Tướng Miếu — Tể tướng toàn năng, phong thái đường hoàng uy nghi, quyền uy vô thượng, được người người tín nhiệm.", "Miếu địa Thiên Tướng, giúp nước phò vua xuất sắc, danh dự cao vút, sự nghiệp lẫy lừng."],
+      "Vượng": ["Thiên Tướng Vượng, thông minh, mưu lược, trung trinh, làm việc vô tư nên lên chức rất nhanh.", "Vượng vị Thiên Tướng, là nhân tài hiếm có trong tổ chức, chỗ dựa vững chắc cho lãnh đạo."],
+      "Đắc": ["Thiên Tướng Đắc, năng lực tổ chức tuyệt vời, chăm sóc người khác chu đáo, thích hợp điều phối.", "Đắc vị Ấn tinh, làm việc gì cũng cẩn trọng đàng hoàng, có tiếng là tử tế."],
+      "Bình": ["Thiên Tướng Bình, ít nổi bật nhưng bền bỉ, tính tình ôn hoà tốt bụng.", "Bình vị Tướng tinh, an dưỡng bản thân, sự nghiệp bình hoà, không thăng không giáng."],
+      "Bất": ["Thiên Tướng Bất, vì giúp người mà dễ rước họa vào thân, năng lực điều hành bị phân tán.", "Bất đắc Ấn tinh, trung thành nhưng dễ chọn sai chủ, hay bị phế truất."],
+      "Hãm": ["Thiên Tướng Hãm — Tài không được dụng, bị chèn ép, mang tiếng oan, giấy tờ ấn tín bị cướp đoạt hoặc trục trặc.", "Hãm địa Thiên Tướng, bất đắc chí, vì tính sĩ diện mà hay chuốc lấy thất bại buồn khổ."]
+    },
+    "palace": {
+      "Mệnh": ["Thiên Tướng tọa Mệnh, bạn hay lo chuyện bao đồng, thích giúp người. Phong thái sang trọng, đàng hoàng.", "Ấn tinh chiếu Mệnh, có tư chất làm vị trí số 2 xuất sắc, trung nghĩa tận tâm."],
+      "Tài Bạch": ["Thiên Tướng ở Tài Bạch, nguồn tiền minh bạch trong sáng. Tiền vào tiền ra đều hợp lý.", "Ấn tinh tọa Tài, rất sòng phẳng chuyện tiền bạc, không tham của phi nghĩa."],
+      "Quan Lộc": ["Thiên Tướng chiếu Quan, cực phát trong nhân sự, tham mưu, trợ lý cấp cao, hoặc các ngành đồ hiệu thẩm mỹ.", "Ấn tinh tọa Quan, chức vụ vững chãi do uy tín cao, luôn cẩn trọng trong công việc."],
+      "Phu Thê": ["Thiên Tướng ở Phu Thê, bạn đời xinh đẹp đàng hoàng, hỗ trợ nhau đắc lực trong cuộc sống.", "Ấn tinh chiếu Phu Thê, hôn nhân nề nếp, có kính có nhường."],
+      "Thiên Di": ["Thiên Tướng tọa Di, đi xa luôn có quý nhân yêu mến vì sự tử tế hào hiệp của mình.", "Ấn tinh ở Di, ra ngoài xã hội hay được đứng ra xử lý các việc bất bình."],
+      "Phúc Đức": ["Thiên Tướng ở Phúc, phúc đức thọ trường, nội tâm vui vẻ an hoà.", "Ấn tinh chiếu Phúc, tổ tiên có nhiều người là quan lại hoặc có danh tiếng."],
+      "Phụ Mẫu": ["Thiên Tướng ở Phụ Mẫu, cha mẹ từ tốn, dạy dỗ con cái đến nơi đến chốn.", "Ấn tinh chiếu Phụ Mẫu, gia đạo có chuẩn mực đạo đức tốt."],
+      "Huynh Đệ": ["Thiên Tướng ở Huynh Đệ, anh chị em yêu thương, giúp đỡ vô tư."],
+      "Tử Nữ": ["Thiên Tướng chiếu Tử Nữ, con cái ngoan ngoãn, hiểu chuyện, trọng nghĩa lý."],
+      "Tật Ách": ["Thiên Tướng ở Tật Ách, khả năng kháng bệnh tốt (Tướng tinh giải ách), tai nạn nhỏ dễ qua khỏi.", "Ấn tinh tọa Tật, lưu ý đau đầu hoặc bệnh da liễu."],
+      "Nô Bộc": ["Thiên Tướng ở Nô Bộc, cấp dưới trung thành tuyệt đối, giúp việc nhiệt tình.", "Ấn tinh chiếu Nô, đối xử với bạn bè quân tử nên ai cũng tin yêu."],
+      "Điền Trạch": ["Thiên Tướng ở Điền Trạch, nhà cửa gọn gàng nếp tẻ, trang trí đẹp đẽ.", "Ấn tinh chiếu Điền, trong nhà hay có tiệc tùng tiếp đón những người chức cao vọng trọng."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Thiên Tướng, tướng nhạo tuấn tú, nói lời ngay thẳng, phong thái quân tử đĩnh đạc.", "Nam nhân Thiên Tướng dễ được sếp lớn trọng dụng vì sự tận tuỵ minh bạch."],
+      "Nữ": ["Nữ mệnh Thiên Tướng, khuôn mặt trang nhã, tính nếp dịu hiền nhưng quả quyết, rất có tài quán xuyến nội bộ.", "Phận nữ mang Ấn tinh, ra dáng phu nhân đài các, giúp chồng tạo dựng cơ đồ hưng vượng."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim sinh Thuỷ (Thiên Tướng) — Quyền ấn được đánh bóng, uy danh nổi trội.",
+      "Mộc Tam Cục": "Ngũ hành Mộc hút Thuỷ — Khao khát cống hiến cho đời cực lớn, hay xả thân vì nghĩa.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ tấu hợp — Bề ngoài ôn hoà sâu thẳm, giải quyết vấn đề trơn tru thông minh.",
+      "Hoả Lục Cục": "Ngũ hành Hoả khắc Thuỷ — Có sự va chạm trong công việc hành chính, nhưng càng va chạm quyền uy càng cao.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ khắc Thuỷ — Ấn tín quyền hành bị kìm chế, đôi lúc thiếu môi trường thi thố."
+    }
+  },
+
+  "Thiên Lương": {
+    "base": "Thiên Lương là Ấm tinh (sao vạn thọ), biểu tượng của sự cứu khốn phò nguy, sự bảo bọc trưởng thành và đạo đức thanh cao.",
+    "brightness": {
+      "Miếu": ["Thiên Lương Miếu — Phú quý từ bi, có khả năng chữa lành vạn vật. Sao vạn thọ này mang lại cả sức khỏe lẫn sự kính trọng.", "Miếu địa Ấm tinh, hóa giải ách nạn kiếp số, biến hung thành cát, người mang sao này là báu vật của cộng đồng."],
+      "Vượng": ["Thiên Lương Vượng, trí tuệ thanh cao, tư thái đĩnh đạc trưởng thượng, sống cuộc đời trường thọ phúc lộc.", "Vượng vị Ấm tinh, sự nghiệp liên quan đến giáo dục, y tế sẽ đem đến sự nghiệp vô tiền khoáng hậu."],
+      "Đắc": ["Thiên Lương Đắc, tính tình trầm tĩnh, có đạo đức từ bi, thích giúp người nên hay được may mắn ngẫu nhiên.", "Đắc vị Ấm tinh, tài năng phân tích sâu sắc, luôn giữ vai trò người lão luyện cố vấn."],
+      "Bình": ["Thiên Lương Bình, cuộc sống an ổn, tuy có gặp nguy biến nhưng thường chuyển hóa nhờ phước đức.", "Bình vị Ấm tinh, lối sống hơi cô độc, khép kín vào tu tập tinh thần."],
+      "Bất": ["Thiên Lương Bất, có năng lực cứu giải nhưng chính bản thân cũng hay gặp rắc rối.", "Bất đắc Ấm tinh, hay lo bao đồng, lo chuyện thế gian mà quên chuyện nhà."],
+      "Hãm": ["Thiên Lương Hãm — Mất đi năng lực che chở, hay rơi vào nghịch cảnh cô độc, trôi dạt vô định.", "Hãm địa Ấm tinh, suy nghĩ cổ hủ bảo thủ, dễ trở thành đạo đức giả hoặc bị đời phụ bạc bất lực."]
+    },
+    "palace": {
+      "Mệnh": ["Thiên Lương tọa Mệnh, mang dáng vẻ người từng trải dù còn trẻ. Tính hiền lành, nhân hậu, lúc nào cũng hay lo toan cho người khác.", "Ấm tinh chiếu Mệnh, trí tuệ lớn nhưng phong cách bình dị khiêm nhường mộc mạc."],
+      "Tài Bạch": ["Thiên Lương ở Tài Bạch, không tham tài, hay có lộc ngẫu nhiên hoặc được nhận tài sản thừa kế từ bề trên.", "Ấm tinh tọa Tài, dùng cái đức hái ra tiền, càng từ bi càng dư dả rủng rỉnh."],
+      "Quan Lộc": ["Thiên Lương chiếu Quan, hợp với thanh tra, y tế, giáo viên, nhà nghiên cứu tâm lý hoặc làm tổ chức phi chính phủ.", "Ấm tinh tọa Quan, sự nghiệp thường ổn định, hay đi truyền cảm hứng soi đường cho kẻ khác."],
+      "Phu Thê": ["Thiên Lương ở Phu Thê, phối ngẫu thường chững chạc hoặc lớn tuổi hơn, tình cảm sâu đậm vững chắc.", "Ấm tinh chiếu Phu Thê, hôn nhân mang tính 'ân nghĩa' nhiều hơn 'đam mê'."],
+      "Thiên Di": ["Thiên Lương tọa Di, ra ngoài vạn sự được bình an, luôn có cao nhân chỉ điểm lúc khó.", "Ấm tinh ở Di, tha hương lập nghiệp hay được trưởng bối ưu ái cất nhắc."],
+      "Phúc Đức": ["Thiên Lương ở Phúc, cực thọ cực bình an. Chủ về tinh thần lạc quan thanh cao thoát tục.", "Ấm tinh chiếu Phúc (Rất tốt), cội nguồn tổ tiên linh thiêng phù hộ độ trì tận tình."],
+      "Phụ Mẫu": ["Thiên Lương ở Phụ Mẫu, cha mẹ hiền từ, hay làm việc thiện.", "Ấm tinh chiếu Phụ Mẫu, được thừa hưởng tuổi thọ và hồng ân phúc đức của cha mẹ."],
+      "Huynh Đệ": ["Thiên Lương ở Huynh Đệ, anh chị em nhường nhịn nhau, có người đi tu hoặc sống khép kín thiện tịnh."],
+      "Tử Nữ": ["Thiên Lương chiếu Tử Nữ, con cái hiếu thảo, tính khí trầm ổn ngoan ngoãn."],
+      "Tật Ách": ["Thiên Lương ở Tật Ách, là sao y dược nên chủ hóa giải tật bệnh, gặp ác bệnh cũng thành thiện bệnh.", "Ấm tinh tọa Tật, ít bệnh nặng, lưu ý các bệnh tuổi già hoặc dạ dày nhẹ."],
+      "Nô Bộc": ["Thiên Lương ở Nô Bộc, bạn bè thường trưởng thành, hay có bằng hữu là giới trí thức lớn tuổi."],
+      "Điền Trạch": ["Thiên Lương ở Điền Trạch, hưởng điền sản của ông bà tổ tiên, nhà ở gần những nơi tôn giáo thiêng liêng.", "Ấm tinh chiếu Điền, ở đâu cũng giữ được không khí gia đạo yên ả."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Thiên Lương, đạo mạo, trầm tư, sống có lý tưởng và chuẩn mực, là chỗ dựa tuyệt vời về mặt tinh thần.", "Nam nhân Ấm tinh, tư chất của bậc lão sư, ít bon chen vật chất xô bồ."],
+      "Nữ": ["Nữ mệnh Thiên Lương, đoan chính, tâm hướng từ bi thiện nguyện, bao dung vô bờ bến.", "Phận nữ mang Ấm tinh, hiền từ như phật, lấy gia đình và sự bình lặng làm lẽ sống."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim xẻ Gỗ (Thiên Lương) — Bị thử thách gian truân mới luyện được tâm tánh từ bi.",
+      "Mộc Tam Cục": "Ngũ hành Mộc tấu hợp — Tuổi thọ vút lên cao như cây cổ thụ rễ cắm sâu, phúc lộc miên man.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ dưỡng Mộc — Tuệ giác uyên bác, trí nhớ cực tốt mang tính chất di truyền.",
+      "Hoả Lục Cục": "Ngũ hành Hoả đốt Mộc — Hy sinh bản thân soi rọi thiên hạ, cuộc đời cống hiến quên mình vì đại nghĩa.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ bồi Mộc — Môi trường nuôi dưỡng lý tưởng để đức tin và uy tín nảy nở mạnh mẽ."
+    }
+  },
+
+  "Thất Sát": {
+    "base": "Thất Sát là Tướng tinh, vũ khí tối thượng của bầu trời, đại diện cho bản lĩnh, sát phạt, quyền uy tuyệt đối và sự đấu tranh độc lập không khoan nhượng.",
+    "brightness": {
+      "Miếu": ["Thất Sát Miếu — Thanh bảo kiếm ra khỏi vỏ sấm sét rền vang. Tài năng quân sự điều binh khiển tướng thao lược vô song.", "Miếu địa Thất Sát, có uy quyền tột đỉnh, khả năng xoay ngược mọi thế cờ vào phút thứ tám mươi chín."],
+      "Vượng": ["Thất Sát Vượng, quả cảm dũng cảm xông pha, càng chông gai lại càng trưởng thành lớn mạnh vinh oanh.", "Vượng vị Quyền tinh, đánh đông dẹp bắc, thích những việc mà ít ai dám làm."],
+      "Đắc": ["Thất Sát Đắc, kiên quyết sắt thép làm tới cùng, độc lập không ỷ lại. Tính thực tiễn rất cao.", "Đắc vị Quyền tinh, tuy vất vả nhưng thành quả cực kỳ tương xứng."],
+      "Bình": ["Thất Sát Bình, tính nóng nảy đôi khi cố chấp, tài chiến đấu bị lu mờ do thiếu mục tiêu chính xác.", "Bình vị Tướng tinh, an phận không xong mà vùng lên cũng yếu, cần người định hướng."],
+      "Bất": ["Thất Sát Bất, có chí lớn nhưng thiếu thực tực, đành dang dở mộng bá vương ương ngạnh.", "Bất đắc Quyền tinh, tính cực đoan làm hỏng việc giao tế, gặp hoạ vì cái tự tôn qúa lớn."],
+      "Hãm": ["Thất Sát Hãm — Lưỡi gươm gãy chốn sa trường, dễ gặp tai ách lớn hình thương bất ngờ, thọ mạng giảm.", "Hãm địa Tướng tinh, hung sát khí quá mạnh quay ngược lại làm tổn hao cả thể chất lẫn tài lộc."]
+    },
+    "palace": {
+      "Mệnh": ["Thất Sát tọa Mệnh, cực kỳ mạnh mẽ không sợ trời đất. Tự mình đương đầu khó khăn, quyết đoán nhưng ngang bướng.", "Tướng tinh chiếu Mệnh, ánh mắt sắc lẹm, uy nghi, hành động như gió giật sấm vang."],
+      "Tài Bạch": ["Thất Sát ở Tài Bạch, kiếm tiền cực nhanh, bạo phát bạo tàn. Không ngần ngại những mảng kinh doanh sắc bén mạo hiểm.", "Quyền tinh tọa Tài, xem tiền bạc như công cụ vạn năng, dám tất tay giành thắng lợi lớn."],
+      "Quan Lộc": ["Thất Sát chiếu Quan, sự nghiệp đầy sóng gió nhưng nếu vững vàng sẽ cực lớn. Hợp công an, quân đội, cơ khí nặng, phẫu thuật ngoại khoa.", "Tướng tinh tọa Quan, đường quyền danh thăng tiến qua những thay đổi chấn động bứt phá."],
+      "Phu Thê": ["Thất Sát ở Phu Thê, hôn nhân tình duyên đầy trắc trở do hai bên đều cá tính sắc lẹm không nhường nhau.", "Quyền tinh chiếu Phu Thê, yêu hay hận đều quá rõ ràng gay gắt cực đoan."],
+      "Thiên Di": ["Thất Sát tọa Di, đi xa làm ăn uy danh nổi bật, người người nể sợ né tránh.", "Tướng tinh ở Di, ra đường ít khi chịu lùi bước, luôn luôn chủ động tấn công bảo vệ quyền lợi cá nhân."],
+      "Phúc Đức": ["Thất Sát ở Phúc, tâm trí lúc nào cũng trong trạng thái ứng chiến căng thẳng, không thư thái tịnh tâm.", "Quyền tinh chiếu Phúc, thiếu đi sự điềm tĩnh mượt mà, nhưng nội công tiềm ẩn quật khởi cực tốt."],
+      "Phụ Mẫu": ["Thất Sát ở Phụ Mẫu, cha mẹ khắc nghiệt, hay áp đặt hình phạt, làm cho gia đình thiều hòa khí ấu thơ.", "Tướng tinh chiếu Phụ Mẫu, tự lập sớm, phải rời xa cha mẹ mới trưởng thành được."],
+      "Huynh Đệ": ["Thất Sát ở Huynh Đệ, anh chị em tính tình cương liệt cô độc, mạnh ai nấy đi đứt đoạn."],
+      "Tử Nữ": ["Thất Sát chiếu Tử Nữ, con cái cá tính bướng bỉnh khó nuôi lúc nhỏ, sau dễ theo nghiệp võ dũng mãnh."],
+      "Tật Ách": ["Thất Sát ở Tật Ách, rất kỵ hỏa khí binh khí, chú ý phẫu thuật, thương tích kim loại nhọn.", "Tướng tinh tọa Tật, hay mắc bệnh cấp tính do hao mòn sức lực nhanh quá đà."],
+      "Nô Bộc": ["Thất Sát ở Nô Bộc, bằng hữu ít nhưng một khi đã kết thân thì sinh tử có nhau liều mình vì bạn bè.", "Quyền tinh chiếu Nô, người dưới trướng hay phản hoặc có cá tính lấn lướt chủ nhân."],
+      "Điền Trạch": ["Thất Sát ở Điền Trạch, bất động sản nay đổi mai dời mua bán quyết rụp, nhà hay gần nơi có an ninh vũ trang.", "Tướng tinh chiếu Điền, xây nhà hay thay đổi trúc cấu, ở lâu dần phất lên dữ dội."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Thất Sát, có khí phách đại quan quân sư, lời nói thép hành động thép, ghét thói giả tạo quỵ luỵ.", "Nam nhân Tướng tinh cực kỳ men lỳ, hấp dẫn bởi bóng dáng phong trần sương gió."],
+      "Nữ": ["Nữ mệnh Thất Sát, khí phi thường không nhường đấng mày râu. Nhan sắc sắc nét, đoạt quyền cầm trịch trong nhà.", "Phận nữ mang Quyền tinh, sự nghiệp hoành tráng nhưng đa phần hôn nhân trễ muộn vì quá độc lập."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim trợ lực (Thất Sát hành Kim) — Kiếm sắc gặp vàng cứng, vô kiên bất tàn sức mạnh huỷ diệt không gì cản nổi.",
+      "Mộc Tam Cục": "Ngũ hành Mộc bị Kim phạt — Bản tính hung hãn bị kìm nén vào những việc lớn, đúc rút kinh nghiệm đau thương mới tiến được.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ hóa sát (Kim sinh Thuỷ) — Lấy nhu thắng cương, chuyển hoá dũng khí thành chiến lược tài hoa thông thấu.",
+      "Hoả Lục Cục": "Ngũ hành Hoả luyện Kim — Gian nan thử lửa, tôi luyện qua ngàn đao vạn búa mới đúc thành thanh gươm quý đế vương.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ dưỡng Kim — Tích uy từ từ, hành động có cơ sở nền rất chắn chắc không vội vã."
+    }
+  },
+
+  "Phá Quân": {
+    "base": "Phá Quân là Hao tinh, chiến tướng tiên phong dũng mãnh, đại diện cho sự phá cũ lập mới, tiêu hao, bứt phá mọi lề lối và năng lượng biến đổi không ngừng.",
+    "brightness": {
+      "Miếu": ["Phá Quân Miếu — Anh hùng tạo thời thế, đập nát cái suy tàn lập ra chân trời mới diệu kỳ oai phong rực rỡ.", "Miếu địa Phá Quân, uy quyền xuất chúng nhờ luôn đi trước thời đại, không chịu yên vị gò bó."],
+      "Vượng": ["Phá Quân Vượng, bứt phá sáng tạo vô biên, sức chiến đấu dai dẳng cho đến khi hoàn toàn giành quyền thay thế cái cũ.", "Vượng vị Hao tinh, công danh từ hư vô kiến tạo lên toà thành, khởi nghiệp cực tài cừ khôi."],
+      "Đắc": ["Phá Quân Đắc, bản tính phóng khoáng táo bạo mang tới cơ hội bất ngờ đổi đời.", "Đắc vị Hao tinh, hành sự mau lẹ, rủi ro cao lợi nhuận lớn đan xen liên tục."],
+      "Bình": ["Phá Quân Bình, tâm bất định, hay chán nản công việc cũ tơ tưởng việc mới, dẫn đến hao tài.", "Bình vị Hao tinh, một đời vất vả lập nghiệp rồi lại đập đi làm lại lẩn quẩn."],
+      "Bất": ["Phá Quân Bất, thiếu định hướng sự phản loạn trở thành ngỗ ngược cố chấp.", "Bất đắc Hao tinh, dễ phá sản, tiêu hoang tàn mạt nếu không cẩn thận vốn liếng gia đồ."],
+      "Hãm": ["Phá Quân Hãm — Lục thân duyên bạc, làm đâu hỏng đó phá hoại rủi ro liên miên, cô độc chống trọi thất bại.", "Hãm địa Hao tinh, tự tay thiêu rụi thành tưu, tinh thần bốc đồng gây hoạ ngập trời."]
+    },
+    "palace": {
+      "Mệnh": ["Phá Quân tọa Mệnh, ghét tĩnh lặng, khoái xê dịch. Khát vọng lật đổ cái cũ để dựng cái mới. Cuộc đời hay có những ngã rẽ khó lường.", "Hao tinh chiếu Mệnh, cá tính cực dị, tự tung tự tác làm theo bản năng nhưng rất tài năng."],
+      "Tài Bạch": ["Phá Quân ở Tài Bạch, dám thu dám chi đại quy mô. Đầu tư theo kiểu được ăn cả ngã về không đánh nhanh rút lẹ.", "Hao tinh tọa Tài, tiền muôn bạc vạn qua tay nhưng tích luy khó. Là máy kiếm và máy đốt tiền hạng nhất."],
+      "Quan Lộc": ["Phá Quân chiếu Quan, khởi nghiệp xuất chúng, hợp xây dựng công trình, tái cấu trúc nhà máy, giao thông vận tải, logistic.", "Hao tinh tọa Quan, chức vụ có quyền lực thay ma đổi quỷ, làm thay đổi bộ mặt hệ thống vận hành."],
+      "Phu Thê": ["Phá Quân ở Phu Thê, tình cảm xáo động chia ly, duyên đến như bão mà đi như lốc. Hay có thay đổi người đi trên chuyến đò.", "Hao tinh chiếu Phu Thê, nếu yêu muộn cưới trễ thì họa sát cát được hoá giải mới bền chặt."],
+      "Thiên Di": ["Phá Quân tọa Di, ra ngoài đi lại như con thoi, di dời chổ ở làm việc liên tục xê dịch xa nhà lập chí.", "Hao tinh ở Di, tha hương thành nghiệp, thích ngao du để trải nghiệm phiêu du mạo hiểm."],
+      "Phúc Đức": ["Phá Quân ở Phúc, ý chí bồng bột khôn lường, nội tâm thiếu sự an vui ổn định, hay dằn vặt thay đổi tư tưởng.", "Hao tinh chiếu Phúc, lao tâm khổ tứ, phải lấy thành đại nghiệp bù đắp sự cô đơn tịnh tâm."],
+      "Phụ Mẫu": ["Phá Quân ở Phụ Mẫu, duyên mỏng với song thân, cha mẹ cũng vất vả đường đời. Dễ ly tán từ nhỏ lớn lên xa người thân.", "Hao tinh chiếu Phụ Mẫu, ít nhờ vả được gì từ phụ bộ, hoàn toàn tự thắp đuốc mà leo núi."],
+      "Huynh Đệ": ["Phá Quân ở Huynh Đệ, mâu thuẫn anh chị em mạnh mẽ khó hòa giải, mạnh ai người đó lo toan."],
+      "Tử Nữ": ["Phá Quân chiếu Tử Nữ, hao tốn cực lớn vì chăm nuôi hậu thế, con cái nổi loạn ngỗ nghịch lúc nhỏ lớn dễ kiệt xuất phàm nhân."],
+      "Tật Ách": ["Phá Quân ở Tật Ách, lưu ý các bệnh răng hàm mặt mãn tính, sinh khó hao huyết mổ xẻ tổn nhan.", "Hao tinh tọa Tật, thường tốn kém lớn vào một lần bệnh trọng hoặc chữa trị dài hơi tái tạo cơ thể."],
+      "Nô Bộc": ["Phá Quân ở Nô Bộc, cấp dưới bạn bè phản trắc liên miên, hay rơi vào nghịch cảnh vì tin sai người uỷ nhiệm lầm chổ.", "Hao tinh chiếu Nô, nay kết băng mai giải tán, vòng tròn ngoại giao biến dịch lỏng lẻo."],
+      "Điền Trạch": ["Phá Quân ở Điền Trạch, thay nhà như thay áo, nhà ở sau có khi phá dỡ tái quy hoạch xây dựng.", "Hao tinh chiếu Điền, bán cũ mua mới gia sản hao trước tậu lớn sau rực rỡ hoán cải."]
+    },
+    "gender": {
+      "Nam": ["Nam mệnh Phá Quân, tiên trung dũng khí xuất chiến trần gian, mang hoài bão lật ngược thế hệ kiến tạo cơ đồ lạ.", "Nam nhân Hao tinh, phong sương phảng phất, làm gì cũng hùng hồn quyết tuyệt hiếm ai cản nổi chí lớn."],
+      "Nữ": ["Nữ mệnh Phá Quân, vô cùng năng động xốc vác, việc ngoài lo tuốt việc nhà giao quyền. Sóng gió nữ cường nhân.", "Phận nữ Hao tinh, dám từ bỏ mọi thứ bắt đầu lại bằng bàn tay trắng không sợ cực, yêu ghét như lửa cháy."]
+    },
+    "fiveElements": {
+      "Kim Tứ Cục": "Ngũ hành Kim sinh Thuỷ (Phá Quân hành Thuỷ) — Lấy động làm gốc sinh vàng kiếm bạc, năng lượng phá hoại chuyển thành năng lượng xây dựng kiến tạo.",
+      "Mộc Tam Cục": "Ngũ hành Mộc hút Thuỷ thoái hao — Lao lực cho đời quá nhiều, phá núi mở đường nhưng người khác hưởng, dấn thân vì lý tưởng nhân văn.",
+      "Thuỷ Nhị Cục": "Ngũ hành Thuỷ bùng nổ cùng nhau — Sức đẩy vĩ đại dời non lấp biển đảo lộn trật tự càn khôn vươn tới vinh diệu thiên hạ.",
+      "Hoả Lục Cục": "Ngũ hành Hoả giao khắc Thuỷ — Nước lửa dung chiến, hao tâm tổn trí liên hồi vấp ngã liên miên, phải kiểm soát cuồng vọng.",
+      "Thổ Ngũ Cục": "Ngũ hành Thổ kiềm chế Thuỷ — Cuộc đời đổi mới trong khuôn phép an toàn, phá 1 nhưng xây được 2, bền vững kiên cố."
+    }
+  },
+  "Kình Dương": {
+    "base": "Kình Dương là sát tinh, tượng trưng cho sự bạo liệt, dũng mãnh nhưng cũng đầy rủi ro và hình thương.",
+    "brightness": {
+      "Miếu": ["Kình Dương đắc Miếu, tính cách quả cảm, cương nghị, có sức bứt phá mạnh mẽ."],
+      "Hãm": ["Kình Dương lạc Hãm, tính nóng nảy, dễ gây ra tai họa, hình thương hoặc mâu thuẫn kịch liệt."]
+    }
+  },
+  "Đà La": {
+    "base": "Đà La là sát tinh chủ về sự trì trệ, rắc rối, thị phi và những cản trở ngầm.",
+    "brightness": {
+      "Miếu": ["Đà La đắc Miếu, mưu lược sâu sắc, biết chờ đợi thời cơ."],
+      "Hãm": ["Đà La lạc Hãm, làm việc nhùng nhằng, hay gặp tiểu nhân dèm pha, cản trở."]
+    }
+  },
+  "Địa Không": {
+    "base": "Địa Không là sát tinh chủ về sự hư ảo, phá tán bất ngờ nhưng cũng mang tính sáng tạo đột phá.",
+    "brightness": {
+      "Đắc": ["Địa Không đắc địa, trí tuệ khác biệt, dễ có những phát minh hoặc thành công bất ngờ."],
+      "Hãm": ["Địa Không lạc Hãm, tiền bạc dễ đến dễ đi, cuộc đời nhiều phen trắng tay bất thình lình."]
+    }
+  },
+  "Địa Kiếp": {
+    "base": "Địa Kiếp là sát tinh chủ về sự cướp đoạt, tai ương và những mất mát thực tế.",
+    "brightness": {
+      "Đắc": ["Địa Kiếp đắc địa, bản lĩnh dám làm dám chịu, phất lên nhanh chóng từ nghịch cảnh."],
+      "Hãm": ["Địa Kiếp lạc Hãm, tai họa dồn dập, dễ bị lừa lọc hoặc mất mát tài sản lớn."]
+    }
+  },
+  "Hỏa Tinh": {
+    "base": "Hỏa Tinh chủ về sự nóng nảy, phát tác nhanh chóng và năng lượng bùng nổ.",
+    "brightness": {
+      "Miếu": ["Hỏa Tinh đắc Miếu, nhiệt huyết tràn trề, sự nghiệp thăng tiến thần tốc."],
+      "Hãm": ["Hỏa Tinh lạc Hãm, nóng vội hư hỏng việc, dễ gặp tai nạn lửa điện hoặc thương tích."]
+    }
+  },
+  "Linh Tinh": {
+    "base": "Linh Tinh chủ về sự nóng ngầm, uất ức và những tai ương kéo dài.",
+    "brightness": {
+      "Miếu": ["Linh Tinh đắc Miếu, nghị lực bền bỉ, có khả năng chịu đựng áp lực cực lớn."],
+      "Hãm": ["Linh Tinh lạc Hãm, tâm lý hay lo âu, uất ức, dễ mắc bệnh thần kinh hoặc tai ương âm ỉ."]
+    }
+  },
+  "Thiên Khôi": {
+    "base": "Thiên Khôi là đệ nhất quý nhân, chủ về sự dẫn đầu, danh tiếng và sự phù trì từ bề trên.",
+    "brightness": {
+      "Đắc": ["Thiên Khôi đắc vị, thông minh xuất chúng, luôn được cấp trên tin tưởng giao trọng trách."]
+    }
+  },
+  "Thiên Việt": {
+    "base": "Thiên Việt là quý nhân, chủ về sự may mắn ngẫu nhiên, danh tiếng và sự phò tá.",
+    "brightness": {
+      "Đắc": ["Thiên Việt đắc vị, gặp nhiều may mắn bất ngờ, luôn có người âm thầm giúp đỡ."]
+    }
+  },
+  "Thiên Mã": {
+    "base": "Thiên Mã chủ về sự dịch chuyển, nghị lực và tài năng bôn ba.",
+    "brightness": {
+      "Đắc": ["Thiên Mã đắc địa, càng đi xa càng có lộc, nghị lực phi thường làm nên nghiệp lớn."]
+    }
+  }
+}
+

@@ -7,14 +7,9 @@
 const isProduction = window.location.hostname === 'huyencobattu.com' ||
     window.location.hostname === 'www.huyencobattu.com';
 
-// API Base URL - use relative path for portability and prod-readiness
-// Vite dev server proxies /api to backends
-const API_HOST = ''; 
+// API Base URL
+let API_HOST = isProduction ? '' : 'http://localhost:8888';
 
-// Alternatively, for truly relative paths that work behind proxies:
-// const API_HOST = ''; 
-
-// Export API endpoints
 export const API_CONFIG = {
     HOST: API_HOST,
     BASE_URL: `${API_HOST}/api`,
@@ -23,6 +18,22 @@ export const API_CONFIG = {
     ADMIN: `${API_HOST}/api/admin`,
     BAZI: `${API_HOST}/api/bazi`,
 };
+
+// If running in Tauri, dynamically fetch backend port
+if (window.__TAURI__) {
+    import('@tauri-apps/api/tauri').then(({ invoke }) => {
+        invoke('get_backend_port').then((port) => {
+            API_HOST = `http://127.0.0.1:${port}`;
+            console.log('[Tauri] Dynamic Backend Port configured:', API_HOST);
+            API_CONFIG.HOST = API_HOST;
+            API_CONFIG.BASE_URL = `${API_HOST}/api`;
+            API_CONFIG.AUTH = `${API_HOST}/api/auth`;
+            API_CONFIG.CONSULTANT = `${API_HOST}/api/consultant`;
+            API_CONFIG.ADMIN = `${API_HOST}/api/admin`;
+            API_CONFIG.BAZI = `${API_HOST}/api/bazi`;
+        }).catch(err => console.error('[Tauri] Failed to get backend port', err));
+    }).catch(err => console.error('[Tauri] Failed to import tauri api', err));
+}
 
 // For debugging
 console.log('[API Config] Environment:', isProduction ? 'PRODUCTION' : 'DEVELOPMENT');

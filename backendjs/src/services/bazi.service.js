@@ -263,7 +263,7 @@ class BaZiService {
                     const isSolar = calendar ? calendar.toLowerCase() === 'solar' : true;
 
                     const calc = new BaZiCalculator({
-                        year, month, day, hour: hour || 12,
+                        year, month, day, hour: hour !== undefined && hour !== null && hour !== '' ? hour : 12,
                         isFemale,
                         isSolar
                     });
@@ -297,7 +297,7 @@ class BaZiService {
                 const isSolar = calendar ? calendar.toLowerCase() === 'solar' : true;
 
                 const calc = new BaZiCalculator({
-                    year, month, day, hour: hour || 12,
+                    year, month, day, hour: hour !== undefined && hour !== null && hour !== '' ? hour : 12,
                     isFemale,
                     isSolar
                 });

@@ -30,7 +30,7 @@ const ZHI_NAMES = { '子': 'Tý', '丑': 'Sửu', '寅': 'Dần', '卯': 'Mão',
 // Helper to generate contextId from birth params
 const generateContextId = (params) => {
     const { year, month, day, hour, minute, gender } = params;
-    return `${year}${month.toString().padStart(2, '0')}${day.toString().padStart(2, '0')}${hour || 12}${minute || 0}${gender === 'Nữ' ? 'F' : 'M'}`;
+    return `${year}${month.toString().padStart(2, '0')}${day.toString().padStart(2, '0')}${hour !== undefined && hour !== null && hour !== '' ? hour : 12}${minute || 0}${gender === 'Nữ' ? 'F' : 'M'}`;
 };
 
 // Helper: Get Detailed Element Description
@@ -263,7 +263,7 @@ router.get('/daily', authenticateToken, shapeUserInfo, async (req, res) => {
             year: parseInt(year),
             month: parseInt(month),
             day: parseInt(day),
-            hour: parseInt(hour || 12),
+            hour: parseInt(hour) >= 0 ? parseInt(hour) : 12,
             minute: parseInt(minute || 0),
             gender: gender || 'Nam'
         });
@@ -289,7 +289,7 @@ router.get('/monthly', authenticateToken, shapeUserInfo, async (req, res) => {
 
         const baziContext = await baziService.analyzeComplete({
             year: parseInt(year), month: parseInt(month), day: parseInt(day),
-            hour: parseInt(hour || 12), minute: parseInt(minute || 0), gender: gender || 'Nam'
+            hour: parseInt(hour) >= 0 ? parseInt(hour) : 12, minute: parseInt(minute || 0), gender: gender || 'Nam'
         });
 
         const currentMonth = dateUtils.getVNMonthString(); // YYYY-MM (Vietnam Time)
@@ -371,7 +371,7 @@ router.get('/yearly', authenticateToken, shapeUserInfo, async (req, res) => {
         }
         const baziContext = await baziService.analyzeComplete({
             year: parseInt(year), month: parseInt(month), day: parseInt(day),
-            hour: parseInt(hour || 12), minute: parseInt(minute || 0), gender: gender || 'Nam'
+            hour: parseInt(hour) >= 0 ? parseInt(hour) : 12, minute: parseInt(minute || 0), gender: gender || 'Nam'
         });
         const currentYear = dateUtils.getVNYearString(); // YYYY (Vietnam Time)
         const contextId = generateContextId(req.query);

@@ -4,10 +4,10 @@ import SEO from './components/common/SEO';
 import { BrowserRouter, Routes, Route, Navigate, useNavigate, useLocation, Link } from 'react-router-dom';
 import './index.css';
 import BirthInput from './features/Homepage/BirthInput';
-import BaziChart from './features/BaziChart/BaziChart';
-import RelationshipRadar from './features/BaziChart/RelationshipRadar';
-import ChartDetails from './features/BaziChart/ChartDetails';
-import LuckCycles from './features/LuckCycles/LuckCycles';
+import BaziChart from './features/Bazi/BaziChart';
+import RelationshipRadar from './features/Bazi/RelationshipRadar';
+import ChartDetails from './features/Bazi/ChartDetails';
+import LuckCycles from './features/Bazi/LuckCycles/LuckCycles';
 import MatrixAnalysis from './features/Interpretation/MatrixAnalysis';
 import ClassicTexts from './features/Interpretation/ClassicTexts';
 import PersonalizedDate from './features/DateSelection/PersonalizedDate';
@@ -23,18 +23,19 @@ import ImageExportButton from './components/ImageExportButton';
 import ComprehensiveInterpretation from './components/ComprehensiveInterpretation';
 import MobileShell from './components/MobileShell';
 import DesktopShell from './components/DesktopShell';
+import TuViPage from './features/TuVi/TuViPage';
 import useWindowSize from './hooks/useWindowSize';
 import { useBaziApi } from './hooks/useBaziApi';
+import { useTuViApi } from './hooks/useTuViApi';
 import { AuthProvider } from './context/AuthContext';
 
 // Input Page Component
-const InputPage = ({ onAnalyze, loading }) => {
+const InputPage = ({ onAnalyzeBazi, loadingBazi, onAnalyzeTuVi, loadingTuVi, errorTuVi }) => {
   const navigate = useNavigate();
 
-  const handleAnalyze = async (params) => {
-    const result = await onAnalyze(params);
+  const handleAnalyzeBazi = async (params) => {
+    const result = await onAnalyzeBazi(params);
     if (result) {
-      // Navigate to chart page, preserving the query params updated by useBaziApi
       navigate({
         pathname: '/laso',
         search: window.location.search
@@ -42,7 +43,21 @@ const InputPage = ({ onAnalyze, loading }) => {
     }
   };
 
-  return <BirthInput onAnalyze={handleAnalyze} loading={loading} />;
+  const handleAnalyzeTuVi = async (params) => {
+    const result = await onAnalyzeTuVi(params);
+    if (result) {
+      navigate({
+        pathname: '/tuvi/laso',
+        search: window.location.search
+      });
+    }
+  };
+
+  return <BirthInput 
+           onAnalyze={handleAnalyzeBazi} loading={loadingBazi} 
+           onAnalyzeTuVi={handleAnalyzeTuVi} loadingTuVi={loadingTuVi}
+           errorTuVi={errorTuVi}
+         />;
 };
 
 // Chart Page Content
@@ -89,6 +104,7 @@ const LoadingOverlay = () => (
 // Main App Component
 const AppContent = () => {
   const { data, inputParams, loading, error, analyze, clearData } = useBaziApi();
+  const { data: tuviData, loading: tuviLoading, error: tuviError, analyze: analyzeTuvi, clearData: clearTuViData } = useTuViApi();
   const { isMobile } = useWindowSize();
   const location = useLocation();
   const navigate = useNavigate();
@@ -109,17 +125,28 @@ const AppContent = () => {
   */
 
   const hasData = data !== null;
+  const hasTuViData = tuviData !== null;
   const searchParams = new URLSearchParams(location.search);
   const isRecovering = !hasData && searchParams.get('year') && searchParams.get('month') && searchParams.get('day');
+  const isRecoveringTuVi = !hasTuViData && searchParams.get('year') && searchParams.get('month') && searchParams.get('day');
 
   // Render content based on route
   const renderPageContent = (PageComponent, props = {}) => {
     if (loading || isRecovering) {
       return <LoadingOverlay />;
     }
-    // Allow consultant page if there's pending question from suggestion click
     const hasPendingQuestion = localStorage.getItem('pending_question');
     if (!hasData && !hasPendingQuestion) {
+      return <Navigate to="/" replace />;
+    }
+    return <PageComponent {...props} />;
+  };
+
+  const renderTuViPageContent = (PageComponent, props = {}) => {
+    if (tuviLoading || isRecoveringTuVi) {
+      return <LoadingOverlay />;
+    }
+    if (!hasTuViData) {
       return <Navigate to="/" replace />;
     }
     return <PageComponent {...props} />;
@@ -148,7 +175,13 @@ const AppContent = () => {
 
         <Routes>
           {/* Input form routes */}
-          <Route path="/" element={<InputPage onAnalyze={analyze} loading={loading} />} />
+          <Route path="/" element={<InputPage 
+            onAnalyzeBazi={analyze} 
+            loadingBazi={loading} 
+            onAnalyzeTuVi={analyzeTuvi} 
+            loadingTuVi={tuviLoading} 
+            errorTuVi={tuviError} 
+          />} />
           <Route path="/input" element={<Navigate to="/" replace />} />
 
           {/* Chart page */}
@@ -161,6 +194,9 @@ const AppContent = () => {
           <Route path="/tuvan" element={renderPageContent(ConsultantPage, { userData: inputParams })} />
           <Route path="/vanhan" element={renderPageContent(LuckCycles, { data })} />
           <Route path="/dientich" element={renderPageContent(ClassicTexts, { data })} />
+
+          {/* TuVi pages */}
+          <Route path="/tuvi/laso" element={renderTuViPageContent(TuViPage, { data: tuviData, isMobile })} />
 
           {/* Matching page - uses current userData as person1 */}
           <Route path="/duyenso" element={<MatchingPage userData={inputParams} />} />
@@ -178,9 +214,9 @@ const AppContent = () => {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
 
-        {error && (
+        {(error || tuviError) && (
           <div className="error-toast glass-card">
-            ⚠️ Lỗi: {error}
+            ⚠️ Lỗi: {error || tuviError}
           </div>
         )}
       </Shell>

@@ -1,0 +1,534 @@
+{
+  "DailyOpenings": [
+    "Bước vào ngày mới,",
+    "Theo dòng chảy vận trình,",
+    "Năng lượng vũ trụ hôm nay cho thấy",
+    "Khi mặt trời lên cao,",
+    "Lắng nghe nhịp đập của Thiên Can - Địa Chi,",
+    "Vạn vật khởi đầu từ ý niệm,",
+    "Dưới vòm trời tinh tú,",
+    "Khi cỗ máy vận mệnh xoay chuyển,",
+    "Gió vận trình thổi tới,",
+    "Trong bản hoà ca của Ngũ Hành,",
+    "Ánh sáng tinh tú ngày hôm nay soi chiếu,",
+    "Mỗi ngày đều mang một năng lượng riêng biệt,",
+    "Ở thời điểm này trong hành trình,",
+    "Nhìn vào cán cân cát hung,",
+    "Khi mọi yếu tố hội tụ,",
+    "Dòng khí hôm nay lan tỏa,",
+    "Trong muôn vàn biến thiên,",
+    "Khi nhịp thời gian gõ cửa tâm thức,",
+    "Ánh bình minh xua tan màn sương mù của quá khứ,",
+    "Một trang mới của cuốn sách định mệnh đang mở ra,",
+    "Giữa sự đan xen vô hình của âm dương,",
+    "Tâm thế của bạn là thỏi nam châm thu hút vận may,",
+    "Khi tinh tú hội tụ tại các cung vị quan trọng,",
+    "Luồng sinh khí mới đang len lỏi vào từng ngóc ngách lá số,",
+    "Dấu ấn của thời gian được khắc ghi lên cung vị hiện tại,",
+    "Trong sự tĩnh lặng của sớm mai, lời thì thầm của số phận vang lên,",
+    "Mỗi bước đi hôm nay đều mang theo hứa hẹn của sự kiến tạo,"
+  ],
+  "StarInteractions": {
+    "Lộc Mã": "Sự kết hợp giữa Lộc Tồn và Thiên Mã tạo thế **'Lộc Mã Giao Trì'** — tiền bạc và cơ hội đang luân chuyển mạnh mẽ, rất thuận lợi cho giao thương và đi xa cầu tài.",
+    "Khôi Việt": "Bộ đôi **'Khôi Việt'** hội hợp mang tới vận quý nhân cực mạnh, có người nâng đỡ hoặc cơ hội thăng tiến bất ngờ từ cấp trên.",
+    "Xương Khúc": "Sự giao thoa của **'Xương Khúc'** kích hoạt trí tuệ và khả năng nghệ thuật, lời nói có sức thuyết phục và dễ nhận được sự nể trọng.",
+    "Tả Hữu": "Có **'Tả Phù - Hữu Bật'** phò tá, mọi khó khăn hôm nay đều có người chung vai gánh vác, sức mạnh tập thể được phát huy tối đa.",
+    "Loan Hỷ": "Bộ **'Hồng Loan - Thiên Hỷ'** mang lại bầu không khí vui vẻ, hỷ tín trong gia đạo hoặc duyên tình khởi sắc rực rỡ.",
+    "Không Kiếp": "Sự hiện diện của **'Địa Không - Địa Kiếp'** cảnh báo về những biến động bất ngờ, cần đề phòng hao tài tốn của hoặc kế hoạch bị đảo lộn phút chót.",
+    "Kình Đà": "Bộ **'Kình Dương - Đà La'** tạo thế kìm kẹp, dễ phát sinh va chạm hoặc sự việc bị trì trệ, đòi hỏi sự nhẫn nại và bản lĩnh vững vàng.",
+    "Hỏa Linh": "Cặp **'Hỏa Tinh - Linh Tinh'** kích hoạt sự nóng nảy hoặc các sự cố bất ngờ, cần kiểm soát cảm xúc để tránh những sai lầm đáng tiếc."
+  },
+  "TransitionPhrases": [
+    "Đồng thời,",
+    "Trong một diễn biến khác,",
+    "Bên cạnh đó,",
+    "Hơn nữa,",
+    "Ở một góc độ sâu sắc hơn,",
+    "Song song với luồng khí này,",
+    "Điều này cũng cho thấy rằng,",
+    "Sự tương tác này gợi mở về,",
+    "Đáng chú ý là,"
+  ],
+  "StarInteractions": {
+    "Lộc Mã": "Sự kết hợp giữa Lộc Tồn và Thiên Mã tạo thế **'Lộc Mã Giao Trì'** — tiền bạc và cơ hội đang luân chuyển mạnh mẽ, rất thuận lợi cho giao thương và đi xa cầu tài.",
+    "Khôi Việt": "Bộ đôi **'Khôi Việt'** hội hợp mang tới vận quý nhân cực mạnh, có người nâng đỡ hoặc cơ hội thăng tiến bất ngờ từ cấp trên.",
+    "Xương Khúc": "Sự giao thoa của **'Xương Khúc'** kích hoạt trí tuệ và khả năng nghệ thuật, lời nói có sức thuyết phục và dễ nhận được sự nể trọng.",
+    "Tả Hữu": "Có **'Tả Phù - Hữu Bật'** phò tá, mọi khó khăn hôm nay đều có người chung vai gánh vác, sức mạnh tập thể được phát huy tối đa.",
+    "Loan Hỷ": "Bộ **'Hồng Loan - Thiên Hỷ'** mang lại bầu không khí vui vẻ, hỷ tín trong gia đạo hoặc duyên tình khởi sắc rực rỡ.",
+    "Không Kiếp": "Sự hiện diện của **'Địa Không - Địa Kiếp'** cảnh báo về những biến động bất ngờ, cần đề phòng hao tài tốn của hoặc kế hoạch bị đảo lộn phút chót.",
+    "Kình Đà": "Bộ **'Kình Dương - Đà La'** tạo thế kìm kẹp, dễ phát sinh va chạm hoặc sự việc bị trì trệ, đòi hỏi sự nhẫn nại và bản lĩnh vững vàng.",
+    "Hỏa Linh": "Cặp **'Hỏa Tinh - Linh Tinh'** kích hoạt sự nóng nảy hoặc các sự cố bất ngờ, cần kiểm soát cảm xúc để tránh những sai lầm đáng tiếc.",
+    "Long Phượng": "Bộ **'Long Trì - Phụng Các'** gia tăng sự sang trọng, thanh cao và may mắn trong các vấn đề liên quan đến nơi ở hoặc danh dự.",
+    "Khốc Hư": "Sự hiện diện của **'Thiên Khốc - Thiên Hư'** có thể mang lại những lo âu thầm kín hoặc sự buồn phiền vô cớ, hãy giữ tâm thế vững vàng."
+  },
+  "PalaceDailyContexts": {
+    "Mệnh": [
+      "năng lượng quy tụ về gốc rễ bản ngã, hôm nay mọi quyết định đều ảnh hưởng trực tiếp đến hình ảnh cá nhân của bạn",
+      "vận khí xoay quanh bản thân, là lúc để bạn làm chủ tình huống và thể hiện phong thái",
+      "đây là ngày mà cái tôi được đặt vào vị trí trung tâm, mọi hành vi đều phản ánh rõ nét tính cách của đương số",
+      "bạn trở thành tâm điểm của sự chú ý, hãy tận dụng điều này để tạo ấn tượng tốt đẹp",
+      "mọi năng lượng đều hướng về bản thân, đây là thời điểm hoàn hảo để khẳng định giá trị cá nhân"
+    ],
+    "Phụ Mẫu": [
+      "sự kiện liên quan đến bề trên, giấy tờ hoặc các thủ tục hành chính có thể phát sinh",
+      "cần lưu ý đến mối quan hệ với người lớn tuổi và cấp trên trong công việc",
+      "vận trình gợi mở về sự che chở hoặc yêu cầu hỗ trợ từ bậc tiền bối",
+      "hôm nay bạn có thể nhận được lời khuyên quan trọng từ một người có thâm niên",
+      "giấy tờ, hợp đồng hoặc các vấn đề thủ tục cần được xử lý cẩn thận"
+    ],
+    "Phúc Đức": [
+      "vận trình nghiêng về đời sống tinh thần, sự tĩnh lặng nội tâm sẽ mang lại câu trả lời",
+      "phước ấm từ tổ tiên đang bảo vệ bạn ngày hôm nay",
+      "đây là ngày để tri ân cội nguồn và hướng thiện, năng lượng tâm linh rất mạnh",
+      "hãy dành thời gian suy tư và kết nối với những giá trị truyền thống gia đình",
+      "trực giác hôm nay rất nhạy bén, hãy lắng nghe tiếng nói bên trong"
+    ],
+    "Điền Trạch": [
+      "nhà cửa, không gian sống hoặc các tài sản cố định cần được quan tâm",
+      "có thể có tin vui liên quan đến bất động sản hoặc thay đổi trong không gian sống",
+      "gia đạo là trọng tâm ngày hôm nay, hãy dành thời gian chăm sóc tổ ấm",
+      "vận trình thuận lợi cho việc tìm kiếm hoặc sửa sang chỗ ở",
+      "các quyết định liên quan đến nhà cửa hôm nay cần cân nhắc kỹ lưỡng",
+      "năng lượng Điền Trạch đang vượng, hãy thử bài trí lại không gian làm việc hoặc góc nghỉ ngơi",
+      "có thể phát sinh việc liên quan đến giấy tờ nhà đất hoặc thủ tục cư trú",
+      "môi trường sống ảnh hưởng trực tiếp đến tâm trạng, hãy dọn dẹp để đón khí mới",
+      "quý nhân có thể ghé thăm nhà hoặc mang đến tin tức tốt lành về điền sản",
+      "một ngày tốt cho các việc trang hoàng, mua sắm vật dụng nội thất"
+    ],
+    "Quan Lộc": [
+      "công danh và sự nghiệp được tác động mạnh, là cơ hội thể hiện năng lực",
+      "các dự án và công việc chính chiếm phần lớn năng lượng ngày hôm nay",
+      "sự nghiệp có thể đón nhận tín hiệu mới về phương hướng phát triển",
+      "hãy tập trung tối đa cho công việc, ngày hôm nay quyết định lớn có thể xuất hiện",
+      "thế năng sự nghiệp đang tích lũy, đây là bước đệm quan trọng cho mục tiêu dài hạn"
+    ],
+    "Nô Bộc": [
+      "mối quan hệ với bạn bè, đồng nghiệp và cấp dưới cần được chú ý đặc biệt",
+      "sự trợ giúp hoặc cản trở từ những người xung quanh sẽ hiện rõ rệt",
+      "hôm nay bạn có thể tìm thấy đồng minh hoặc phát hiện những rạn nứt trong mối quan hệ xã hội",
+      "networking là chìa khóa, hãy mở rộng kết nối và xây dựng niềm tin",
+      "cẩn trọng với lời hứa hẹn từ người khác, hãy xác minh trước khi hành động"
+    ],
+    "Thiên Di": [
+      "duyên với việc ra ngoài, di chuyển hoặc giao tiếp với người lạ",
+      "nếu có kế hoạch xuất hành hoặc gặp gỡ đối tác, ngày này mang theo năng lượng đặc biệt",
+      "môi trường bên ngoài tác động mạnh đến tâm trạng và quyết định của bạn",
+      "những cơ hội từ bên ngoài có thể bất ngờ gõ cửa",
+      "di chuyển hoặc thay đổi không gian làm việc sẽ mang lại luồng sinh khí mới"
+    ],
+    "Tật Ách": [
+      "cần lưu ý sức khỏe thể chất và tinh thần, tránh quá tải",
+      "cơ thể có thể phát tín hiệu cần nghỉ ngơi, đừng bỏ qua",
+      "hôm nay nên ưu tiên tĩnh dưỡng, tránh các hoạt động quá sức",
+      "năng lượng thấp hơn bình thường, hãy đối xử dịu dàng với bản thân",
+      "kiểm soát căng thẳng là ưu tiên hàng đầu để bảo vệ sức khỏe"
+    ],
+    "Tài Bạch": [
+      "dòng tiền và các quyết định tài chính chiếm ưu thế",
+      "có thể có cơ hội sinh lời bất ngờ hoặc chi phí phát sinh ngoài dự kiến",
+      "hãy kiểm soát chặt chẽ các khoản thu chi trong ngày",
+      "năng lượng tài lộc đang vận hành, thuận lợi cho các quyết định đầu tư nhỏ",
+      "cần tránh các giao dịch tài chính lớn nếu chưa suy xét kỹ"
+    ],
+    "Tử Nữ": [
+      "con cái, học trò hoặc các dự án sáng tạo mới là tâm điểm",
+      "sự chăm sóc và dẫn dắt thế hệ trẻ mang lại niềm vui và ý nghĩa",
+      "ý tưởng sáng tạo nảy nở, đây là ngày để phát triển những dự án tâm huyết",
+      "hãy dành thời gian cho con cái hoặc những mầm non ý tưởng",
+      "năng lượng sinh sôi nảy nở, phù hợp để bắt đầu các kế hoạch mới"
+    ],
+    "Phu Thê": [
+      "đời sống tình cảm, hôn nhân và các mối quan hệ đôi lứa được tác động",
+      "sự hiểu biết và hòa hợp với nửa kia sẽ là chìa khóa cho một ngày tốt đẹp",
+      "cần khéo léo trong giao tiếp với người bạn đời hoặc đối tác thân thiết",
+      "duyên tình có thể xuất hiện bất ngờ nếu bạn mở lòng đón nhận",
+      "hôm nay nên dành sự quan tâm đặc biệt cho mối quan hệ gắn bó nhất"
+    ],
+    "Huynh Đệ": [
+      "mối quan hệ anh em, bạn bè thân thiết và đồng học trồng đuổi được kích hoạt",
+      "sự đoàn kết hoặc cạnh tranh với những người ngang hàng sẽ bộc lộ rõ",
+      "hãy vận dụng khả năng hợp tác để cùng nhau tạo ra giá trị",
+      "tin tức từ anh chị em hoặc bạn thân có thể ảnh hưởng đến quyết định",
+      "đây là ngày tốt để giải quyết những hiểu lầm trong quan hệ bằng hữu"
+    ]
+  },
+  "NatalStarInteractions": {
+    "NatalHit": [
+      "Sao bản mệnh **{star}** tại cung này nhận được Hóa **{label}**, kích hoạt trực tiếp năng lượng gốc rễ lá số — mọi biến động hôm nay đều có tính cá nhân sâu sắc.",
+      "Điểm nhấn đặc biệt: Hóa **{label}** chiếu trúng sao **{star}** bản mệnh, tạo cộng hưởng mạnh với tiềm năng bẩm sinh của bạn.",
+      "Sao **{star}** trong lá số gốc nhận Hóa **{label}** — đây là 'dấu ấn' chỉ có riêng bạn mới cảm nhận được trong ngày hôm nay.",
+      "Hóa **{label}** rơi trúng vào sao **{star}** bản mệnh, giống như mũi tên trúng đích, khiến năng lượng cung này bùng nổ.",
+      "Đáng chú ý: **{star}** bản mệnh hóa khí **{label}**, đây là tín hiệu quan trọng ảnh hưởng đến cả vận trình tháng này."
+    ],
+    "FlyingVisit": [
+      "Sao Lưu **{star} Hóa {label}** ghé thăm cung này, mang theo năng lượng mới từ bên ngoài.",
+      "Cung này đón nhận luồng khí **{label}** qua sao **{star}**, tác động tạm thời nhưng rõ rệt.",
+      "Một vị khách tinh tú — sao **{star}** mang theo Hóa **{label}** — tạo nên sắc thái đặc biệt cho ngày hôm nay.",
+      "Hóa **{label}** qua sao **{star}** chiếu tới, đây là yếu tố \"ngoại lực\" ảnh hưởng đến cung bản mệnh.",
+      "Sao Lưu **{star}** với Hóa **{label}** lướt qua, để lại dấu ấn ngắn hạn nhưng không thể bỏ qua."
+    ]
+  },
+  "MutagenEffects": {
+    "Lộc": [
+      "tín hiệu tích cực về tài lộc, niềm vui nhỏ và duyên may đến từ những nơi bất ngờ",
+      "dòng chảy may mắn đang hướng về bạn, hãy đón nhận bằng tấm lòng rộng mở",
+      "sự nở rộ của cơ hội, đời sống vật chất có thể được cải thiện đáng kể",
+      "quý nhân tài lộc có thể xuất hiện dưới hình dạng bất ngờ nhất",
+      "năng lượng phú quý lan tỏa, mọi sự hanh thông hơn bình thường"
+    ],
+    "Quyền": [
+      "gia tăng sức mạnh nội tại, khả năng quyết đoán và kiểm soát tình hình",
+      "quyền lực và uy tín được củng cố, bạn dễ dàng thuyết phục người khác",
+      "đây là lúc để đứng lên và nắm quyền chủ động trong mọi việc",
+      "năng lượng lãnh đạo bùng lên, hãy tận dụng để giải quyết các tồn đọng",
+      "sự cạnh tranh có thể xuất hiện nhưng bạn có đủ nội lực để vượt qua"
+    ],
+    "Khoa": [
+      "trí tuệ minh mẫn, học hỏi nhanh và có quý nhân phù trợ kịp thời",
+      "danh tiếng và uy tín được bảo vệ, mọi hiểu lầm đều có thể được hóa giải",
+      "đây là ngày tốt cho việc thi cử, phỏng vấn hoặc trình bày ý kiến quan trọng",
+      "ánh sáng của Hóa Khoa chiếu rọi, giúp bạn nhìn rõ bản chất vấn đề",
+      "giải ách giải nạn, những rắc rối bấp bênh sẽ được tháo gỡ nhẹ nhàng"
+    ],
+    "Kỵ": [
+      "cảnh báo về sự bế tắc, hiểu lầm hoặc trắc trở trong giao tiếp",
+      "năng lượng Hóa Kỵ gây cản trở, mọi việc có thể chậm lại hoặc phức tạp hơn dự kiến",
+      "nguy cơ mất mát nhỏ hoặc thị phi miệng lưỡi, cần đặc biệt cẩn trọng",
+      "đây là thời điểm cần rèn chữ 'Nhẫn', tránh đưa ra quyết định vội vàng",
+      "sự trắc trở có thể đến từ những chi tiết nhỏ nhất, hãy kiểm tra kỹ mọi thứ"
+    ]
+  },
+  "StarActionTemplates": {
+    "NatalPrefix": [
+      "Dựa vào nội lực sao bản mệnh **{star}**,",
+      "Phát huy sức mạnh thiên bẩm từ **{star}**,",
+      "Với năng lượng gốc rễ của **{star}** soi chiếu,",
+      "Năng lực cốt lõi từ sao **{star}** trong lá số cho phép bạn",
+      "Khai thác tiềm năng của **{star}** tại cung này,"
+    ],
+    "FlyingPrefix": [
+      "Dưới ảnh hưởng của sao **{star}**,",
+      "Khi sao **{star}** viếng thăm cung này,",
+      "Nhờ năng lượng tạm thời từ **{star}**,",
+      "Đón nhận luồng khí từ sao **{star}**,",
+      "Với sự hiện diện của **{star}** trong ngày,"
+    ],
+    "ActionBridge": [
+      "bạn nên {action} {quality} để {outcome}.",
+      "hãy {action} và giữ tâm thế {quality}, từ đó {outcome}.",
+      "ưu tiên hàng đầu là {action}, kết hợp {quality} sẽ giúp {outcome}.",
+      "thời điểm thuận lợi để {action}. Với {quality}, bạn có thể {outcome}.",
+      "đừng ngần ngại {action}. Khí chất {quality} của sao này sẽ {outcome}."
+    ]
+  },
+  "MinorStarDaily": {
+    "Văn Xương": ["Trí tuệ sáng suốt, phù hợp cho việc viết lách, soạn thảo giấy tờ, hợp đồng.", "Thuận lợi cho thi cử, nghiên cứu và các hoạt động đòi hỏi logic sắc bén."],
+    "Văn Khúc": ["Năng khiếu nghệ thuật và giao tiếp được kích hoạt, lời nói có sức thuyết phục.", "Phù hợp cho các buổi thuyết trình, đàm phán hoặc sáng tạo nội dung."],
+    "Tả Phù": ["Sự hỗ trợ từ cộng sự và người thân rất mạnh, hãy chủ động nhờ giúp đỡ.", "Quý nhân phò tá hiện rõ, mọi việc tiến triển nhờ sự đoàn kết."],
+    "Hữu Bật": ["Có người ngầm hỗ trợ phía sau, kế hoạch âm thầm tiến hành thuận lợi.", "Lực phù trợ đến từ nơi không ngờ tới, hãy giữ liên lạc với mạng lưới quan hệ."],
+    "Thiên Khôi": ["Quý nhân là người có quyền lực hoặc doanh nhân, cơ hội lớn đến trực tiếp.", "Sếp hoặc khách hàng lớn có thể mang lại tin vui bất ngờ."],
+    "Thiên Việt": ["Quý nhân ngẫu nhiên, may mắn đến từ những cuộc gặp gỡ bất chợt.", "Duyên lành từ người lạ hoặc những tình huống tưởng chừng không quan trọng."],
+    "Lộc Tồn": ["Tài lộc vững bền nhưng cần kiên nhẫn, tiền bạc đến chậm mà chắc.", "Kho tàng tài sản được bảo vệ, tránh đầu cơ mạo hiểm."],
+    "Địa Không": ["Cẩn thận hao tài, tránh đầu tư mạo hiểm hoặc cho vay mượn.", "Năng lượng Không Vong có thể gây mất mát bất ngờ, giữ chặt ví tiền."],
+    "Địa Kiếp": ["Đề phòng cướp giật, mất mát hoặc phá sản nhỏ trong ngày.", "Sát tinh hạng nặng kích hoạt, tránh các giao dịch lớn và mạo hiểm."],
+    "Kình Dương": ["Năng lượng sắc bén nhưng dễ gây va chạm, cần kiềm chế.", "Sự quyết liệt mang lại hiệu quả nếu biết kiểm soát, nhưng cũng dễ gây xung đột."],
+    "Đà La": ["Mọi việc có thể chậm trễ hoặc bị kéo dài, cần kiên nhẫn.", "Sự nhùng nhằng và rắc rối ngầm có thể gây khó chịu, giữ bình tĩnh."],
+    "Hỏa Tinh": ["Sự việc bùng phát nhanh không kịp chuẩn bị, cần phản ứng linh hoạt.", "Năng lượng nóng bỏng có thể tạo bứt phá nhưng cũng có thể gây cháy."],
+    "Linh Tinh": ["Sự bức bối ngầm tích tụ, cần tìm cách giải tỏa sớm.", "Căng thẳng âm ỉ có thể bộc phát nếu không được xử lý kịp thời."],
+    "Hồng Loan": ["Vượng đào hoa, quyến rũ tự nhiên, phù hợp cho các cuộc hẹn.", "Sắc diện tươi sáng, thu hút thiện cảm từ người khác."],
+    "Đào Hoa": ["Sự quyến rũ lên cao, dễ tạo ấn tượng tốt trong mắt người đối diện.", "Duyên tình khởi sắc nhưng cần phân biệt rõ tình cảm chân thành."],
+    "Thiên Hỷ": ["Tin vui bất ngờ có thể đến, niềm hạnh phúc nhỏ lan tỏa.", "Năng lượng hoan hỷ bao phủ, mọi cuộc trò chuyện đều dễ chịu."]
+  },
+  "DailyAdvicePositive": [
+    "Hôm nay là ngày tốt để bắt đầu những kế hoạch mới. Hành sự hanh thông, quý nhân phù trợ.",
+    "Cơ hội tài lộc nhỏ có thể đến nếu bạn nhạy bén nắm bắt những tín hiệu xung quanh.",
+    "Quý nhân có khả năng hỗ trợ mọi việc, hãy mở lòng học hỏi và tiếp thu.",
+    "Trí tuệ minh mẫn giúp bạn giải quyết được nhiều tồn đọng bấy nay.",
+    "Một tin vui nhỏ từ phương xa sẽ làm ngày của bạn trở nên tuyệt vời.",
+    "Sáng kiến của bạn hôm nay sẽ được đón nhận tích cực, hãy tự tin trình bày.",
+    "Mối quan hệ xã hội có thể mang lại lợi ích kinh tế bất ngờ.",
+    "Đây là thời điểm tốt để ký kết hợp đồng hoặc hoàn tất thủ tục giấy tờ.",
+    "Năng lượng tích cực bao phủ, mọi cuộc trò chuyện đều thuận lợi và dễ chịu.",
+    "Hãy tin vào trực giác, bạn đang đi đúng hướng trong ngày hôm nay.",
+    "Nếu đang chờ đợi một câu trả lời, hôm nay có thể là ngày bạn nhận được tin tốt.",
+    "Sự kiên trì của bạn sắp được đền đáp, hãy tiếp tục nỗ lực.",
+    "Một cuộc gặp gỡ bất ngờ có thể mở ra cánh cửa mới trong sự nghiệp.",
+    "Hôm nay thuận lợi cho việc học hỏi kỹ năng mới hoặc tham gia khóa đào tạo.",
+    "Sức khỏe ổn định, tinh thần sảng khoái giúp bạn xử lý mọi việc hiệu quả.",
+    "Duyên may đến từ phương Đông, hãy chú ý đến những tín hiệu từ hướng này.",
+    "Tài lộc hanh thông nhưng đừng quên chia sẻ niềm vui với những người xung quanh.",
+    "Sáng tạo bùng nổ, đây là ngày tốt để viết lách, thiết kế hoặc lên ý tưởng.",
+    "Một lời khen hoặc sự công nhận từ cấp trên sẽ tiếp thêm động lực cho bạn.",
+    "Ngày tốt để giải quyết những hiểu lầm và hàn gắn các mối quan hệ.",
+    "Hãy dành thời gian để tái tạo năng lượng, một cơ hội lớn có thể xuất hiện vào cuối ngày.",
+    "Sự hào phóng của bạn ngày hôm nay sẽ gieo mầm cho những phước báu trong tương lai.",
+    "Một ý tưởng thoảng qua có thể là chìa khóa giải quyết nút thắt công việc bấy lâu.",
+    "Hãy mỉm cười nhiều hơn, năng lượng rạng rỡ của bạn sẽ thu hút những cộng sự tích cực.",
+    "Sự tỉ mỉ trong chi tiết sẽ giúp bạn ghi điểm tuyệt đối trong mắt đối tác.",
+    "Hôm nay vận trình thuận lợi cho việc mua sắm các vật dụng có giá trị cho gia đình.",
+    "Bạn sẽ tìm thấy sự hỗ trợ tinh thần từ một người bạn thân thiết lâu ngày không gặp.",
+    "Dòng chảy sáng tạo đang ở đỉnh cao, hãy bắt tay vào thực hiện những gì bạn đam mê.",
+    "Sự quyết đoán nhưng vẫn ôn hòa sẽ giúp bạn dẫn dắt tập thể đi đúng hướng.",
+    "Một thử thách nhỏ hôm nay thực chất là bàn đạp để bạn chứng tỏ bản lĩnh thực sự."
+  ],
+  "DailyAdviceCaution": [
+    "Cần thận trọng trong lời ăn tiếng nói, tránh tranh cãi không đáng có.",
+    "Nên dành thời gian nghỉ ngơi, không thực hiện các quyết định lớn mang tính mạo hiểm.",
+    "Đề phòng mất mát vật dụng cá nhân hoặc những nhầm lẫn về giấy tờ, email.",
+    "Sức khỏe có dấu hiệu mệt mỏi, hãy cho phép mình nghỉ ngơi sớm hơn.",
+    "Kiềm chế cảm xúc, đừng để áp lực bên ngoài ảnh hưởng đến phán đoán.",
+    "Tránh ký kết hợp đồng hoặc thực hiện giao dịch tài chính lớn vào ngày này.",
+    "Giữ bình tĩnh trước những tin tức bất ngờ, mọi việc sẽ sáng tỏ trong vài ngày tới.",
+    "Hãy cẩn thận khi lái xe hoặc tham gia giao thông, đặc biệt vào giờ chiều.",
+    "Đừng vội tin vào lời hứa hẹn từ người mới quen, hãy xác minh trước.",
+    "Nên hoãn lại các buổi họp quan trọng nếu có thể, năng lượng chưa thuận lợi.",
+    "Tránh vay mượn hoặc cho vay tiền bạc trong ngày này.",
+    "Sự thận trọng là đồng minh tốt nhất, hãy kiểm tra kỹ mọi thứ trước khi hành động.",
+    "Đừng để sự nóng giận dẫn dắt, một phút nhẫn nhịn có thể cứu vớt cả mối quan hệ.",
+    "Hôm nay nên tập trung vào những công việc nhỏ, tránh bắt đầu dự án lớn.",
+    "Cơ thể cần được bồi bổ, hãy ăn uống đủ chất và uống đủ nước.",
+    "Phòng tránh tiểu nhân, đặc biệt trong môi trường công sở.",
+    "Tránh khoe khoang thành tích hoặc tài sản, có thể gây đố kỵ từ người xung quanh.",
+    "Nên thực hiện các hoạt động nhẹ nhàng, tránh vận động quá sức.",
+    "Kiểm tra kỹ các email và tin nhắn trước khi gửi, tránh sai sót đáng tiếc.",
+    "Hãy lắng nghe nhiều hơn và nói ít hơn trong ngày hôm nay."
+  ],
+  "DailyCanChiInsights": {
+    "Giáp": [
+      "Ngày Thiên Can Giáp mang khí Dương Mộc, như cây đại thụ kiên cường. Sự khởi đầu mới rất thuận lợi.",
+      "Năng lượng Giáp khuyến khích sáng kiến và hành động quyết đoán."
+    ],
+    "Ất": [
+      "Ngày Thiên Can Ất mang khí Âm Mộc, mềm mại nhưng bền bỉ. Sự linh hoạt là chìa khóa.",
+      "Với khí Ất, cần uyển chuyển như dây leo để thích ứng với hoàn cảnh."
+    ],
+    "Bính": [
+      "Ngày Thiên Can Bính mang khí Dương Hỏa, rực rỡ và vương giả. Danh tiếng và uy tín là điểm sáng.",
+      "Năng lượng Bính thiêu đốt sự lười biếng, đây là ngày để hành động mạnh mẽ."
+    ],
+    "Đinh": [
+      "Ngày Thiên Can Đinh mang khí Âm Hỏa, bí ẩn như ngọn nến. Trực giác rất nhạy bén.",
+      "Khí Đinh chiếu sáng những góc khuất, giúp bạn nhìn thấu bản chất vấn đề."
+    ],
+    "Mậu": [
+      "Ngày Thiên Can Mậu mang khí Dương Thổ, vững chãi như núi. Ổn định là nền tảng.",
+      "Với khí Mậu, mọi việc cần sự kiên định và lập trường rõ ràng."
+    ],
+    "Kỷ": [
+      "Ngày Thiên Can Kỷ mang khí Âm Thổ, phì nhiêu như đồng ruộng. Sự nuôi dưỡng ý tưởng là ưu tiên.",
+      "Năng lượng Kỷ giúp bạn quản lý tốt các nguồn lực hiện có."
+    ],
+    "Canh": [
+      "Ngày Thiên Can Canh mang khí Dương Kim, sắc bén và cải cách. Quyết đoán mang lại kết quả.",
+      "Khí Canh cứng rắn, phù hợp để cắt bỏ những gì không còn phù hợp."
+    ],
+    "Tân": [
+      "Ngày Thiên Can Tân mang khí Âm Kim, tinh tế như ngọc. Sự hoàn mỹ trong chi tiết.",
+      "Năng lượng Tân khuyến khích sự tinh xảo và đầu tư vào chất lượng."
+    ],
+    "Nhâm": [
+      "Ngày Thiên Can Nhâm mang khí Dương Thủy, bao la như đại dương. Tầm nhìn rộng mở.",
+      "Khí Nhâm mang tới sự tự do trong tư duy và khả năng thích ứng linh hoạt."
+    ],
+    "Quý": [
+      "Ngày Thiên Can Quý mang khí Âm Thủy, tinh tế như sương sớm. Trực giác cực mạnh.",
+      "Năng lượng Quý giúp bạn cảm nhận tinh tế những biến chuyển tinh vi nhất."
+    ]
+  },
+  "DailySummaryTones": {
+    "VeryPositive": [
+      "Tổng kết: Ngày hôm nay tràn đầy năng lượng tích cực. Hãy tận dụng tối đa cơ hội để gặt hái thành quả.",
+      "Nhìn chung: Vận trình ngày cực kỳ sáng sủa. Mọi sự hanh thông, cát tinh rực rỡ.",
+      "Kết luận: Đây là một trong những ngày tốt nhất trong tháng. Hãy hành động quyết đoán!"
+    ],
+    "Positive": [
+      "Tổng kết: Một ngày khá thuận lợi với nhiều tín hiệu lạc quan. Giữ nhịp đều và kiên trì.",
+      "Nhìn chung: Vận trình ổn định, có những điểm sáng đáng mừng. Tiếp tục nỗ lực.",
+      "Kết luận: Ngày hôm nay mang nhiều hy vọng, hãy giữ tinh thần lạc quan để đón nhận."
+    ],
+    "Neutral": [
+      "Tổng kết: Cát hung lẫn lộn. Hãy tỉnh táo phân biệt và chọn lọc những gì tốt đẹp.",
+      "Nhìn chung: Bình hòa là tông chủ đạo. Không buồn quá nhưng cũng đừng chủ quan.",
+      "Kết luận: Một ngày bình thường, hãy tập trung hoàn thành những công việc dang dở."
+    ],
+    "Caution": [
+      "Tổng kết: Cần hết sức cẩn trọng. Giảm thiểu rủi ro bằng cách tránh quyết định lớn.",
+      "Nhìn chung: Hung tinh xuất hiện, mọi sự nên tiết chế và giữ gìn.",
+      "Kết luận: Ngày có nhiều thách thức, nhưng kiên nhẫn sẽ giúp bạn vượt qua."
+    ]
+  },
+  "NhatHan": {
+    "SectionTitle": "📊 Nhật Hạn — Chỉ số các phương diện cuộc sống",
+    "Areas": {
+      "TaiVan": {
+        "label": "Tài Vận",
+        "icon": "💰",
+        "palaces": ["Tài Bạch"],
+        "goodStars": ["Lộc Tồn", "Thiên Phủ", "Vũ Khúc", "Thái Âm", "Tả Phù", "Hữu Bật"],
+        "badStars": ["Địa Không", "Địa Kiếp", "Kình Dương", "Đà La"],
+        "narrativesHigh": [
+          "Dòng tiền hanh thông, đây là ngày tốt để thu hồi công nợ hoặc đón nhận tài lộc bất ngờ.",
+          "Năng lượng tài chính ở mức cao, các khoản đầu tư có tiềm năng sinh lời tốt.",
+          "Cung Tài Bạch bản mệnh được cát tinh chiếu, tiền bạc vào ra thuận lợi.",
+          "Cơ hội tài lộc hiện rõ, đặc biệt từ các nguồn thu nhập phụ hoặc thụ động.",
+          "Phú quý tự nhiên đến, hãy mạnh dạn theo đuổi các mục tiêu tài chính ngắn hạn.",
+          "Vận tài lộc sung mãn, thuận lợi cho việc thương lượng giá cả hoặc xin tăng lương.",
+          "Sao Lộc chiếu sáng, tiền bạc đến dễ dàng hơn bình thường.",
+          "Tài khố vững vàng, ngày hôm nay phù hợp để lên kế hoạch tài chính dài hạn."
+        ],
+        "narrativesMid": [
+          "Tài vận ổn định ở mức trung bình. Nên duy trì chi tiêu hợp lý và tránh đầu tư lớn.",
+          "Dòng tiền bình ổn, không có biến động lớn. Hãy tập trung tích lũy thay vì mạo hiểm.",
+          "Tài lộc không nổi bật nhưng cũng không đáng lo. Giữ thói quen tiết kiệm.",
+          "Cung tài bản mệnh trong trạng thái bình hòa, các giao dịch nhỏ vẫn thuận lợi.",
+          "Không nên kỳ vọng quá cao về mặt tài chính, nhưng cũng đừng hoang mang — mọi sự ổn thỏa."
+        ],
+        "narrativesLow": [
+          "Cần hết sức cẩn trọng với tiền bạc. Tránh các khoản chi phí không cần thiết.",
+          "Hung tinh chiếu cung Tài Bạch, đề phòng mất mát tài sản hoặc bị lừa đảo.",
+          "Vận tài lộc suy giảm, tuyệt đối không nên đầu cơ hoặc mạo hiểm tài chính.",
+          "Dòng tiền bị tắc nghẽn, có thể phát sinh chi phí bất ngờ. Giữ chặt ví tiền.",
+          "Không nên cho vay mượn hoặc bảo lãnh tài chính cho người khác trong ngày này."
+        ]
+      },
+      "SuNghiep": {
+        "label": "Sự Nghiệp",
+        "icon": "💼",
+        "palaces": ["Quan Lộc"],
+        "goodStars": ["Tử Vi", "Thiên Cơ", "Thái Dương", "Thiên Lương", "Văn Xương", "Văn Khúc"],
+        "badStars": ["Phá Quân", "Hỏa Tinh", "Linh Tinh", "Đà La"],
+        "narrativesHigh": [
+          "Ngày đại cát cho sự nghiệp. Các dự án quan trọng tiến triển thuận lợi, được cấp trên ghi nhận.",
+          "Năng lượng công danh bùng nổ, đây là ngày để trình bày ý tưởng hoặc đề xuất thăng tiến.",
+          "Cung Quan Lộc bản mệnh được sao cát hội tụ, mọi nỗ lực đều được đền đáp xứng đáng.",
+          "Sự nghiệp hanh thông, bạn có thể nhận được tin vui về công việc hoặc hợp đồng mới.",
+          "Phong thái lãnh đạo tỏa sáng, đồng nghiệp và cấp dưới đều ủng hộ nhiệt tình.",
+          "Cơ hội nghề nghiệp hiện rõ, hãy chủ động nắm bắt thay vì chờ đợi.",
+          "Uy tín cá nhân được củng cố, đây là nền tảng cho sự thăng tiến trong tương lai.",
+          "Ngày tốt để ký kết hợp đồng, khởi động dự án hoặc phỏng vấn xin việc."
+        ],
+        "narrativesMid": [
+          "Sự nghiệp ổn định nhưng không có bứt phá lớn. Hoàn thành tốt công việc hiện tại là ưu tiên.",
+          "Công việc diễn ra bình thường, không có biến động đáng kể. Tập trung vào chi tiết.",
+          "Năng lượng nghề nghiệp ở mức trung bình. Đừng cố ép tiến độ, hãy để mọi thứ tự nhiên.",
+          "Không phải ngày để đưa ra quyết định lớn về sự nghiệp. Quan sát và chuẩn bị.",
+          "Cơ hội đang ẩn dưới bề mặt, hãy kiên nhẫn và giữ mối quan hệ tốt đẹp."
+        ],
+        "narrativesLow": [
+          "Hãy thận trọng trong môi trường công sở. Tránh mâu thuẫn với đồng nghiệp hoặc cấp trên.",
+          "Sự nghiệp gặp sóng gió nhỏ, có thể bị phê bình hoặc hiểu lầm. Giữ bình tĩnh.",
+          "Không nên khởi động dự án mới hoặc đưa ra đề xuất lớn. Giữ phong thái thấp.",
+          "Sát tinh chiếu cung Quan Lộc, đề phòng sai sót trong công việc hoặc xung đột nội bộ.",
+          "Một ngày cần 'tàng' hơn 'lộ'. Hoàn thành nghĩa vụ cơ bản và tránh gây chú ý."
+        ]
+      },
+      "TinhCam": {
+        "label": "Tình Cảm",
+        "icon": "❤️",
+        "palaces": ["Phu Thê"],
+        "goodStars": ["Hồng Loan", "Đào Hoa", "Thiên Hỷ", "Thái Âm", "Tham Lang", "Thiên Đồng"],
+        "badStars": ["Cô Thần", "Quả Tú", "Kình Dương", "Hóa Kỵ"],
+        "narrativesHigh": [
+          "Đào hoa vượng, sức hút cá nhân lên đỉnh. Nếu độc thân, hôm nay rất dễ gặp được người phù hợp.",
+          "Tình cảm đôi lứa ngọt ngào, sự thấu hiểu giữa hai bên đạt mức cao nhất.",
+          "Ngày đại cát cho tình cảm. Lời tỏ tình, cầu hôn hoặc hàn gắn đều thuận lợi.",
+          "Năng lượng lãng mạn tràn ngập, hãy tận dụng để tạo những kỷ niệm đẹp bên người yêu thương.",
+          "Cung Phu Thê bản mệnh được cát tinh phù trợ, mọi mâu thuẫn đều dễ dàng hóa giải.",
+          "Vận đào hoa khởi sắc, các mối quan hệ xã giao cũng trở nên duyên dáng hơn.",
+          "Nếu đã có gia đình, hôm nay là ngày tuyệt vời để dành thời gian riêng cho nhau.",
+          "Sức hút tự nhiên tỏa ra, mọi cuộc trò chuyện đều trở nên ấm áp và chân thành."
+        ],
+        "narrativesMid": [
+          "Tình cảm ổn định nhưng không có điều đặc biệt. Hãy chủ động tạo niềm vui nhỏ.",
+          "Mối quan hệ đôi lứa trong trạng thái bình thường. Đừng đòi hỏi quá nhiều.",
+          "Không phải ngày để giải quyết mâu thuẫn lớn. Giữ hòa khí là ưu tiên.",
+          "Tình cảm không nổi bật, nhưng sự quan tâm nhỏ sẽ tạo hiệu ứng dây chuyền tích cực.",
+          "Vận đào hoa bình thường. Nếu muốn gặp người mới, cần chủ động hơn."
+        ],
+        "narrativesLow": [
+          "Cẩn thận với lời nói, dễ gây hiểu lầm hoặc tổn thương người bạn đời.",
+          "Mâu thuẫn trong tình cảm có thể bùng phát. Tránh tranh cãi và giữ không gian riêng.",
+          "Không nên đưa ra quyết định quan trọng về tình cảm hôm nay. Chờ thêm vài ngày.",
+          "Vận đào hoa kém, đừng cố ép duyên hoặc tỏ tình. Thời điểm chưa chín muồi.",
+          "Cung Phu Thê bị hung tinh tác động, cần đặc biệt nhẫn nhịn và bao dung."
+        ]
+      },
+      "SucKhoe": {
+        "label": "Sức Khỏe",
+        "icon": "🏥",
+        "palaces": ["Tật Ách"],
+        "goodStars": ["Thiên Lương", "Thiên Đồng", "Thiên Phủ", "Lộc Tồn"],
+        "badStars": ["Hỏa Tinh", "Linh Tinh", "Kình Dương", "Đà La", "Thiên Hình"],
+        "narrativesHigh": [
+          "Sức khỏe cực tốt, tràn đầy năng lượng. Phù hợp cho tập luyện cường độ cao.",
+          "Thể chất dồi dào, tinh thần minh mẫn. Ngày này lý tưởng cho vận động và du lịch.",
+          "Cung Tật Ách bản mệnh an lành, cơ thể trong trạng thái cân bằng hoàn hảo.",
+          "Hệ miễn dịch hoạt động tốt, bạn có thể thoải mái thực hiện các kế hoạch đã dự định.",
+          "Năng lượng sinh học ở đỉnh cao, hãy tận dụng để hoàn thành những công việc đòi hỏi thể lực.",
+          "Sức khỏe thể chất và tinh thần đều mạnh mẽ, không có dấu hiệu bất thường.",
+          "Ngày tốt để bắt đầu một chế độ ăn kiêng hoặc lịch tập thể dục mới.",
+          "Cơ thể hồi phục nhanh, nếu đang trong giai đoạn dưỡng thương sẽ thấy tiến triển."
+        ],
+        "narrativesMid": [
+          "Sức khỏe ổn định nhưng không nên quá lạm dụng thể lực. Nghỉ ngơi đúng giờ.",
+          "Cơ thể trong trạng thái bình thường. Duy trì chế độ sinh hoạt đều đặn.",
+          "Không có vấn đề sức khỏe lớn, nhưng nên chú ý đến chế độ ăn uống.",
+          "Tinh thần có thể hơi mệt mỏi vào buổi chiều. Uống đủ nước và nghỉ ngơi.",
+          "Sức khỏe không đáng lo nhưng cũng đừng chủ quan. Tránh thức khuya."
+        ],
+        "narrativesLow": [
+          "Sức khỏe cần được ưu tiên hàng đầu. Tránh vận động quá sức hoặc căng thẳng kéo dài.",
+          "Hung tinh chiếu cung Tật Ách, đề phòng tai nạn nhỏ hoặc bệnh phát sinh đột ngột.",
+          "Hệ miễn dịch suy yếu, tránh tiếp xúc nơi đông người hoặc môi trường ô nhiễm.",
+          "Cẩn thận với đồ ăn lạ hoặc dị ứng. Cơ thể nhạy cảm hơn bình thường.",
+          "Nên hoãn các cuộc vui chơi, tiệc tùng. Ưu tiên nghỉ ngơi và tĩnh dưỡng."
+        ]
+      },
+      "QuyNhan": {
+        "label": "Quý Nhân",
+        "icon": "🤝",
+        "palaces": ["Nô Bộc", "Huynh Đệ"],
+        "goodStars": ["Thiên Khôi", "Thiên Việt", "Tả Phù", "Hữu Bật", "Thiên Đức", "Nguyệt Đức"],
+        "badStars": ["Cô Thần", "Quả Tú", "Địa Không", "Địa Kiếp"],
+        "narrativesHigh": [
+          "Quý nhân xuất hiện rõ ràng, có thể là cấp trên, bạn bè hoặc thậm chí người lạ mang lại cơ hội.",
+          "Lực phù trợ từ bên ngoài rất mạnh. Nếu cần giúp đỡ, hãy chủ động lên tiếng.",
+          "Thiên Khôi - Thiên Việt hội tụ, sự hỗ trợ đến đúng lúc cần nhất.",
+          "Ngày tuyệt vời để networking, mở rộng quan hệ và xây dựng liên minh.",
+          "Quý nhân có thể là người tuổi lớn hơn hoặc có vị thế cao hơn bạn.",
+          "Mối quan hệ xã hội mang lại giá trị bất ngờ. Một cuộc gọi có thể thay đổi cục diện.",
+          "Sự giúp đỡ đến từ người bạn cũ hoặc đồng nghiệp nơi cũ.",
+          "Duyên quý nhân rất mạnh, hãy mở rộng vòng tròn giao tiếp."
+        ],
+        "narrativesMid": [
+          "Quý nhân không hiện rõ nhưng vẫn có mặt ở đâu đó. Hãy giữ thái độ cầu thị.",
+          "Mối quan hệ xã hội ổn định nhưng không có sự kiện đặc biệt.",
+          "Nếu cần giúp đỡ, có thể phải chờ thêm một vài ngày mới nhận được phản hồi.",
+          "Sự hỗ trợ từ bạn bè và đồng nghiệp ở mức bình thường. Đừng kỳ vọng quá cao.",
+          "Hãy chủ động giúp đỡ người khác, đó là cách nhanh nhất để thu hút quý nhân."
+        ],
+        "narrativesLow": [
+          "Cẩn thận với tiểu nhân. Tránh chia sẻ kế hoạch hoặc bí mật cá nhân.",
+          "Quý nhân vắng bóng, mọi việc phải tự lực cánh sinh. Đừng trông chờ vào ai.",
+          "Mối quan hệ xã hội có thể gây phiền toái. Hạn chế tham gia các sự kiện xã giao.",
+          "Đề phòng bị phản bội hoặc lợi dụng. Kiểm tra kỹ mọi lời hứa.",
+          "Không nên hợp tác hoặc ký kết hợp đồng với người mới quen."
+        ]
+      }
+    },
+    "NatalBoostTemplates": [
+      "Cung **{palace}** bản mệnh có sao **{star}** ({brightness}) chiếu, gia tăng {area}.",
+      "Sao **{star}** trong lá số gốc tại cung **{palace}** tạo nền tảng vững chắc cho {area}.",
+      "Đặc biệt, **{star}** ({brightness}) tại cung **{palace}** bản mệnh giúp vận {area} thêm phần khởi sắc.",
+      "Năng lực thiên bẩm từ sao **{star}** tại **{palace}** phát huy, hỗ trợ mạnh mẽ cho vận {area}.",
+      "Sao gốc **{star}** ({brightness}) ở cung **{palace}** được kích hoạt, đây là lợi thế riêng của bạn."
+    ],
+    "NatalWeakenTemplates": [
+      "Tuy nhiên, sao **{star}** tại cung **{palace}** bản mệnh tạo sức ép lên vận {area} hôm nay.",
+      "Lưu ý: **{star}** tại **{palace}** bản mệnh khiến vận {area} dễ gặp trắc trở.",
+      "Sao **{star}** ({brightness}) trong lá số gốc ở cung **{palace}** tác động tiêu cực đến {area}.",
+      "Điểm yếu bẩm sinh từ **{star}** tại cung **{palace}** có thể bộc lộ rõ hơn hôm nay.",
+      "Cần đề phòng: **{star}** tại **{palace}** gây nhiễu loạn năng lượng {area} trong ngày."
+    ]
+  }
+}

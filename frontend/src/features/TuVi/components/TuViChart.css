@@ -1,0 +1,303 @@
+:root {
+    --bg-chart: #fdfdfd;
+    --border-color: #2c2c2c;
+    --text-main: #1a1a1a;
+    --nh-kim: #7f8c8d;
+    --nh-moc: #27ae60;
+    --nh-thuy: #2980b9;
+    --nh-hoa: #c0392b;
+    --nh-tho: #f39c12;
+}
+
+.tuvi-layout {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    background: var(--bg-chart);
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: var(--text-main);
+}
+
+.tuvi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0;
+    border: 2px solid var(--border-color);
+    position: relative;
+}
+
+.palace-box {
+    border: 0.5px solid #ccc;
+    padding: 8px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #fff;
+    transition: all 0.2s;
+}
+
+.palace-box.is-active { background: #fffdf0; z-index: 2; box-shadow: inset 0 0 0 2px var(--nh-tho); }
+
+.p-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 4px;
+}
+
+.p-name {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+.badge-than {
+    background: #333;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.p-major {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 8px;
+}
+
+.star-major {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.star-major strong { font-size: 1.1rem; }
+
+.p-minor-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    flex-grow: 1;
+    font-size: 0.85rem;
+}
+
+.p-minor-col { display: flex; flex-direction: column; gap: 1px; }
+.p-left { text-align: left; }
+.p-right { text-align: right; }
+
+.star-minor { display: block; line-height: 1.2; font-weight: 500; }
+.star-bright { font-size: 0.85rem; margin-left: 4px; font-weight: 600; color: #444; }
+.star-mutagen { font-size: 0.75em; font-weight: 800; font-style: italic; }
+
+.p-adj-wrap {
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 4px;
+    padding: 2px 0;
+    min-height: 20px;
+    line-height: 1.3;
+}
+.star-adj { display: inline; }
+
+.p-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    margin-top: auto;
+    padding-top: 4px;
+    border-top: 1px solid #f0f0f0;
+    font-weight: 600;
+}
+
+/* ─── Center Box ─── */
+.center-container {
+    grid-area: 2 / 2 / 4 / 4;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box {
+    text-align: center;
+    width: 100%;
+}
+
+.center-title {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #c0392b;
+    margin: 5px 0;
+}
+
+.center-name { font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; }
+
+.center-tbl { width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 0.9rem; }
+.center-tbl td { padding: 4px 8px; border-bottom: 1px dashed #eee; }
+.tbl-l { text-align: left; color: #666; width: 35%; }
+.tbl-v { text-align: right; font-weight: 600; }
+.tbl-hl { color: #c0392b; }
+
+.legend-row { display: flex; justify-content: center; gap: 15px; margin-top: 10px; }
+.legend-item { display: flex; align-items: center; gap: 5px; font-size: 0.8rem; font-weight: 600; }
+.dot { width: 12px; height: 12px; border-radius: 2px; }
+
+/* ─── Colors ─── */
+.nh-kim { color: var(--nh-kim); }
+.nh-moc { color: var(--nh-moc); }
+.nh-thuy { color: var(--nh-thuy); }
+.nh-hoa { color: var(--nh-hoa); }
+.nh-tho { color: var(--nh-tho); }
+
+.nh-kim-dot { background: var(--nh-kim); }
+.nh-moc-dot { background: var(--nh-moc); }
+.nh-thuy-dot { background: var(--nh-thuy); }
+.nh-hoa-dot { background: var(--nh-hoa); }
+.nh-tho-dot { background: var(--nh-tho); }
+
+.mut-Lộc { color: var(--nh-moc); }
+.mut-Quyền { color: var(--nh-hoa); }
+.mut-Khoa { color: var(--nh-tho); }
+.mut-Kỵ { color: var(--nh-thuy); }
+
+/* NGU HANH COLORS - Premium Palette */
+.tho { color: #d35400; }   /* Cam đất / Thổ */
+.moc { color: #27ae60; }   /* Xanh lá / Mộc */
+.thuy { color: #2980b9; }  /* Xanh dương / Thủy */
+.hoa { color: #c0392b; }   /* Đỏ / Hỏa */
+.kim { color: #7f8c8d; }   /* Xám / Kim */
+
+/* ─── Border Badges (Tuan/Triet) ─── */
+.border-badge {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    padding: 2px 10px;
+    font-weight: 900;
+    font-size: 0.8rem;
+    z-index: 10;
+    border-radius: 2px;
+}
+
+.star-yearly { font-size: 0.8rem; font-style: italic; color: #27ae60; font-weight: 700; } /* Green for Yearly */
+.star-decadal { font-size: 0.8rem; font-style: italic; color: #9b59b6; font-weight: 700; } /* Purple/Pink for Decadal */
+
+.chart-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background: #fff;
+    border: 1px solid #e8dcc8;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.chart-legend-wrap {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    border-top: 1px dashed #e8dcc8;
+}
+
+.chart-legend {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.chart-legend.brightness {
+    color: #c85a17;
+    letter-spacing: 0.5px;
+}
+
+.chart-legend.elements {
+    color: #666;
+}
+
+.l-item { display: inline-block; }
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-box {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+}
+
+.bg-kim { background: #7f8c8d; }
+.bg-moc { background: #27ae60; }
+.bg-thuy { background: #2980b9; }
+.bg-hoa { background: #c0392b; }
+.bg-tho { background: #d35400; }
+
+.control-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    color: #444;
+    font-weight: 600;
+}
+
+.control-item input[type="number"] {
+    width: 70px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.control-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #c85a17;
+    cursor: pointer;
+}
+
+.interaction-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.interaction-path {
+    fill: none;
+    stroke: rgba(192, 57, 43, 0.3);
+    stroke-width: 2;
+    stroke-dasharray: 5,5;
+    transition: all 0.3s;
+}
+
+.is-active .interaction-path {
+    stroke: rgba(192, 57, 43, 0.8);
+    stroke-width: 3;
+}

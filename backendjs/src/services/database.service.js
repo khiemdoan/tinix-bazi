@@ -8,7 +8,8 @@ const path = require('path');
 const fs = require('fs');
 
 // Database file path
-const DB_PATH = path.join(__dirname, '../../data/bazi_consultant.db');
+const APP_DATA_DIR = process.env.APP_DATA_DIR || path.join(__dirname, '../../data');
+const DB_PATH = path.join(APP_DATA_DIR, 'bazi_consultant.db');
 const DATA_DIR = path.dirname(DB_PATH);
 
 class DatabaseService {
@@ -443,7 +444,7 @@ class DatabaseService {
             SELECT id FROM customers 
             WHERE year = ? AND month = ? AND day = ? AND hour = ? AND minute = ?
             LIMIT 1
-        `, [year, month, day, hour || 12, minute || 0]);
+        `, [year, month, day, hour !== undefined && hour !== null && hour !== '' ? hour : 12, minute || 0]);
 
         if (existing) {
             if (name) {
@@ -456,7 +457,7 @@ class DatabaseService {
         const result = await this.run(`
             INSERT INTO customers (name, year, month, day, hour, minute, gender, calendar)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        `, [safeName, year, month, day, hour || 12, minute || 0, gender || 'Nam', calendar || 'solar']);
+        `, [safeName, year, month, day, hour !== undefined && hour !== null && hour !== '' ? hour : 12, minute || 0, gender || 'Nam', calendar || 'solar']);
 
         console.log(`[DB] Customer #${result.id} created`);
         return result.id;
@@ -472,7 +473,7 @@ class DatabaseService {
         const result = await this.run(`
             INSERT INTO customers (name, year, month, day, hour, minute, gender, calendar)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        `, [safeName, year, month, day, hour || 12, minute || 0, gender || 'Nam', calendar || 'solar']);
+        `, [safeName, year, month, day, hour !== undefined && hour !== null && hour !== '' ? hour : 12, minute || 0, gender || 'Nam', calendar || 'solar']);
 
         return result.id;
     }

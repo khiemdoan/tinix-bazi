@@ -5,7 +5,7 @@ import Toast from '../../components/Toast';
 import AuthModal from '../../components/AuthModal';
 import { useAuth } from '../../context/AuthContext';
 import { API_CONFIG } from '../../config/api';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { formatDateTime } from '../../utils/dateUtils';
 import ConsultationHistoryContainer from '../ConsultationHistory/ConsultationHistoryContainer';
 
@@ -40,6 +40,9 @@ const ConsultantPage = ({ userData }) => {
     const API_AUTH = API_CONFIG.AUTH;
 
     const location = useLocation();
+    const [searchParams] = useSearchParams();
+    const currentModule = searchParams.get('module') || 'bazi';
+    const isTuVi = currentModule === 'tuvi';
 
     // Check for pending question from homepage suggestions (stored in localStorage)
     useEffect(() => {
@@ -122,18 +125,18 @@ const ConsultantPage = ({ userData }) => {
 
     // Fetch Themes on mount
     useEffect(() => {
-        fetch(`${API_BASE}/themes`)
+        fetch(`${API_BASE}/themes?module=${currentModule}`)
             .then(res => res.json())
             .then(data => setThemes(data))
             .catch(err => console.error('Error fetching themes:', err));
-    }, []);
+    }, [currentModule]);
 
 
     // Fetch Questions when theme changes
     useEffect(() => {
         if (selectedTheme) {
             setLoading(true);
-            fetch(`${API_BASE}/questions/${selectedTheme.id}`)
+            fetch(`${API_BASE}/questions/${selectedTheme.id}?module=${currentModule}`)
                 .then(res => res.json())
                 .then(data => {
                     setQuestions(data);
@@ -144,7 +147,7 @@ const ConsultantPage = ({ userData }) => {
                     setLoading(false);
                 });
         }
-    }, [selectedTheme]);
+    }, [selectedTheme, currentModule]);
 
     const handleSelectTheme = (theme) => {
         setSelectedTheme(theme);
@@ -215,7 +218,8 @@ const ConsultantPage = ({ userData }) => {
                     questionId: questionId,
                     questionText: questionText,
                     useAI: true,
-                    persona: selectedPersona
+                    persona: selectedPersona,
+                    module: currentModule
                 })
             });
             const data = await response.json();
@@ -303,9 +307,9 @@ const ConsultantPage = ({ userData }) => {
     const personas = [
         {
             id: 'huyen_co',
-            name: 'Thầy Huyền Cơ Bát Tự',
+            name: isTuVi ? 'Thầy Huyền Cơ Tử Vi' : 'Thầy Huyền Cơ Bát Tự',
             icon: '🧙‍♂️',
-            title: 'Bậc Thầy Bát Tự',
+            title: isTuVi ? 'Bậc Thầy Tử Vi' : 'Bậc Thầy Bát Tự',
             desc: '35 năm kinh nghiệm, nhân văn, uyên bác.'
         },
         {
@@ -421,7 +425,7 @@ const ConsultantPage = ({ userData }) => {
             {step === 1 && (
                 <div className="consult-welcome-intro fade-in">
                     <h2 className="mystical-welcome-text">
-                        Hãy chọn câu hỏi về cuộc đời, Huyền cơ Bát tự sẽ giúp bạn giải đáp mọi thứ.
+                        Hãy chọn câu hỏi về cuộc đời, {isTuVi ? 'Huyền cơ Tử Vi' : 'Huyền cơ Bát tự'} sẽ giúp bạn giải đáp mọi thứ.
                     </h2>
                 </div>
             )}
@@ -570,15 +574,15 @@ const ConsultantPage = ({ userData }) => {
                                 <div className="ai-loading-steps">
                                     <div className={`ai-step ${loadingStage >= 0 ? 'active' : ''} ${loadingStage > 0 ? 'done' : ''}`}>
                                         <span className="step-icon">{loadingStage > 0 ? '✓' : '1'}</span>
-                                        <span className="step-text">Tính toán Tứ Trụ</span>
+                                        <span className="step-text">{isTuVi ? 'Lập lá số Tử Vi' : 'Tính toán Tứ Trụ'}</span>
                                     </div>
                                     <div className={`ai-step ${loadingStage >= 1 ? 'active' : ''} ${loadingStage > 1 ? 'done' : ''}`}>
                                         <span className="step-icon">{loadingStage > 1 ? '✓' : '2'}</span>
-                                        <span className="step-text">Phân tích Thập Thần</span>
+                                        <span className="step-text">{isTuVi ? 'Phân bổ 14 Chính Tinh' : 'Phân tích Thập Thần'}</span>
                                     </div>
                                     <div className={`ai-step ${loadingStage >= 2 ? 'active' : ''} ${loadingStage > 2 ? 'done' : ''}`}>
                                         <span className="step-icon">{loadingStage > 2 ? '✓' : '3'}</span>
-                                        <span className="step-text">Xem xét Đại Vận</span>
+                                        <span className="step-text">{isTuVi ? 'Luận giải 12 Cung' : 'Xem xét Đại Vận'}</span>
                                     </div>
                                     <div className={`ai-step ${loadingStage >= 3 ? 'active' : ''}`}>
                                         <span className="step-icon">4</span>

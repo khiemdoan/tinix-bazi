@@ -12,7 +12,7 @@ class BaZiCalculator {
         this.year = options.year;
         this.month = options.month;
         this.day = options.day;
-        this.hour = options.hour || 12;
+        this.hour = options.hour !== undefined && options.hour !== null ? options.hour : 12;
         this.minute = options.minute || 0;
         this.isFemale = options.isFemale || false;
         this.isSolar = options.isSolar !== false; // default true

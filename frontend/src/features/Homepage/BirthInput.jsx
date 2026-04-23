@@ -12,12 +12,23 @@ import ArticlesSection from '../../components/ArticlesSection';
 import AuthModal from '../../components/AuthModal';
 import { useAuth } from '../../context/AuthContext';
 import { API_CONFIG } from '../../config/api';
-const BirthInput = ({ onAnalyze, loading }) => {
+const BirthInput = ({ onAnalyze, loading, onAnalyzeTuVi, loadingTuVi, errorTuVi }) => {
     const { user, token, isAuthenticated, logout, refreshUser } = useAuth();
+    const [activeTab, setActiveTab] = useState('bazi'); // 'bazi' or 'tuvi'
     const [showProfileModal, setShowProfileModal] = useState(false);
     const [showAuthModal, setShowAuthModal] = useState(false);
     const [dailyCardKey, setDailyCardKey] = useState(0); // Force refresh Daily Card
     const hasInitialized = useRef(false);
+
+    // Sync tuvi errors to toast
+    useEffect(() => {
+        if (errorTuVi) {
+            setToast({ message: errorTuVi, type: 'error' });
+            if (errorTuVi.includes('đăng nhập')) {
+                setShowAuthModal(true);
+            }
+        }
+    }, [errorTuVi]);
 
     const handleLogout = () => {
         logout();
@@ -140,7 +151,16 @@ const BirthInput = ({ onAnalyze, loading }) => {
             }
         }
 
-        onAnalyze(formData);
+        if (activeTab === 'tuvi') {
+            if (!isAuthenticated) {
+                setToast({ message: "Vui lòng đăng nhập để lập lá số Tử Vi trọn đời.", type: 'warning' });
+                setShowAuthModal(true);
+                return;
+            }
+            onAnalyzeTuVi(formData);
+        } else {
+            onAnalyze(formData);
+        }
     };
 
     const formatSelectedDate = () => {
@@ -189,7 +209,7 @@ const BirthInput = ({ onAnalyze, loading }) => {
                                             year: user.bazi_data.year,
                                             month: user.bazi_data.month,
                                             day: user.bazi_data.day,
-                                            hour: user.bazi_data.hour || 10,
+                                            hour: user.bazi_data.hour !== undefined && user.bazi_data.hour !== null ? user.bazi_data.hour : 10,
                                             minute: user.bazi_data.minute || 0,
                                             calendar: user.bazi_data.calendar || 'solar'
                                         };
@@ -249,6 +269,15 @@ const BirthInput = ({ onAnalyze, loading }) => {
                         🔐 Đăng nhập
                     </button>
                 )}
+                <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginBottom: '20px' }}>
+                    <button type="button" className={`nav-tab-btn ${activeTab === 'bazi' ? 'active' : ''}`} onClick={() => setActiveTab('bazi')} style={{ flex: 1, padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.2)', background: activeTab === 'bazi' ? 'rgba(255, 215, 0, 0.2)' : 'transparent', color: activeTab === 'bazi' ? '#ffd700' : '#fff', cursor: 'pointer' }}>
+                        Bát Tự
+                    </button>
+                    <button type="button" className={`nav-tab-btn ${activeTab === 'tuvi' ? 'active' : ''}`} onClick={() => setActiveTab('tuvi')} style={{ flex: 1, padding: '10px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.2)', background: activeTab === 'tuvi' ? 'rgba(100, 200, 255, 0.2)' : 'transparent', color: activeTab === 'tuvi' ? '#64c8ff' : '#fff', cursor: 'pointer' }}>
+                        Tử Vi
+                    </button>
+                </div>
+
                 <div className="form-grid">
                     <div className="input-group full-width">
                         <label>Họ và Tên</label>
@@ -291,7 +320,8 @@ const BirthInput = ({ onAnalyze, loading }) => {
                     <div className="input-group tooltip-wrapper full-width">
                         <label>Giờ sinh</label>
                         <select name="hour" value={formData.hour} onChange={handleChange} className="glass-input">
-                            <option value={0}>Tý (子) • 23:00 - 01:00</option>
+                            <option value={23}>Tý (Dạ) • 23:00 - 00:00</option>
+                            <option value={0}>Tý (Chính) • 00:00 - 01:00</option>
                             <option value={1}>Sửu (丑) • 01:00 - 03:00</option>
                             <option value={3}>Dần (寅) • 03:00 - 05:00</option>
                             <option value={5}>Mão (卯) • 05:00 - 07:00</option>
@@ -307,8 +337,8 @@ const BirthInput = ({ onAnalyze, loading }) => {
                     </div>
                 </div>
 
-                <button type="submit" className={`premium-button start-button ${loading ? 'is-loading' : ''}`} disabled={loading}>
-                    {loading ? (
+                <button type="submit" className={`premium-button start-button ${(activeTab === 'bazi' ? loading : loadingTuVi) ? 'is-loading' : ''}`} disabled={activeTab === 'bazi' ? loading : loadingTuVi}>
+                    {(activeTab === 'bazi' ? loading : loadingTuVi) ? (
                         <>
                             <span className="btn-spinner">⏳</span>
                             ĐANG PHÂN TÍCH LÁ SỐ...

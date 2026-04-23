@@ -1,0 +1,230 @@
+{
+  "_instruction": "Key: Tên chính tinh (sắp xếp a-z nếu đồng cung). Value: Object với key là Địa Chi. Dùng 'Vô Chính Diệu' cho cung trống.",
+
+  "Tử Vi": {
+    "Tý": "Tử Vi độc tọa cung Tý, Thiên Phủ ở Ngọ đối chiếu. Đế tinh lâm cung Tý thuộc Thuỷ, như vua ngồi giữa đêm đông, cần có Tả Phù, Hữu Bật, Thiên Khôi, Thiên Việt hội họp mới phát huy được quyền lực. Nếu thiếu phụ tinh thì chỉ là bậc thanh cao nhàn nhã, khó nắm thực quyền. Gặp Không Kiếp thì tuy có danh nhưng bị cản trở nhiều bề.",
+    "Ngọ": "Tử Vi độc tọa cung Ngọ, Thiên Phủ ở Tý đối chiếu. Đế tinh cực hướng ly minh, như vua ngồi giữa triều đình tỏa sáng. Đây là vị trí tốt nhất của Tử Vi. Gặp Tả Hữu Xương Khúc thì đại phú đại quý. Nam mệnh dễ đạt chức vụ cao, nữ mệnh vừa đẹp vừa có quyền. Kỵ gặp Kình Đà Không Kiếp thì cô độc trên đỉnh.",
+    "Sửu": "Tử Vi Thiên Cơ đồng cung tại Sửu. Vua có quân sư bên cạnh, mưu lược nhưng thiếu cương. Thông minh nhạy bén, giỏi tính toán nhưng hay phân vân do dự. Nếu có Xương Khúc thì học hành giỏi giang. Gặp Sát Phá thì khó phát triển ổn định.",
+    "Mùi": "Tử Vi Thiên Cơ đồng cung tại Mùi. Tương tự tại Sửu nhưng cung Mùi thuộc Thổ hỗ trợ, nên tính chất ổn định hơn đôi chút. Mưu lược hơn nhưng vẫn cần Tả Hữu để thăng tiến.",
+    "Dần": "Tử Vi Thiên Tướng đồng cung tại Dần. Vua và tể tướng cùng ngồi, mang phong thái uy nghi lẫm liệt. Rất hợp làm quản lý, lãnh đạo. Cung Dần vượng mộc, thêm Tả Hữu thì phú quý song toàn. Kỵ nhất là gặp Hóa Kỵ hoặc Kình Đà.",
+    "Thân": "Tử Vi Thiên Tướng đồng cung tại Thân. Vua và tể tướng ở cung Kim, tính cách cương trực, quyết đoán hơn ở Dần. Dễ có thực quyền trong các tổ chức lớn. Nữ mệnh rất giỏi giang, đảm đang.",
+    "Mão": "Tử Vi Tham Lang đồng cung tại Mão. Đào hoa gặp Đế tinh, vừa quý phái vừa quyến rũ. Nam mệnh đa tình phong lưu, nữ mệnh xinh đẹp sắc sảo. Sự nghiệp hay dao động vì ham vui. Gặp Hỏa Linh thì hoạnh phát.",
+    "Dậu": "Tử Vi Tham Lang đồng cung tại Dậu. Cung Kim, tính cách cương nghị hơn ở Mão. Đào hoa vẫn mạnh nhưng biết kiềm chế hơn. Nếu hội Hỏa Linh Xương Khúc thì bạo phát bạo phú.",
+    "Thìn": "Tử Vi Thiên Phủ đồng cung tại Thìn. Hai đế tinh hội ngộ, quý không thể tả. Đây là một trong những cách cục tốt nhất của Tử Vi. Phong thái đường hoàng, tài lộc dồi dào, sự nghiệp vững chắc. Bất kể nam nữ đều có cuộc sống sung túc.",
+    "Tuất": "Tử Vi Thiên Phủ đồng cung tại Tuất. Tương tự tại Thìn, nhưng cung Tuất mang nhiều Không Vong hơn. Nếu gặp Tuần Triệt thì giảm lực đáng kể. Có thiện tâm nhưng dễ bị phản bội.",
+    "Tỵ": "Tử Vi Thất Sát đồng cung tại Tỵ. Vua và tướng quân cùng ngồi (Tử Sát). Khí phách hiên ngang, uy lực vạn người, dám xông pha chiến trường. Nếu hội Cát tinh thì danh trấn thiên hạ. Gặp Không Kiếp Kình Đà thì tuy anh hùng nhưng cô đơn.",
+    "Hợi": "Tử Vi Thất Sát đồng cung tại Hợi. Tử Sát tại Hợi thuộc Thuỷ, khí thế mạnh mẽ nhưng lạnh lùng hơn ở Tỵ. Khả năng lãnh đạo kiệt xuất nhưng cuộc đời như sóng biển, cần tu nhẫn mới giữ được thành quả.",
+    "Tí_Ngọ": "Tử Vi Phá Quân đồng cung tại Tí hoặc Ngọ. (Xem mục Phá Quân_Tử Vi)."
+  },
+
+  "Thiên Cơ": {
+    "Tý": "Thiên Cơ độc tọa cung Tý, Cự Môn ở Ngọ đối chiếu. Trí tuệ minh mẫn, phân tích sắc bén. Cung Tý thuộc Thuỷ lại sinh Cơ, đầu óc rất nhạy bén, giỏi lập trình, kỹ thuật, y khoa. Kỵ Hóa Kỵ vì dễ suy nghĩ quẩn.",
+    "Ngọ": "Thiên Cơ độc tọa cung Ngọ, Cự Môn ở Tý đối chiếu. Mộc gặp Hoả, trí tuệ bùng nổ nhưng tính khí nóng nảy. Giỏi thuyết trình, viết lách, nhưng hay gặp thị phi từ lời nói.",
+    "Sửu": "Thiên Cơ Tử Vi đồng cung tại Sửu. (Xem mục Tử Vi).",
+    "Mùi": "Thiên Cơ Tử Vi đồng cung tại Mùi. (Xem mục Tử Vi).",
+    "Dần": "Thiên Cơ Thiên Lương đồng cung tại Dần. Cơ Lương hội ngộ, thuộc nhóm Cơ Nguyệt Đồng Lương. Rất thông minh, tu tâm dưỡng tính, hợp làm giáo viên, bác sĩ, nhà nghiên cứu. Tại Dần được vượng Mộc hỗ trợ, trí tuệ phát triển mạnh. Kỵ gặp Hóa Kỵ.",
+    "Thân": "Thiên Cơ Thiên Lương đồng cung tại Thân. Cung Kim khắc Mộc, trí tuệ vẫn sáng nhưng phải vất vả hơn ở Dần. Sự nghiệp phải trải qua nhiều thử thách trước khi ổn định.",
+    "Mão": "Thiên Cơ Thái Âm đồng cung tại Mão. Trí tuệ kết hợp tình cảm, rất giỏi văn chương nghệ thuật, âm nhạc. Cung Mão vượng Mộc, cả hai sao đều đắc địa. Nhạy cảm, lãng mạn nhưng dễ thay đổi ý kiến.",
+    "Dậu": "Thiên Cơ Thái Âm đồng cung tại Dậu. Cung Kim khắc Mộc, Thái Âm hãm địa. Tình cảm trắc trở hơn ở Mão, trí tuệ bị cảm xúc chi phối nhiều. Cần rèn luyện tinh thần.",
+    "Thìn": "Thiên Cơ độc tọa cung Thìn, Thiên Lương ở Tuất đối chiếu. Cung Thìn cản trở Mộc, Thiên Cơ phải nỗ lực nhiều mới phát huy. Nên theo nghề kỹ thuật, công nghệ.",
+    "Tuất": "Thiên Cơ độc tọa cung Tuất, Thiên Lương ở Thìn đối chiếu. Thổ khắc Mộc, tương tự Thìn nhưng cung Tuất thêm tính Không Vong, hay suy nghĩ bi quan.",
+    "Tỵ": "Thiên Cơ độc tọa cung Tỵ, Thái Âm ở Hợi đối chiếu. Cung Hoả sinh Thổ khắc Mộc, Thiên Cơ lạc hãm. Hay lo lắng, sức khoẻ yếu. Cần dựa vào quý nhân mới thành.",
+    "Hợi": "Thiên Cơ độc tọa cung Hợi, Thái Âm ở Tỵ đối chiếu. Cung Thuỷ sinh Mộc, Thiên Cơ đắc địa. Trí tuệ tựa dòng suối chảy không ngừng. Rất giỏi nghiên cứu, phát minh."
+  },
+
+  "Thái Dương": {
+    "Tý": "Thái Dương hãm địa cung Tý. Mặt trời đêm, ánh sáng bị khuất. Chủ người hay lo cho kẻ khác mà quên bản thân, dễ bị hàm oan, thị phi. Nam mệnh vất vả, tính bao đồng nhưng ít được đền đáp. Nữ mệnh khắc chồng cha.",
+    "Sửu": "Thái Dương Thái Âm đồng cung tại Sửu (Nhật Nguyệt đồng cung). Sáng tối xen kẽ, tính cách lưỡng cực, có lúc hào phóng có lúc tính toán. Mặt trời bắt đầu lên, sự nghiệp khởi sắc từ trung vận. Gặp Xương Khúc Khôi Việt thì học hành giỏi giang.",
+    "Dần": "Thái Dương miếu vượng tại Dần. Mặt trời mọc, bình minh rạng rỡ. Tính tình quang minh chính đại, nhiệt huyết bao la. Sự nghiệp phát triển mạnh mẽ từ tuổi trẻ. Rất hợp ngành ngoại giao, giáo dục, chính trị.",
+    "Mão": "Thái Dương miếu vượng tại Mão (Nhật chiếu lôi môn). Đây là vị trí tốt nhất của Thái Dương, lúc mặt trời lên cao chói lọi. Danh vọng hiển hách, sự nghiệp vang xa bốn phương. Phú quý nếu hội Tả Hữu Xương Khúc.",
+    "Thìn": "Thái Dương miếu vượng tại Thìn. Mặt trời buổi sáng, khí thế đang lên. Tính cách cương trực, nhiệt tình, sự nghiệp hanh thông. Hơi có tính bao đồng, nên tập trung vào mục tiêu chính.",
+    "Tỵ": "Thái Dương Thiên Lương đồng cung tại Tỵ (Dương Lương xương lộc). Mặt trời giữa trưa, uy nghi lẫm liệt. Cực kỳ có uy tín trong xã hội, giỏi giáo dục, y tế, thanh tra. Kỵ Hóa Kỵ vì thành thị phi.",
+    "Ngọ": "Thái Dương miếu vượng tại Ngọ. Mặt trời đỉnh đầu (Nhật lệ trung thiên). Cực vượng nhưng đã qua đỉnh, nên tuổi trẻ rực rỡ mà trung niên giảm dần. Danh cao nhưng phải biết dừng đúng lúc.",
+    "Mùi": "Thái Dương Thái Âm đồng cung tại Mùi (Nhật Nguyệt đồng cung). Mặt trời bắt đầu lặn, xuống dốc. Tuổi trẻ vất vả, trung vận mới khá. Tính cách ôn hoà hơn ở Sửu nhưng thiếu quyết đoán.",
+    "Thân": "Thái Dương đắc địa tại Thân, bắt đầu nghiêng tây. Vẫn sáng nhưng giảm lực. Sự nghiệp ổn định nhưng không còn bùng nổ. Tốt nhất nên giữ gìn thành quả đã có.",
+    "Dậu": "Thái Dương Cự Môn đồng cung tại Dậu. Mặt trời chiều tà gặp ám tinh. Thường gặp thị phi, hiểu lầm, nhưng nếu biết dùng khẩu tài thì vẫn thành công lớn trong ngành truyền thông, pháp luật.",
+    "Tuất": "Thái Dương hãm địa tại Tuất. Mặt trời sắp lặn, ánh sáng yếu dần. Vất vả, bao đồng mà ít có người ghi nhận. Nam mệnh khó phát triển sự nghiệp toàn diện.",
+    "Hợi": "Thái Dương hãm địa tại Hợi. Mặt trời chìm sâu dưới đáy. Cực kỳ vất vả, tính bao la vô bờ bến nhưng lực không đủ. Cần tu tâm và chịu khó rèn luyện mới có kết quả."
+  },
+
+  "Vũ Khúc": {
+    "Thìn": "Vũ Khúc Thiên Tướng đồng cung tại Thìn. Tài tinh gặp ấn tinh, tiền bạc rõ ràng minh bạch, quản lý tài chính rất giỏi. Phong thái sang trọng, khéo giao thiệp. Hợp làm ngân hàng, kế toán trưởng.",
+    "Tuất": "Vũ Khúc Thiên Tướng đồng cung tại Tuất. Tương tự Thìn nhưng nặng tính bảo thủ hơn, khó thay đổi quyết định. Tiền bạc vẫn ổn nhưng hay dính kiện tụng.",
+    "Sửu": "Vũ Khúc Tham Lang đồng cung tại Sửu. Tài tinh gặp Đào hoa, kiếm tiền qua xã giao, giao tiếp. Rượu chè, yến tiệc nhiều nhưng cũng mang lại nhiều cơ hội. Gặp Hỏa Linh thì bạo phát hoạnh tài.",
+    "Mùi": "Vũ Khúc Tham Lang đồng cung tại Mùi. Tương tự Sửu nhưng thêm tính chiến lược hơn. Rất giỏi kinh doanh nhà hàng, khách sạn, giải trí.",
+    "Dần": "Vũ Khúc độc tọa cung Dần, Thiên Phủ ở Thân đối chiếu. Tài tinh ở Mộc cung, kiếm tiền bằng trí tuệ và sáng tạo. Tiền bạc tuy không quá nhiều nhưng ổn định. Nên đầu tư dài hạn.",
+    "Thân": "Vũ Khúc độc tọa cung Thân, Thiên Phủ ở Dần đối chiếu. Cung Kim vượng, Vũ Khúc rất mạnh. Kiếm tiền nhanh, dứt khoát, quyết đoán. Kỵ cô độc và quá cứng nhắc.",
+    "Mão": "Vũ Khúc Thất Sát đồng cung tại Mão. Tài tinh gặp sát tinh, tiền bạc kiếm được bằng máu và mồ hôi. Tính cách cực kỳ quyết liệt, dám liều. Hợp quân đội, công an, kinh doanh thép.",
+    "Dậu": "Vũ Khúc Thất Sát đồng cung tại Dậu. Cung Kim vượng (Kim gặp Kim), cực kỳ sắc bén. Kiếm tiền rất giỏi nhưng cuộc đời lắm sóng gió. Thành công phải đánh đổi bằng cô đơn.",
+    "Tý": "Vũ Khúc Thiên Phủ đồng cung tại Tý. Hai tài tinh hội ngộ, kho tiền đầy ắp. Đây là cách cục cực phú. Tính cách cẩn thận, biết tích luỹ, ít phiêu lưu. Cuộc đời tài lộc dồi dào.",
+    "Ngọ": "Vũ Khúc Thiên Phủ đồng cung tại Ngọ. Tương tự Tý nhưng cung Hoả làm nóng tính hơn. Kiếm tiền nhanh và tiêu cũng nhanh. Cần tiết chế chi tiêu.",
+    "Tỵ": "Vũ Khúc Phá Quân đồng cung tại Tỵ. Tài tinh gặp hao tinh, tiền bạc vào ra cực nhanh. Dám đầu tư lớn, bạo gan nhưng rủi ro cao. Thường kinh doanh liên quan đến máy móc, công nghệ.",
+    "Hợi": "Vũ Khúc Phá Quân đồng cung tại Hợi. Cung Thuỷ, tiền bạc như sóng biển, lên xuống thất thường. Cần có kế hoạch tài chính rõ ràng, tránh đầu cơ."
+  },
+
+  "Thiên Đồng": {
+    "Tý": "Thiên Đồng độc tọa cung Tý, Cự Môn ở Ngọ xung chiếu. Phúc tinh gặp Thuỷ, cuộc sống nhàn hạ, thích hưởng thụ. Tính tình ôn hoà, dĩ hoà vi quý. Có lộc ăn chơi nhưng dễ lười biếng. Cần có động lực từ bên ngoài.",
+    "Ngọ": "Thiên Đồng độc tọa cung Ngọ, Cự Môn ở Tý xung chiếu. Phúc tinh gặp Hoả, tính tình nóng nảy hơn bình thường. Vẫn thích nhàn nhã nhưng bên ngoài tỏ ra năng nổ hơn.",
+    "Sửu": "Thiên Đồng Cự Môn đồng cung tại Sửu. Phúc tinh gặp ám tinh, cuộc đời tuy có phúc nhưng hay gặp thị phi miệng lưỡi. Nên học cách im lặng, tránh tranh cãi. Trung vận trở đi mới thanh thản.",
+    "Mùi": "Thiên Đồng Cự Môn đồng cung tại Mùi. Tương tự Sửu nhưng nhẹ nhàng hơn. Giỏi ăn nói nên thích hợp làm giảng viên, MC, tư vấn viên.",
+    "Dần": "Thiên Đồng independ cung Dần, Thái Âm ở Thân đối chiếu. Phúc tinh nơi Mộc vượng, cuộc sống thanh thản, giàu tình cảm. Hợp làm nghệ thuật, thiết kế, giáo dục.",
+    "Thân": "Thiên Đồng độc tọa cung Thân, Thái Âm ở Dần đối chiếu. Cung Kim khắc, phải vất vả hơn ở Dần. Tuy nhiên tính cách kiên cường hơn, biết chịu khó rèn luyện.",
+    "Mão": "Thiên Đồng Thiên Lương đồng cung tại Mão. Phúc tinh gặp ấm tinh (thuộc nhóm Cơ Nguyệt Đồng Lương). Đây là cách cục rất tốt, cuộc đời an nhàn, ít sóng gió. Giỏi tu tâm dưỡng tính, hợp ngành y tế phúc lợi.",
+    "Dậu": "Thiên Đồng Thiên Lương đồng cung tại Dậu. Kim khắc Mộc, phúc giảm. Vẫn hiền lành nhưng cuộc đời nhiều trắc trở hơn ở Mão. Cần nỗ lực nhiều mới đạt thành quả.",
+    "Thìn": "Thiên Đồng độc tọa cung Thìn, Thiên Lương ở Tuất đối chiếu. Cung Thổ khắc Thuỷ, phúc tinh bị cản. Tính hưởng thụ vẫn có nhưng phải lao lực mới được an nhàn.",
+    "Tuất": "Thiên Đồng độc tọa cung Tuất, Thiên Lương ở Thìn đối chiếu. Tương tự Thìn, cuộc đời phải trải qua khó khăn trước khi hưởng phúc.",
+    "Tỵ": "Thiên Đồng Thái Âm đồng cung tại Tỵ. Phúc tinh gặp Phú tinh tại cung Hoả, Thuỷ bị khắc. Tính tình nóng nảy bất thường, tình cảm không ổn định. Tài lộc phải nỗ lực mới có.",
+    "Hợi": "Thiên Đồng Thái Âm đồng cung tại Hợi. Phúc Phú gặp Thuỷ cung, cực kỳ đắc địa. Cuộc đời phúc lộc dồi dào, an nhàn tự tại. Giỏi nghệ thuật, tài chính, bất động sản."
+  },
+
+  "Liêm Trinh": {
+    "Dần": "Liêm Trinh Thiên Tướng đồng cung tại Dần. Tù tinh gặp ấn tinh, tính kỷ luật cao kết hợp phong thái sang trọng. Rất hợp làm trong cơ quan nhà nước, hành chính, pháp luật. Gặp Xương Khúc thì văn võ song toàn.",
+    "Thân": "Liêm Trinh Thiên Tướng đồng cung tại Thân. Cung Kim, tính cách cứng rắn, kỷ luật thép. Sự nghiệp trong quân đội, công an, thanh tra rất phù hợp.",
+    "Mão": "Liêm Trinh độc tọa cung Mão, Thiên Phủ ở Dậu đối chiếu. Hoả ở Mộc cung, tính nóng nảy nhưng có nghệ thuật. Giỏi trong lĩnh vực điện ảnh, âm nhạc, mỹ thuật.",
+    "Dậu": "Liêm Trinh độc tọa cung Dậu, Thiên Phủ ở Mão đối chiếu. Hoả ở Kim cung, xung khắc mạnh. Tính cách cứng đầu, dễ gặp tai nạn liên quan kim loại. Cần cẩn thận.",
+    "Thìn": "Liêm Trinh Phá Quân đồng cung tại Thìn. Tù tinh gặp hao tinh, cuộc đời nhiều biến động dữ dội. Dám liều mạng, dám phá bỏ nhưng rủi ro rất cao. Nếu có Cát tinh hỗ trợ thì đại phát.",
+    "Tuất": "Liêm Trinh Phá Quân đồng cung tại Tuất. Tương tự Thìn nhưng thêm tính Không Vong, phá huỷ mạnh hơn. Cần tu tâm và giữ gìn sức khoẻ.",
+    "Tỵ": "Liêm Trinh độc tọa cung Tỵ. Hoả ở Hoả cung, cực vượng. Tính kỷ luật thép, quyền uy mạnh mẽ. Sự nghiệp trong chính quyền, quân sự rất tốt. Kỵ gặp Hóa Kỵ.",
+    "Hợi": "Liêm Trinh độc tọa cung Hợi. Hoả ở Thuỷ cung, bị khắc mạnh. Tù tinh lạc hãm, dễ dính vào chuyện pháp lý, kiện tụng. Cần rất cẩn thận trong lời nói và hành động.",
+    "Tý": "Liêm Trinh Tham Lang đồng cung tại Tý. Đào hoa kế, rất đẹp trai/đẹp gái, quyến rũ. Nhưng dễ sa đà vào tửu sắc. Nếu có Văn Xương Văn Khúc thì biết dừng và thành công.",
+    "Ngọ": "Liêm Trinh Tham Lang đồng cung tại Ngọ. Cung Hoả vượng, đào hoa rực rỡ. Rất giỏi nghệ thuật, diễn xuất, kinh doanh giải trí. Kỵ tửu sắc.",
+    "Sửu": "Liêm Trinh Thất Sát đồng cung tại Sửu. Tù tinh gặp tướng tinh, khí chất quân nhân. Tính cách cương trực, dũng mãnh nhưng cô đơn. Sự nghiệp quân sự, an ninh.",
+    "Mùi": "Liêm Trinh Thất Sát đồng cung tại Mùi. Tương tự Sửu nhưng mềm mại hơn đôi chút. Vẫn rất kiên cường, quyết đoán."
+  },
+
+  "Thiên Phủ": {
+    "Sửu": "Thiên Phủ độc tọa cung Sửu, Tử Vi ở Mùi đối chiếu. Kho báu ở đất thuần, an toàn vững chắc. Tài lộc dồi dào, tính cách cẩn thận, biết giữ của. Cuộc đời ổn định, ít sóng gió.",
+    "Mùi": "Thiên Phủ độc tọa cung Mùi, Tử Vi ở Sửu đối chiếu. Tương tự Sửu, tính cách khoan hoà hơn. Phù hợp kinh doanh bất động sản, nhà hàng, dịch vụ.",
+    "Dần": "Thiên Phủ độc tọa cung Dần, Vũ Khúc ở Thân đối chiếu. Mộc vượng, kho báu sinh sôi. Tài lộc phong phú từ nhiều nguồn. Biết tích luỹ, đầu tư khôn ngoan.",
+    "Thân": "Thiên Phủ độc tọa cung Thân, Vũ Khúc ở Dần đối chiếu. Cung Kim, kho báu kim loại. Tài lộc từ công nghệ, kim khí. Rất giỏi quản lý tài sản.",
+    "Mão": "Thiên Phủ độc tọa cung Mão, Liêm Trinh ở Dậu đối chiếu. Kho báu ở Mộc cung, phú quý nhàn nhã. Tính tình hiền lành, biết thưởng thức cuộc sống.",
+    "Dậu": "Thiên Phủ độc tọa cung Dậu, Liêm Trinh ở Mão đối chiếu. Hai cung Kim Mộc giao tranh, tài lộc có nhưng phải qua cạnh tranh mới giữ được.",
+    "Thìn": "Thiên Phủ Tử Vi đồng cung tại Thìn. (Xem mục Tử Vi).",
+    "Tuất": "Thiên Phủ Tử Vi đồng cung tại Tuất. (Xem mục Tử Vi).",
+    "Tỵ": "Thiên Phủ độc tọa cung Tỵ, Vũ Khúc Tham Lang ở Hợi đối chiếu. Kho báu ở Hoả cung, dễ bị hao tổn nếu không cẩn thận. Tài lộc phải kiếm bằng nỗ lực.",
+    "Hợi": "Thiên Phủ độc tọa cung Hợi, Vũ Khúc Tham Lang ở Tỵ đối chiếu. Kho báu ở Thuỷ cung, tài lộc trôi chảy. Kinh doanh vận tải, thuỷ sản phù hợp.",
+    "Tý": "Thiên Phủ Vũ Khúc đồng cung tại Tý. (Xem mục Vũ Khúc).",
+    "Ngọ": "Thiên Phủ Vũ Khúc đồng cung tại Ngọ. (Xem mục Vũ Khúc)."
+  },
+
+  "Thái Âm": {
+    "Tý": "Thái Âm miếu vượng tại Tý (Nguyệt lãng thiên môn). Mặt trăng đỉnh đầu, sáng nhất. Đây là vị trí tốt nhất của Thái Âm. Phú quý dồi dào, tài lộc bất động sản. Tính cách thanh cao, trực giác mạnh mẽ. Rất giỏi quản lý tiền bạc.",
+    "Sửu": "Thái Âm Thái Dương đồng cung tại Sửu. (Xem mục Thái Dương).",
+    "Dần": "Thái Âm đắc địa tại Dần. Mặt trăng bắt đầu xuống, vẫn sáng. Tài lộc tốt, tình cảm phong phú. Hơi thiên về mộng mơ.",
+    "Mão": "Thái Âm Thiên Cơ đồng cung tại Mão. (Xem mục Thiên Cơ).",
+    "Thìn": "Thái Âm hãm địa tại Thìn. Mặt trăng buổi sáng, ánh sáng yếu. Tài lộc bất ổn, tình cảm trắc trở. Nữ mệnh hay buồn phiền.",
+    "Tỵ": "Thái Âm Thiên Đồng đồng cung tại Tỵ. (Xem mục Thiên Đồng).",
+    "Ngọ": "Thái Âm hãm địa tại Ngọ. Mặt trăng giữa trưa, hoàn toàn mất sáng. Hãm địa nặng nhất, tài lộc hao tán, tình cảm bạc bẽo. Cần rất nỗ lực mới xoay chuyển.",
+    "Mùi": "Thái Âm Thái Dương đồng cung tại Mùi. (Xem mục Thái Dương).",
+    "Thân": "Thái Âm bắt đầu vượng tại Thân. Mặt trăng chiều, bắt đầu sáng lên. Tài lộc từ từ tăng. Trung vận phát đạt.",
+    "Dậu": "Thái Âm Thiên Cơ đồng cung tại Dậu. (Xem mục Thiên Cơ).",
+    "Tuất": "Thái Âm đắc địa tại Tuất. Mặt trăng tối, bắt đầu rõ nét. Tài lộc khá tốt nhưng phải chờ đợi thời cơ.",
+    "Hợi": "Thái Âm Thiên Đồng đồng cung tại Hợi. (Xem mục Thiên Đồng)."
+  },
+
+  "Tham Lang": {
+    "Tý": "Tham Lang Liêm Trinh đồng cung tại Tý. (Xem mục Liêm Trinh).",
+    "Sửu": "Tham Lang Vũ Khúc đồng cung tại Sửu. (Xem mục Vũ Khúc).",
+    "Dần": "Tham Lang độc tọa cung Dần, Liêm Trinh ở Thân đối chiếu. Đào hoa tinh ở Mộc vượng, rất giỏi giao tiếp, nghệ thuật, yến tiệc. Kiếm tiền qua mối quan hệ. Kỵ sa đà tửu sắc.",
+    "Thân": "Tham Lang độc tọa cung Thân, Liêm Trinh ở Dần đối chiếu. Cung Kim khắc Mộc, tính cách cứng rắn hơn ở Dần. Kiếm tiền bằng ý chí. Gặp Hỏa Linh thì bạo phát.",
+    "Mão": "Tham Lang Tử Vi đồng cung tại Mão. (Xem mục Tử Vi).",
+    "Dậu": "Tham Lang Tử Vi đồng cung tại Dậu. (Xem mục Tử Vi).",
+    "Thìn": "Tham Lang độc tọa cung Thìn, Vũ Khúc ở Tuất đối chiếu. Tại Thìn hội Thuỷ khố, Đào hoa có nước nuôi dưỡng, đa tài đa nghệ. Kinh doanh ẩm thực, giải trí rất phù hợp.",
+    "Tuất": "Tham Lang độc tọa cung Tuất, Vũ Khúc ở Thìn đối chiếu. Cung Tuất mang tính Thiên La, Đào hoa bị kiềm chế. Tuy giỏi giao tiếp nhưng hay gặp trắc trở trong tình cảm.",
+    "Tỵ": "Tham Lang độc tọa cung Tỵ, Phá Quân ở Hợi đối chiếu. Hoả vượng, Đào hoa rực rỡ nhất. Cực kỳ quyến rũ, giỏi nghệ thuật biểu diễn. Kỵ sa đà, tham lam.",
+    "Hợi": "Tham Lang độc tọa cung Hợi, Phá Quân ở Tỵ đối chiếu. Thuỷ cung, Đào hoa ẩn chìm. Tài năng nghệ thuật sâu lắng, nội tâm phong phú. Trung vận mới phát.",
+    "Ngọ": "Tham Lang Liêm Trinh đồng cung tại Ngọ. (Xem mục Liêm Trinh).",
+    "Mùi": "Tham Lang Vũ Khúc đồng cung tại Mùi. (Xem mục Vũ Khúc)."
+  },
+
+  "Cự Môn": {
+    "Tý": "Cự Môn Thiên Đồng đồng cung tại Tý. (Xem mục Thiên Đồng - Tý).",
+    "Sửu": "Cự Môn Thiên Đồng đồng cung tại Sửu. (Xem mục Thiên Đồng).",
+    "Dần": "Cự Môn độc tọa cung Dần, Thiên Cơ ở Thân đối chiếu. Ám tinh ở Mộc vượng, khẩu tài rất giỏi. Dần là Mộc vượng nên giảm bớt tính ám. Làm luật sư, giáo viên, bác sĩ rất phát đạt. Kỵ Hóa Kỵ.",
+    "Thân": "Cự Môn độc tọa cung Thân, Thiên Cơ ở Dần đối chiếu. Kim khắc Mộc, ám tính nặng hơn ở Dần. Dễ gặp thị phi, kiện tụng. Cần quản lý lời nói cẩn thận.",
+    "Mão": "Cự Môn Thái Dương đồng cung tại Mão (Cự Nhật). Mặt trời soi sáng ám tinh, hoá giải thị phi thành danh tiếng. Đây là cách cục rất tốt, lời nói có uy tín, dễ thành công trong truyền thông, ngoại giao.",
+    "Dậu": "Cự Môn Thái Dương đồng cung tại Dậu. (Xem mục Thái Dương).",
+    "Thìn": "Cự Môn độc tọa cung Thìn (Cự cư Thìn vi thạch trung ẩn ngọc). Cách cục ngọc ẩn trong đá, bên ngoài thô ráp nhưng bên trong quý giá. Tài năng ngôn ngữ xuất sắc nhưng cần thời gian mới được công nhận.",
+    "Tuất": "Cự Môn độc tọa cung Tuất. Tương tự Thìn, ngọc ẩn trong đá. Cuộc đời trắc trở nhiều nhưng về sau sẽ được nhìn nhận. Kỵ Hóa Kỵ.",
+    "Tỵ": "Cự Môn độc tọa cung Tỵ, Thái Dương ở Hợi đối chiếu. Thái Dương hãm không đủ sức soi sáng Cự Môn. Ám khí nặng, hay gặp thị phi, hiểu lầm. Cần tu khẩu nghiệp.",
+    "Hợi": "Cự Môn độc tọa cung Hợi, Thái Dương ở Tỵ đối chiếu. Thái Dương miếu chiếu sang, giảm bớt ám tính. Khẩu tài tốt, giỏi ngoại ngữ. Kinh doanh xuất nhập khẩu phù hợp.",
+    "Ngọ": "Cự Môn Thiên Đồng đồng cung tại Ngọ. (Xem mục Thiên Đồng).",
+    "Mùi": "Cự Môn Thiên Đồng đồng cung tại Mùi. (Xem mục Thiên Đồng)."
+  },
+
+  "Thiên Tướng": {
+    "Tý": "Thiên Tướng độc tọa cung Tý, Liêm Trinh ở Ngọ đối chiếu. Ấn tinh ở Thuỷ cung, phong thái thanh nhã. Giỏi quản lý, nhân sự. Tính cách trung thành, đáng tin cậy.",
+    "Ngọ": "Thiên Tướng độc tọa cung Ngọ, Liêm Trinh ở Tý đối chiếu. Ấn tinh ở Hoả cung, sáng sủa, ngoại hình đẹp. Sự nghiệp hanh thông nếu có Tả Hữu hỗ trợ.",
+    "Sửu": "Thiên Tướng độc tọa cung Sửu, Vũ Khúc ở Mùi đối chiếu. Tính cách cẩn thận, biết giữ gìn tài sản. Hợp làm kế toán, thủ quỹ.",
+    "Mùi": "Thiên Tướng độc tọa cung Mùi, Vũ Khúc ở Sửu đối chiếu. Tương tự Sửu nhưng khoan hoà hơn. Giỏi ngoại giao, tiếp khách.",
+    "Dần": "Thiên Tướng Tử Vi đồng cung tại Dần. (Xem mục Tử Vi).",
+    "Thân": "Thiên Tướng Tử Vi đồng cung tại Thân. (Xem mục Tử Vi).",
+    "Mão": "Thiên Tướng độc tọa cung Mão, Phá Quân ở Dậu đối chiếu. Ấn tinh gặp phá banh, tính cách hay mâu thuẫn giữa giữ gìn và đập phá. Cần cân bằng.",
+    "Dậu": "Thiên Tướng độc tọa cung Dậu, Phá Quân ở Mão đối chiếu. Xức khắc mạnh hơn ở Mão. Dễ gặp biến động trong sự nghiệp.",
+    "Thìn": "Thiên Tướng Vũ Khúc đồng cung tại Thìn. (Xem mục Vũ Khúc).",
+    "Tuất": "Thiên Tướng Vũ Khúc đồng cung tại Tuất. (Xem mục Vũ Khúc).",
+    "Tỵ": "Thiên Tướng độc tọa cung Tỵ, Thất Sát ở Hợi đối chiếu. Ấn tinh đối diện sát tinh, cuộc đời có phúc nhưng cũng có nạn. Cần dung hoà hai lực lượng.",
+    "Hợi": "Thiên Tướng độc tọa cung Hợi, Thất Sát ở Tỵ đối chiếu. Ấn tinh ở Thuỷ, bên ngoài ôn hoà nhưng bên trong lo lắng. Kỵ gặp nhiều sát tinh hội họp."
+  },
+
+  "Thiên Lương": {
+    "Tý": "Thiên Lương độc tọa cung Tý, Thiên Đồng ở Ngọ đối chiếu. Ấm tinh ở Thuỷ cung, thanh cao, thọ, hay lo cho người khác. Giỏi y tế, giáo dục, bảo hiểm.",
+    "Ngọ": "Thiên Lương độc tọa cung Ngọ, Thiên Đồng ở Tý đối chiếu. Ấm tinh ở Hoả cung, nhiệt tình quá mức, bao đồng. Danh tiếng tốt nhưng hao tốn sức khoẻ.",
+    "Sửu": "Thiên Lương độc tọa cung Sửu, Thiên Cơ ở Mùi đối chiếu. Ấm tinh ở Thổ cung, ổn định, bình chẩn. Tính cách chín chắn từ nhỏ. Hợp làm cố vấn, thầy thuốc.",
+    "Mùi": "Thiên Lương độc tọa cung Mùi, Thiên Cơ ở Sửu đối chiếu. Tương tự Sửu nhưng tình cảm phong phú hơn. Hay thương người, dễ bị lợi dụng lòng tốt.",
+    "Dần": "Thiên Lương Thiên Cơ đồng cung tại Dần. (Xem mục Thiên Cơ).",
+    "Thân": "Thiên Lương Thiên Cơ đồng cung tại Thân. (Xem mục Thiên Cơ).",
+    "Mão": "Thiên Lương Thiên Đồng đồng cung tại Mão. (Xem mục Thiên Đồng).",
+    "Dậu": "Thiên Lương Thiên Đồng đồng cung tại Dậu. (Xem mục Thiên Đồng).",
+    "Thìn": "Thiên Lương độc tọa cung Thìn, Thiên Cơ ở Tuất đối chiếu. Thổ Khám canh, tính cách cứng rắn hơn trông đợi ở Thiên Lương. Giỏi thanh tra, kiểm soát.",
+    "Tuất": "Thiên Lương độc tọa cung Tuất, Thiên Cơ ở Thìn đối chiếu. Tương tự Thìn, thêm tính Không Vong. Hay suy tư triết học. Hợp nghiên cứu tôn giáo.",
+    "Tỵ": "Thiên Lương Thái Dương đồng cung tại Tỵ. (Xem mục Thái Dương).",
+    "Hợi": "Thiên Lương độc tọa cung Hợi, Thái Dương ở Tỵ đối chiếu. Mặt trời miếu chiếu sáng cho ấm tinh. Cuộc đời được che chở, phúc đức dày. Kỵ Hóa Kỵ."
+  },
+
+  "Thất Sát": {
+    "Tý": "Thất Sát độc tọa cung Tý, Thiên Phủ ở Ngọ đối chiếu. Tướng quân ở Thuỷ cung, mưu lược nhiều hơn vũ dũng. Tính cách lạnh lùng, quyết đoán. Kinh doanh giỏi nhưng cô đơn. Kho báu từ Thiên Phủ hỗ trợ tài chính.",
+    "Ngọ": "Thất Sát độc tọa cung Ngọ, Thiên Phủ ở Tý đối chiếu. Tướng quân giữa Hoả, cực kỳ uy mãnh. Danh tiếng vang xa nhưng gây nhiều sát phạt. Phù hợp cầm quân, lãnh đạo doanh nghiệp lớn.",
+    "Sửu": "Thất Sát Liêm Trinh đồng cung tại Sửu. (Xem mục Liêm Trinh).",
+    "Mùi": "Thất Sát Liêm Trinh đồng cung tại Mùi. (Xem mục Liêm Trinh).",
+    "Dần": "Thất Sát độc tọa cung Dần, Thiên Phủ ở Thân đối chiếu. (Thất Sát triều đẩu). Tướng quân vào triều vua, cực quý. Đây là cách cục rất tốt của Thất Sát - quyền uy hiển hách mà vẫn có hậu thuẫn vững chắc từ Thiên Phủ.",
+    "Thân": "Thất Sát độc tọa cung Thân, Thiên Phủ ở Dần đối chiếu. Tương tự Dần, Kim vượng. Cực kỳ quyết đoán, sát phạt. Sự nghiệp trong quân đội, an ninh đạt đỉnh.",
+    "Mão": "Thất Sát Vũ Khúc đồng cung tại Mão. (Xem mục Vũ Khúc).",
+    "Dậu": "Thất Sát Vũ Khúc đồng cung tại Dậu. (Xem mục Vũ Khúc).",
+    "Thìn": "Thất Sát độc tọa cung Thìn. Tướng quân thủ Thiên La, uy lực vô cùng. Cuộc đời nhiều biến cố lớn nhưng vượt qua thì thành tựu hiển hách. Hợp lãnh đạo thay đổi tổ chức.",
+    "Tuất": "Thất Sát độc tọa cung Tuất. Tướng quân thủ Địa Võng, cuộc đời sóng gió hơn ở Thìn. Dễ gặp tai nạn, kiện tụng. Cần tu nhẫn, giữ sức khoẻ.",
+    "Tỵ": "Thất Sát Tử Vi đồng cung tại Tỵ. (Xem mục Tử Vi).",
+    "Hợi": "Thất Sát Tử Vi đồng cung tại Hợi. (Xem mục Tử Vi)."
+  },
+
+  "Phá Quân": {
+    "Tý": "Phá Quân độc tọa cung Tý, Thiên Tướng ở Ngọ đối chiếu. Hao tinh ở Thuỷ, biến động mạnh như sóng cả. Dám phá dám làm nhưng ít người tin tưởng. Gặp Tả Hữu Xương Khúc thì thay đổi thành công.",
+    "Ngọ": "Phá Quân độc tọa cung Ngọ, Thiên Tướng ở Tý đối chiếu. Hao tinh ở Hoả, phá huỷ rực rỡ. Cuộc đời đầy bước ngoặt kịch tính. Hoặc đại phú đại quý hoặc trắng tay.",
+    "Sửu": "Phá Quân độc tọa cung Sửu, Tử Vi ở Mùi đối chiếu. Hao tinh được Đế tinh chiếu, phá huỷ có kiểm soát. Cuộc đời tuy biến động nhưng có quý nhân hỗ trợ phía sau.",
+    "Mùi": "Phá Quân độc tọa cung Mùi, Tử Vi ở Sửu đối chiếu. Tương tự Sửu, tính phá huỷ có phần mềm mại hơn. Giỏi tái cấu trúc, cải tổ.",
+    "Dần": "Phá Quân độc tọa cung Dần, Liêm Trinh ở Thân đối chiếu. Mộc vượng, sự phá huỷ mang tính xây dựng. Dám khởi nghiệp, dám đổi mới. Kinh doanh sáng tạo rất hợp.",
+    "Thân": "Phá Quân độc tọa cung Thân, Liêm Trinh ở Dần đối chiếu. Kim vượng, phá huỷ sắc bén hơn. Tính quyết đoán cao nhưng dễ gây thương tổn cho người xung quanh.",
+    "Mão": "Phá Quân độc tọa cung Mão, Thiên Tướng ở Dậu đối chiếu. Mộc cung, phá rồi trồng lại. Cuộc đời liên tục thay đổi nhưng luôn tìm được cách tái sinh.",
+    "Dậu": "Phá Quân độc tọa cung Dậu, Thiên Tướng ở Mão đối chiếu. Kim cung phá huỷ triệt để. Tính cách sắc bén, quyết liệt, không khoan nhượng. Sự nghiệp quân sự, phẫu thuật phù hợp.",
+    "Thìn": "Phá Quân Liêm Trinh đồng cung tại Thìn. (Xem mục Liêm Trinh).",
+    "Tuất": "Phá Quân Liêm Trinh đồng cung tại Tuất. (Xem mục Liêm Trinh).",
+    "Tỵ": "Phá Quân Vũ Khúc đồng cung tại Tỵ. (Xem mục Vũ Khúc).",
+    "Hợi": "Phá Quân Vũ Khúc đồng cung tại Hợi. (Xem mục Vũ Khúc)."
+  },
+
+  "Vô Chính Diệu": {
+    "_note": "Khi cung Mệnh không có chính tinh, tính chất chịu ảnh hưởng hoàn toàn từ cung đối diện xung chiếu và các phụ tinh đồng cung.",
+    "Tý": "Vô Chính Diệu tại Tý: Cung trống, mượn lực từ cung Ngọ chiếu sang. Tuỳ theo cung Ngọ chứa sao gì mà tính chất sẽ khác nhau. Thường uyển chuyển, dễ thích nghi nhưng thiếu chủ kiến.",
+    "Sửu": "Vô Chính Diệu tại Sửu: Mượn lực từ cung Mùi. Tính cách hay phân vân, thiếu quyết đoán nhưng rất giỏi quan sát và học hỏi.",
+    "Dần": "Vô Chính Diệu tại Dần: Mượn lực từ cung Thân. Cung Mộc vượng hỗ trợ, tuy thiếu chủ tinh nhưng nếu có nhiều Cát tinh thì vẫn phát triển tốt.",
+    "Mão": "Vô Chính Diệu tại Mão: Mượn lực từ cung Dậu. Tính cách mềm dẻo, giỏi ứng biến. Rất phù hợp nghề tự do, freelancer.",
+    "Thìn": "Vô Chính Diệu tại Thìn: Mượn lực từ cung Tuất. Cuộc đời dễ gặp biến động lớn, cần tìm được người dẫn dắt đúng đắn.",
+    "Tỵ": "Vô Chính Diệu tại Tỵ: Mượn lực từ cung Hợi. Tính cách linh hoạt nhưng dễ bị ảnh hưởng bởi môi trường xung quanh.",
+    "Ngọ": "Vô Chính Diệu tại Ngọ: Mượn lực từ cung Tý. Cung Hoả vượng, tuy trống nhưng tràn đầy năng lượng. Nếu có Lộc Tồn hoặc Tứ Hóa thì vẫn rất tốt.",
+    "Mùi": "Vô Chính Diệu tại Mùi: Mượn lực từ cung Sửu. Ôn hoà, hiền hậu, thích cuộc sống đơn giản.",
+    "Thân": "Vô Chính Diệu tại Thân: Mượn lực từ cung Dần. Kim cung, cần nỗ lực nhiều mới thành đạt.",
+    "Dậu": "Vô Chính Diệu tại Dậu: Mượn lực từ cung Mão. Hay thay đổi công việc, nơi ở. Linh hoạt nhưng thiếu bền bỉ.",
+    "Tuất": "Vô Chính Diệu tại Tuất: Mượn lực từ cung Thìn. Cung Tuất Không Vong, cuộc đời nhiều trắc trở nhưng quý ở sự kiên nhẫn.",
+    "Hợi": "Vô Chính Diệu tại Hợi: Mượn lực từ cung Tỵ. Thuỷ cung, tính cách trầm tĩnh, sâu sắc."
+  }
+}

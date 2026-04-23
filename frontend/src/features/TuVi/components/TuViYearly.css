@@ -1,0 +1,187 @@
+/* 
+   TuViYearly.css
+   Style for the 12-year cycle list and histogram
+*/
+
+.tuvi-yearly-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tuvi-yearly-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.tuvi-yearly-title {
+    font-size: 2rem;
+    color: #c85a17;
+    margin: 0 0 8px 0;
+    font-weight: 900;
+}
+
+.tuvi-yearly-subtitle {
+    font-size: 1rem;
+    color: #8b7355;
+    margin: 0;
+}
+
+.tuvi-yearly-badge {
+    background: #fffef8;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #e8dcc8;
+    color: #8b7355;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Histogram */
+.tuvi-yearly-histogram-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e8dcc8;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+}
+
+/* Vertical List */
+.tuvi-yearly-list {
+    position: relative;
+    padding-left: 20px;
+}
+
+.tuvi-yearly-list::before {
+    content: '';
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    bottom: 50px;
+    width: 2px;
+    background: linear-gradient(to bottom, #e8dcc8, #d4c49a, #e8dcc8);
+    opacity: 0.6;
+}
+
+.tuvi-yearly-item {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.tuvi-yearly-marker {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #e8dcc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-weight: 900;
+    color: #8b7355;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+.tuvi-yearly-item.is-current .tuvi-yearly-marker {
+    background: #c85a17;
+    border-color: #c85a17;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(200, 90, 23, 0.4);
+}
+
+.tuvi-yearly-content {
+    flex: 1;
+    background: #fffef8;
+    border: 1px solid #e8dcc8;
+    border-radius: 12px;
+    padding: 24px;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.tuvi-yearly-item.is-current .tuvi-yearly-content {
+    border-color: #c85a17;
+    box-shadow: 0 8px 30px rgba(200, 90, 23, 0.08);
+}
+
+.tuvi-yearly-item:hover .tuvi-yearly-content {
+    transform: translateX(10px);
+}
+
+.tuvi-yearly-top-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.tuvi-yearly-label {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #c85a17;
+}
+
+.tuvi-yearly-canchi {
+    font-size: 0.85rem;
+    background: #8b7355;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.tuvi-yearly-palace {
+    font-size: 0.95rem;
+    color: #8b7355;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.tuvi-yearly-text-segment {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.tuvi-yearly-text-segment strong {
+    color: #c85a17;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tuvi-yearly-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .tuvi-yearly-list {
+        padding-left: 0;
+    }
+    .tuvi-yearly-list::before {
+        left: 20px;
+    }
+    .tuvi-yearly-marker {
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+    }
+}

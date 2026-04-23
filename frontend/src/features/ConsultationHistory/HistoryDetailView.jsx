@@ -55,6 +55,7 @@ const ChartDisplay = ({ person, chartData }) => {
 const HistoryDetailView = ({ item, onBack }) => {
     const isMatching = item.question_id === 'matching_ai' || item.theme_id === 'matching';
     const isQue = item.theme_id === 'xin_que' || item.metadata?.isQue;
+    const isTuVi = item.theme_id === 'tuvi';
     const answer = item.answer;
 
     return (
@@ -63,7 +64,7 @@ const HistoryDetailView = ({ item, onBack }) => {
                 <button className="btn-back-link" onClick={onBack}>← Danh sách</button>
                 <div className="detail-title">
                     <span className="q-badge">
-                        {isMatching ? '👩‍❤️‍👨 Duyên Số' : isQue ? '🔮 Xin Quẻ' : '💬 Tư vấn'}
+                        {isMatching ? '👩‍❤️‍👨 Duyên Số' : isQue ? '🔮 Xin Quẻ' : isTuVi ? '🌠 Tử Vi' : '💬 Tư vấn'}
                     </span>
                     <h3>Chi tiết luận giải</h3>
                 </div>
@@ -93,10 +94,18 @@ const HistoryDetailView = ({ item, onBack }) => {
                 <div className="charts-section">
                     <h4>📊 Lá số lúc luận giải</h4>
                     <div className={`charts-container ${isMatching ? 'is-matching' : ''}`}>
-                        <ChartDisplay
-                            person={item.person1_data}
-                            chartData={item.person1_data?.chart}
-                        />
+                        {isTuVi ? (
+                            <div className="tuvi-mini-info glass-card">
+                                <div><strong>{answer?.info?.name || 'Mệnh chủ'}</strong></div>
+                                <div>{answer?.info?.solarDate} • {answer?.info?.time}</div>
+                                <div style={{ color: '#c85a17', fontSize: '0.9rem' }}>{answer?.info?.fiveElementsClass}</div>
+                            </div>
+                        ) : (
+                            <ChartDisplay
+                                person={item.person1_data}
+                                chartData={item.person1_data?.chart}
+                            />
+                        )}
                         {isMatching && item.person2_data && (
                             <>
                                 <div className="connector-badge">VS</div>
@@ -133,57 +142,34 @@ const HistoryDetailView = ({ item, onBack }) => {
                             }
 
                             // Check if it's a matching AI result object with expected structure
-                            if (typeof validAnswer === 'object' && validAnswer !== null && !Array.isArray(validAnswer)) {
-                                // Matching AI results have these fields
+                            if (typeof validAnswer === 'object' && validAnswer !== null) {
                                 if (validAnswer.assessment && validAnswer.totalScore !== undefined) {
-                                    // Format matching result nicely
-                                    const lines = [];
-
-                                    // Assessment
-                                    lines.push(`🎯 **Đánh giá tổng quát**: ${validAnswer.assessment.title || 'N/A'}`);
-                                    lines.push(`📊 **Điểm tương hợp**: ${validAnswer.totalScore}/100`);
-                                    if (validAnswer.assessment.summary) {
-                                        lines.push(`\n${validAnswer.assessment.summary}`);
-                                    }
-
-                                    // Breakdown
-                                    if (validAnswer.breakdown) {
-                                        lines.push('\n---\n**CHI TIẾT PHÂN TÍCH:**\n');
-                                        if (validAnswer.breakdown.element) {
-                                            lines.push(`🔥 **Ngũ Hành** (${validAnswer.breakdown.element.score}/${validAnswer.breakdown.element.maxScore}): ${validAnswer.breakdown.element.description || ''}`);
-                                        }
-                                        if (validAnswer.breakdown.ganzhi && validAnswer.breakdown.ganzhi.details) {
-                                            lines.push(`\n☯️ **Can Chi** (${validAnswer.breakdown.ganzhi.score}/${validAnswer.breakdown.ganzhi.maxScore}):`);
-                                            validAnswer.breakdown.ganzhi.details.forEach(d => lines.push(`  ${d.type === 'positive' ? '✅' : '⚠️'} ${d.text}`));
-                                        }
-                                        if (validAnswer.breakdown.shishen && validAnswer.breakdown.shishen.details) {
-                                            lines.push(`\n⭐ **Thập Thần** (${validAnswer.breakdown.shishen.score}/${validAnswer.breakdown.shishen.maxScore}):`);
-                                            validAnswer.breakdown.shishen.details.forEach(d => lines.push(`  ${d.type === 'positive' ? '✅' : '⚠️'} ${d.text}`));
-                                        }
-                                        if (validAnswer.breakdown.star && validAnswer.breakdown.star.details) {
-                                            lines.push(`\n✨ **Thần Sát** (${validAnswer.breakdown.star.score}/${validAnswer.breakdown.star.maxScore}):`);
-                                            validAnswer.breakdown.star.details.forEach(d => lines.push(`  ${d.type === 'positive' ? '✅' : '⚠️'} ${d.text}`));
-                                        }
-                                    }
-
-                                    // Aspects
-                                    if (validAnswer.aspects && Array.isArray(validAnswer.aspects)) {
-                                        lines.push('\n---\n**PHƯƠNG DIỆN:**\n');
-                                        validAnswer.aspects.forEach(a => {
-                                            lines.push(`${a.icon || '📌'} **${a.title}**: ${a.score}/100 - ${a.description || ''}`);
-                                        });
-                                    }
-
-                                    // Advice
-                                    if (validAnswer.advice && Array.isArray(validAnswer.advice)) {
-                                        lines.push('\n---\n**LỜI KHUYÊN:**\n');
-                                        validAnswer.advice.forEach(adv => {
-                                            const prefix = adv.type === 'warning' ? '⚠️' : adv.type === 'tip' ? '💡' : adv.type === 'positive' ? '✅' : '📝';
-                                            lines.push(`${prefix} ${adv.text}`);
-                                        });
-                                    }
-
+                                    // ...
                                     validAnswer = lines.join('\n');
+                                } else if (isTuVi && validAnswer.interpretations) {
+                                    // Handle TuVi v6.0 Narrative
+                                    const lines = [];
+                                    const natal = validAnswer.interpretations.natal || {};
+                                    
+                                    // Combine all major natal segments
+                                    Object.entries(natal).forEach(([palace, segments]) => {
+                                        if (Array.isArray(segments)) {
+                                            lines.push(`\n### Cung ${palace}`);
+                                            segments.forEach(seg => {
+                                                if (seg.text) lines.push(seg.text);
+                                            });
+                                        }
+                                    });
+
+                                    // Add horoscope if present
+                                    if (validAnswer.interpretations.horoscope?.yearly) {
+                                        lines.push(`\n---\n### Vận Hạn Năm Nay`);
+                                        validAnswer.interpretations.horoscope.yearly.texts.forEach(seg => {
+                                            if (seg.text) lines.push(seg.text);
+                                        });
+                                    }
+
+                                    validAnswer = lines.join('\n\n');
                                 } else {
                                     // Try common fields or stringify for other object types
                                     validAnswer = validAnswer.answer || validAnswer.result || validAnswer.content || validAnswer.message || JSON.stringify(validAnswer, null, 2);

@@ -1,0 +1,199 @@
+/* 
+   TuViMonthly.css
+   Style for the 12-month lunar cycle list and histogram
+*/
+
+.tuvi-monthly-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tuvi-monthly-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.tuvi-monthly-title {
+    font-size: 2rem;
+    color: #c85a17;
+    margin: 0 0 8px 0;
+    font-weight: 900;
+}
+
+.tuvi-monthly-subtitle {
+    font-size: 1rem;
+    color: #8b7355;
+    margin: 0;
+}
+
+.tuvi-monthly-badge {
+    background: #fffef8;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #e8dcc8;
+    color: #8b7355;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Histogram */
+.tuvi-monthly-histogram-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e8dcc8;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+}
+
+.tuvi-monthly-histogram-container {
+    width: 100%;
+}
+
+/* Vertical List */
+.tuvi-monthly-list {
+    position: relative;
+    padding-left: 20px;
+}
+
+.tuvi-monthly-list::before {
+    content: '';
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    bottom: 50px;
+    width: 2px;
+    background: #e8dcc8;
+    opacity: 0.5;
+}
+
+.tuvi-monthly-item {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.tuvi-monthly-marker {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #e8dcc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-weight: 900;
+    color: #8b7355;
+    z-index: 2;
+    font-size: 0.9rem;
+}
+
+.tuvi-monthly-item.is-current .tuvi-monthly-marker {
+    background: #c85a17;
+    border-color: #c85a17;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(200, 90, 23, 0.3);
+}
+
+.tuvi-monthly-content {
+    flex: 1;
+    background: #fffef8;
+    border: 1px solid #e8dcc8;
+    border-radius: 16px;
+    padding: 24px;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tuvi-monthly-item.is-current .tuvi-monthly-content {
+    border-color: #c85a17;
+    box-shadow: 0 8px 30px rgba(200, 90, 23, 0.08);
+}
+
+.tuvi-monthly-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.tuvi-monthly-name-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.tuvi-monthly-name {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #5c4b37;
+}
+
+.tuvi-monthly-range {
+    font-size: 0.85rem;
+    color: #8b7355;
+    margin-top: 4px;
+}
+
+.tuvi-monthly-badge-current {
+    background: #c85a17;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tuvi-monthly-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+}
+
+.tuvi-monthly-text strong {
+    color: #c85a17;
+}
+
+.tuvi-monthly-score-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.score-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tuvi-monthly-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .tuvi-monthly-list::before {
+        left: 17px;
+    }
+    .tuvi-monthly-marker {
+        width: 34px;
+        height: 34px;
+    }
+    .tuvi-monthly-item {
+        gap: 12px;
+    }
+    .tuvi-monthly-content {
+        padding: 16px;
+    }
+}

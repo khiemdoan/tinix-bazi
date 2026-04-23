@@ -11,6 +11,8 @@ const { formatOutput } = require('../bazi/output');
 const { calculateDaiVan } = require('../bazi/dayun');
 const authRoutes = require('./auth.routes');
 const { authenticateToken } = require('../middleware/auth');
+const tuviCalculator = require('../tuvi/calculator');
+const { TUVI_THEMES, TUVI_QUESTIONS } = require('../tuvi/questions/data');
 
 // Credit costs
 const CREDIT_COST_PREDEFINED = 10;   // Click vào câu hỏi có sẵn
@@ -26,14 +28,12 @@ const aiLimiter = rateLimit({
     legacyHeaders: false,
 });
 
-// GET /api/consultant/themes - Load from database (or fallback to hardcoded)
-// GET /api/consultant/themes - Load from database (or fallback to hardcoded)
+// GET /api/consultant/themes
 router.get('/themes', async (req, res) => {
     try {
         const dbCategories = await dbService.getAllCategories();
 
         if (dbCategories.length > 0) {
-            // Use database categories
             const themes = dbCategories.map(cat => ({
                 id: String(cat.id),
                 name: cat.name,
@@ -43,20 +43,23 @@ router.get('/themes', async (req, res) => {
             return res.json(themes);
         }
 
-        // Fallback to hardcoded if database is empty
+        if (req.query.module === 'tuvi') {
+            return res.json(TUVI_THEMES);
+        }
         res.json(THEMES);
     } catch (error) {
+        if (req.query.module === 'tuvi') {
+            return res.json(TUVI_THEMES);
+        }
         res.json(THEMES);
     }
 });
 
-// GET /api/consultant/questions/:themeId - Load from database (or fallback)
-// GET /api/consultant/questions/:themeId - Load from database (or fallback)
+// GET /api/consultant/questions/:themeId
 router.get('/questions/:themeId', async (req, res) => {
     const themeId = req.params.themeId;
 
     try {
-        // Try to load from database
         const categoryId = parseInt(themeId);
         if (!isNaN(categoryId)) {
             const dbQuestions = await dbService.getAllQuestions(categoryId);
@@ -71,11 +74,16 @@ router.get('/questions/:themeId', async (req, res) => {
             }
         }
 
-        // Fallback to hardcoded for old theme IDs
-        const questions = QUESTIONS[themeId] || [];
+        let questions = QUESTIONS[themeId] || [];
+        if (req.query.module === 'tuvi') {
+            questions = TUVI_QUESTIONS[themeId] || [];
+        }
         res.json(questions);
     } catch (error) {
-        const questions = QUESTIONS[themeId] || [];
+        let questions = QUESTIONS[themeId] || [];
+        if (req.query.module === 'tuvi') {
+            questions = TUVI_QUESTIONS[themeId] || [];
+        }
         res.json(questions);
     }
 });
@@ -109,40 +117,57 @@ router.post('/ask', authRoutes.authMiddleware, aiLimiter, async (req, res) => {
 
         const g = (gender || '').toLowerCase();
         const isFemale = g.startsWith('n') && !g.includes('am') || g.includes('female') || g.includes('nữ') || g.includes('nư');
+        
+        const isTuVi = req.body.module === 'tuvi';
 
-        // Calculate BaZi Context
-        const calc = new baziCalculator({
-            name: req.body.name || 'Mệnh chủ',
-            year: parseInt(year),
-            month: parseInt(month),
-            day: parseInt(day),
-            hour: parseInt(hour || 12),
-            minute: parseInt(minute || 0),
-            isFemale: isFemale,
-            isSolar: (calendar || 'solar').toLowerCase() === 'solar'
-        });
-        const ctx = calc.calculate();
-        ctx.name = req.body.name || 'Mệnh chủ';
+        let ctx, calc, baziContext, luckCyclesData, partnerCtx = null;
 
-        // Calculate Partner Context if provided
-        let partnerCtx = null;
-        if (req.body.partnerData) {
-            const p = req.body.partnerData;
-            const pg = (p.gender || '').toLowerCase();
-            const pIsFemale = pg.startsWith('n') && !pg.includes('am') || pg.includes('female') || pg.includes('nữ') || pg.includes('nư');
-
-            const pCalc = new baziCalculator({
-                name: p.name || 'Đối phương',
-                year: parseInt(p.year),
-                month: parseInt(p.month),
-                day: parseInt(p.day),
-                hour: parseInt(p.hour || 12),
-                minute: parseInt(p.minute || 0),
-                isFemale: pIsFemale,
-                isSolar: true
+        if (isTuVi) {
+            calc = new tuviCalculator({
+                name: req.body.name || 'Mệnh chủ',
+                year: parseInt(year),
+                month: parseInt(month),
+                day: parseInt(day),
+                hour: parseInt(hour) >= 0 ? parseInt(hour) : 12,
+                gender: isFemale ? 'Nữ' : 'Nam',
+                calendar: (calendar || 'solar').toLowerCase() === 'solar' ? 'solar' : 'lunar'
             });
-            partnerCtx = pCalc.calculate();
-            partnerCtx.name = p.name || 'Đối phương';
+            ctx = calc.calculate();
+            ctx.name = req.body.name || 'Mệnh chủ';
+        } else {
+            // Calculate BaZi Context
+            calc = new baziCalculator({
+                name: req.body.name || 'Mệnh chủ',
+                year: parseInt(year),
+                month: parseInt(month),
+                day: parseInt(day),
+                hour: parseInt(hour) >= 0 ? parseInt(hour) : 12,
+                minute: parseInt(minute || 0),
+                isFemale: isFemale,
+                isSolar: (calendar || 'solar').toLowerCase() === 'solar'
+            });
+            ctx = calc.calculate();
+            ctx.name = req.body.name || 'Mệnh chủ';
+    
+            // Calculate Partner Context if provided
+            if (req.body.partnerData) {
+                const p = req.body.partnerData;
+                const pg = (p.gender || '').toLowerCase();
+                const pIsFemale = pg.startsWith('n') && !pg.includes('am') || pg.includes('female') || pg.includes('nữ') || pg.includes('nư');
+    
+                const pCalc = new baziCalculator({
+                    name: p.name || 'Đối phương',
+                    year: parseInt(p.year),
+                    month: parseInt(p.month),
+                    day: parseInt(p.day),
+                    hour: parseInt(p.hour) >= 0 ? parseInt(p.hour) : 12,
+                    minute: parseInt(p.minute || 0),
+                    isFemale: pIsFemale,
+                    isSolar: true
+                });
+                partnerCtx = pCalc.calculate();
+                partnerCtx.name = p.name || 'Đối phương';
+            }
         }
 
         let answerData;
@@ -164,8 +189,9 @@ router.post('/ask', authRoutes.authMiddleware, aiLimiter, async (req, res) => {
 
         // Fallback: Find in hardcoded questions
         if (finalQuestionText === questionId && !isCustomQuestion) {
-            for (const tid of Object.keys(QUESTIONS)) {
-                const found = QUESTIONS[tid].find(q =>
+            const dataSource = isTuVi ? TUVI_QUESTIONS : QUESTIONS;
+            for (const tid of Object.keys(dataSource)) {
+                const found = dataSource[tid].find(q =>
                     q.id === questionId || q.logic === questionId || q.text === questionId
                 );
                 if (found) {
@@ -178,40 +204,55 @@ router.post('/ask', authRoutes.authMiddleware, aiLimiter, async (req, res) => {
 
         // Check if AI mode is requested
         if (useAI) {
-            // Prepare full context for AI
-            const fullOutput = formatOutput(ctx);
-            const daiVanData = calculateDaiVan(ctx);
-
-            // Build context objects for AI
-            const baziContext = {
-                thong_tin_co_ban: fullOutput.thong_tin_co_ban,
-                chi_tiet_tru: fullOutput.chi_tiet_tru,
-                phan_tich: fullOutput.phan_tich
-            };
-
-            const luckCyclesData = {
-                dai_van: daiVanData
-            };
-
-            // Call OpenRouter AI
-            answerData = await openRouterService.generateAnswer(
-                baziContext,
-                luckCyclesData,
-                finalQuestionText,
-                persona || 'huyen_co',
-                partnerCtx
-            );
+            if (isTuVi) {
+                answerData = await openRouterService.generateTuViAnswer(
+                    ctx,
+                    finalQuestionText,
+                    persona || 'huyen_co'
+                );
+            } else {
+                // Prepare full context for AI
+                const fullOutput = formatOutput(ctx);
+                const daiVanData = calculateDaiVan(ctx);
+    
+                // Build context objects for AI
+                baziContext = {
+                    thong_tin_co_ban: fullOutput.thong_tin_co_ban,
+                    chi_tiet_tru: fullOutput.chi_tiet_tru,
+                    phan_tich: fullOutput.phan_tich
+                };
+    
+                luckCyclesData = {
+                    dai_van: daiVanData
+                };
+    
+                // Call OpenRouter AI
+                answerData = await openRouterService.generateAnswer(
+                    baziContext,
+                    luckCyclesData,
+                    finalQuestionText,
+                    persona || 'huyen_co',
+                    partnerCtx
+                );
+            }
         } else {
-            // Use traditional engine
-            const paragraphs = await solveQuestion(ctx, questionId);
-            answerData = {
-                answer: paragraphs,
-                followUps: [
-                    "Con có muốn thầy luận giải sâu hơn về cung Phu Thê không?",
-                    "Vấn đề tài lộc năm nay của con có gì cần gỡ rối thêm không?",
-                    "Con có muốn biết mình hợp với ngành nghề nào nhất không?"
-                ]
-            };
+            // Use traditional engine (Only supports Bazi currently)
+            if (isTuVi) {
+                answerData = {
+                    answer: ['Chế độ tự động hiện chỉ hỗ trợ cho Bát Tự, vui lòng sử dụng Tư Vấn AI cho Tử Vi.'],
+                    followUps: []
+                };
+            } else {
+                const paragraphs = await solveQuestion(ctx, questionId);
+                answerData = {
+                    answer: paragraphs,
+                    followUps: [
+                        "Con có muốn thầy luận giải sâu hơn về cung Phu Thê không?",
+                        "Vấn đề tài lộc năm nay của con có gì cần gỡ rối thêm không?",
+                        "Con có muốn biết mình hợp với ngành nghề nào nhất không?"
+                    ]
+                };
+            }
         }
 
         // Save to database
@@ -223,7 +264,7 @@ router.post('/ask', authRoutes.authMiddleware, aiLimiter, async (req, res) => {
                 year: parseInt(year),
                 month: parseInt(month),
                 day: parseInt(day),
-                hour: parseInt(hour || 12),
+                hour: parseInt(hour) >= 0 ? parseInt(hour) : 12,
                 minute: parseInt(minute || 0),
                 gender: gender || 'Nam',
                 calendar: calendar || 'solar'
@@ -234,11 +275,11 @@ router.post('/ask', authRoutes.authMiddleware, aiLimiter, async (req, res) => {
                 year: parseInt(year),
                 month: parseInt(month),
                 day: parseInt(day),
-                hour: parseInt(hour || 12),
+                hour: parseInt(hour) >= 0 ? parseInt(hour) : 12,
                 minute: parseInt(minute || 0),
                 gender: gender || 'Nam',
                 calendar: calendar || 'solar',
-                chart: baziService.mapToChart(ctx)
+                chart: isTuVi ? {} : baziService.mapToChart(ctx) // Save raw Tuvi info if needed or just empty to avoid crash
             };
 
             let person2FullData = null;
@@ -249,7 +290,7 @@ router.post('/ask', authRoutes.authMiddleware, aiLimiter, async (req, res) => {
                     year: parseInt(p.year),
                     month: parseInt(p.month),
                     day: parseInt(p.day),
-                    hour: parseInt(p.hour || 12),
+                    hour: parseInt(p.hour) >= 0 ? parseInt(p.hour) : 12,
                     minute: parseInt(p.minute || 0),
                     gender: p.gender || 'Nam',
                     calendar: 'solar',
@@ -259,7 +300,7 @@ router.post('/ask', authRoutes.authMiddleware, aiLimiter, async (req, res) => {
 
             consultationId = await dbService.saveConsultation(
                 customerId,
-                themeId,
+                isTuVi ? 'tuvi_chat' : themeId,
                 questionId,
                 finalQuestionText,
                 answerData.answer,
@@ -622,7 +663,7 @@ CUỐI CÙNG, hãy gợi ý 3-5 câu hỏi mà người dùng có thể muốn h
                     year: parseInt(basicInfo.year || basicInfo.nam_sinh),
                     month: parseInt(basicInfo.month || basicInfo.thang_sinh),
                     day: parseInt(basicInfo.day || basicInfo.ngay_sinh),
-                    hour: parseInt(basicInfo.hour || basicInfo.gio_sinh || 12),
+                    hour: parseInt(basicInfo.hour !== undefined ? basicInfo.hour : (basicInfo.gio_sinh !== undefined ? basicInfo.gio_sinh : 12)),
                     minute: parseInt(basicInfo.minute || basicInfo.phut_sinh || 0),
                     gender: basicInfo.gender || basicInfo.gioi_tinh || 'Nam',
                     calendar: basicInfo.calendar || 'solar'

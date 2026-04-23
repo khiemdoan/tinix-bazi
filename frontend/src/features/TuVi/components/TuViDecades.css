@@ -1,0 +1,301 @@
+.tuvi-decades-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Header Section */
+.tuvi-decades-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.tuvi-decades-title {
+    font-size: 2rem;
+    color: #c85a17;
+    margin: 0 0 8px 0;
+    font-weight: 900;
+}
+
+.tuvi-decades-subtitle {
+    font-size: 1rem;
+    color: #8b7355;
+    margin: 0;
+}
+
+.tuvi-decades-age-badge {
+    background: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #e8dcc8;
+    color: #8b7355;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Histogram Styles */
+.tuvi-histogram-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e8dcc8;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.tuvi-histogram-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.tuvi-histogram-title {
+    font-size: 1.1rem;
+    color: #c85a17;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tuvi-histogram-legend {
+    display: flex;
+    gap: 16px;
+    font-size: 0.85rem;
+    color: #8b7355;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.tuvi-histogram-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tuvi-histogram-intro {
+    background: #fdf6e3;
+    padding: 16px 20px;
+    border-radius: 12px;
+    border-left: 4px solid #c85a17;
+}
+
+.tuvi-histogram-intro h4 {
+    margin: 0 0 8px 0;
+    color: #c85a17;
+    font-size: 1rem;
+}
+
+.tuvi-histogram-intro p {
+    margin: 0;
+    color: #5c4b37;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Vertical List Styles */
+.tuvi-decades-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* Connected items */
+    position: relative;
+}
+
+.tuvi-decades-list::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    bottom: 50px;
+    width: 2px;
+    background: #e8dcc8;
+}
+
+.tuvi-decade-item {
+    display: flex;
+    gap: 24px;
+    padding: 30px 0;
+    position: relative;
+    border-bottom: 1px solid rgba(232, 220, 200, 0.4);
+}
+
+.tuvi-decade-item:last-child {
+    border-bottom: none;
+}
+
+.tuvi-decade-marker {
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #e8dcc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8b7355;
+    font-weight: 900;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.tuvi-decade-item.is-current .tuvi-decade-marker {
+    background: #c85a17;
+    border-color: #c85a17;
+    color: #fff;
+    box-shadow: 0 0 0 4px rgba(200, 90, 23, 0.2);
+}
+
+.tuvi-decade-content {
+    flex: 1;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e8dcc8;
+    padding: 24px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+}
+
+.tuvi-decade-item.is-current .tuvi-decade-content {
+    border-color: #c85a17;
+    box-shadow: 0 8px 30px rgba(200, 90, 23, 0.08);
+}
+
+.tuvi-decade-item.is-past .tuvi-decade-content {
+    opacity: 0.85;
+    background: #fafaf8;
+}
+
+.tuvi-decade-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.tuvi-decade-range {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #c85a17;
+}
+
+.tuvi-decade-canchi {
+    font-size: 0.85rem;
+    color: #fff;
+    background: #8b7355;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.tuvi-decade-title {
+    font-size: 1.3rem;
+    color: #5c4b37;
+    font-weight: 900;
+    margin: 0 0 16px 0;
+}
+
+.tuvi-decade-meaning {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.7;
+    margin: 0 0 20px 0;
+    text-align: justify;
+}
+
+.tuvi-decade-stars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tuvi-decade-star-tag {
+    background: #fdf6e3;
+    color: #8b7355;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid #e8dcc8;
+}
+
+.tuvi-decade-badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: #c85a17;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Footer Actions */
+.tuvi-decades-footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.tuvi-footer-btn {
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: 1px solid #c85a17;
+    background: #fff;
+    color: #c85a17;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+}
+
+.tuvi-footer-btn.primary {
+    background: #c85a17;
+    color: #fff;
+}
+
+.tuvi-footer-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(200, 90, 23, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tuvi-decades-header {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .tuvi-decades-list::before {
+        left: 15px;
+    }
+    .tuvi-decade-marker {
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+    }
+    .tuvi-decade-item {
+        gap: 12px;
+    }
+    .tuvi-decade-content {
+        padding: 16px;
+    }
+}

@@ -1,0 +1,225 @@
+{
+  "general": {
+    "openings": [
+      "Nhìn tổng quan,",
+      "Xét về vận trình,",
+      "Trong lĩnh vực này,",
+      "Ở khía cạnh này,",
+      "Quan sát kỹ cho thấy,",
+      "Đối với bản mệnh,",
+      "Từ góc độ Tử Vi,",
+      "Một điểm đặc biệt là,",
+      "Về cơ bản,",
+      "Đi sâu vào phân tích,"
+    ],
+    "connectors": [
+      "hơn nữa,",
+      "mặt khác,",
+      "đáng chú ý là,",
+      "đồng thời,",
+      "kết hợp với đó,",
+      "bên cạnh yếu tố này,",
+      "ngoài ra,",
+      "điều này dẫn đến,",
+      "song song với đó,",
+      "chính vì vậy,"
+    ],
+    "closings": [
+      "thì mọi sự sẽ hanh thông.",
+      "để đạt kết quả tốt nhất.",
+      "tạo nên thế trận vững chắc.",
+      "đòi hỏi sự chuẩn bị kỹ.",
+      "mang lại phước lành dài lâu.",
+      "giúp bạn vượt qua nghịch cảnh.",
+      "mở ra con đường sáng.",
+      "khẳng định vị thế bản thân.",
+      "là tiền đề cho thành công.",
+      "khiến người đời nể phục."
+    ]
+  },
+  "star_atoms": {
+    "Tử Vi": {
+      "actions": [
+        "mang lại sự vương giả",
+        "thể hiện uy quyền",
+        "định hình phong thái lãnh đạo",
+        "tỏa sáng như đế tinh",
+        "khẳng định cái tôi mạnh mẽ",
+        "bao quát toàn bộ cục diện",
+        "tạo dựng sự tôn quý",
+        "dẫn dắt mọi người",
+        "che chở cho những người xung quanh",
+        "hướng tới đỉnh cao danh vọng"
+      ],
+      "qualities": [
+        "với khí chất đĩnh đạc",
+        "bằng sự quyết đoán",
+        "trong tư thái đàng hoàng",
+        "với niềm tự tôn cao",
+        "bằng năng lực quản trị xuất sắc",
+        "trong phong cách đế vương",
+        "với tấm lòng bao dung",
+        "bằng trực giác lãnh đạo nhạy bén",
+        "với sự trợ lực của quý nhân",
+        "bằng bản lĩnh kiên cường"
+      ],
+      "outcomes": [
+        "giúp công danh rực rỡ",
+        "khiến mọi sự thành công",
+        "mang lại địa vị cao",
+        "xây dựng nền móng vững",
+        "thu phục được nhân tâm",
+        "vượt qua mọi trở ngại",
+        "đạt được ý nguyện lớn",
+        "được người đời kính trọng",
+        "an hưởng phú quý quý hiển",
+        "mở ra vận hội mới"
+      ]
+    },
+    "Thiên Cơ": {
+      "actions": [
+        "phát huy trí tuệ",
+        "thể hiện sự nhạy bén",
+        "mưu lược tài tình",
+        "tính toán chuẩn xác",
+        "sáng tạo không ngừng",
+        "phân tích sâu sắc",
+        "tìm kiếm giải pháp thông minh",
+        "thích ứng nhanh chóng",
+        "xoay chuyển tình thế bằng chất xám",
+        "định hướng chiến lược"
+      ],
+      "qualities": [
+        "với tư duy sắc sảo",
+        "bằng sự tinh anh",
+        "trong sự linh hoạt tuyệt vời",
+        "với trí thông minh hơn người",
+        "bằng con mắt nhìn xa trông rộng",
+        "trong tư duy đổi mới",
+        "với sự nhạy cảm tinh tế",
+        "bằng khả năng học hỏi nhanh",
+        "với sự hỗ trợ của công nghệ/kiến thức",
+        "bằng kế hoạch chi tiết"
+      ],
+      "outcomes": [
+        "giải quyết mọi khó khăn",
+        "đạt thành tựu học thuật lớn",
+        "khẳng định giá trị bản thân",
+        "mở ra nhiều cơ hội mới",
+        "tránh được những sai lầm",
+        "dẫn đầu trong chuyên môn",
+        "được cộng sự tin cậy",
+        "kiến tạo tương lai giàu sang",
+        "mang lại danh tiếng lẫy lừng",
+        "giúp cuộc sống hanh thông"
+      ]
+    },
+    "Thiên Đồng": {
+      "actions": ["mang lại sự phúc hậu", "thể hiện tính cách hài hòa", "khơi dậy lòng nhân ái", "tạo ra sự may mắn ngẫu nhiên", "thích ứng với mọi hoàn cảnh", "duy trì sự bình yên nội tâm", "lan tỏa năng lượng tích cực", "hướng tới cuộc sống an lành", "kết nối mọi người bằng sự chân thành", "mang lại phước báo tự nhiên"],
+      "qualities": ["với tâm tính thiện lương", "bằng sự linh hoạt", "trong phong thái ung dung", "với lòng bao dung", "bằng trực giác nhạy bén", "trong sự lạc quan", "với niềm tin vào điều tốt đẹp", "bằng khả năng thấu cảm", "với tinh thần cầu tiến", "bằng sự nhẫn nại"],
+      "outcomes": ["giúp mọi sự hanh thông", "mang lại phước lành dài lâu", "tránh được nhiều tai ương", "được quý nhân phù trợ", "xây dựng cuộc sống viên mãn", "đạt được sự an tâm", "khiến người đời yêu mến", "mở ra con đường phúc lộc", "là tiền đề cho hậu vận vững", "giúp gia đạo bình an"]
+    },
+    "Vũ Khúc": {
+      "actions": ["nắm bắt cơ hội tài chính", "thể hiện sự quả quyết", "hành động mạnh mẽ dứt khoát", "tạo dựng cơ ngơi vật chất", "quản lý dòng tiền sắc bén", "cạnh tranh không khoan nhượng", "đối mặt thực tế phũ phàng", "vượt qua rào cản độc lập", "đầu tư và phát triển vốn", "hướng tới sự thịnh vượng"],
+      "qualities": ["với tinh thần thực tế", "bằng sức mạnh ý chí", "trong phong thái cứng cỏi", "với kỷ luật sắt đá", "bằng sự kiên trì", "trong sự năng động", "với tư duy chiến lược", "bằng độ máu lửa cao", "với sự lạnh lùng cần thiết", "bằng năng lực hành động"],
+      "outcomes": ["giúp thu về tài lộc lớn", "đạt được tự do tài chính", "mang lại cơ ngơi đồ sộ", "xây dựng đế chế kinh doanh", "vượt qua khó khăn vật chất", "khẳng định uy tín làm ăn", "giúp gia đình sung túc", "được đối tác nể trọng", "là nền tảng cho sự khởi phát", "tạo nên giá trị bền vững"]
+    },
+    "Liêm Trinh": {
+      "actions": ["thể hiện sự nghiêm cẩn", "định hình tính cách quyết đoán", "phát huy năng lực thực thi", "bộc lộ sự sắc sảo", "duy trì kỷ luật thép", "tạo ra sự cuốn hút bí ẩn", "quản lý công việc tài tình", "đối mặt với thử thách quyết liệt", "xây dựng uy tín cá nhân", "bảo vệ quan điểm vững vàng"],
+      "qualities": ["với tư duy logic", "bằng sự kiên định", "trong phong cách chuyên nghiệp", "với tính cách thẳng thắn", "bằng nội lực mạnh mẽ", "trong sự thận trọng", "với lòng tự trọng cao", "bằng khả năng chịu áp lực", "với cái nhìn thực tế", "bằng sự trung thành"],
+      "outcomes": ["giúp thăng tiến vững chắc", "đạt được vị thế xã hội", "xây dựng sự nghiệp bền vững", "vượt qua mọi cạnh tranh", "khẳng định năng lực bản thân", "mang lại sự nể trọng", "đạt được mục tiêu dài hạn", "kiến tạo nền móng quyền lực", "giúp gia đạo quy củ", "mở ra vận hội mới"]
+    },
+    "Thiên Phủ": {
+      "actions": ["quản lý tài sản tài tình", "thể hiện sự bao dung", "định hình phong thái ổn định", "tích lũy phước báu và tiền bạc", "bảo vệ thành quả lao động", "tạo dựng sự tin cậy tuyệt đối", "mở rộng quy mô công việc", "duy trì hòa khí gia đạo", "hướng tới sự thịnh vượng lâu dài", "che chở cho những người lệ thuộc"],
+      "qualities": ["với cái đầu lạnh tỉnh táo", "bằng sự rộng lượng", "trong phong thái điềm đạm", "với tư duy quản trị", "bằng khả năng tính toán", "trong sự vững vàng", "với tấm lòng độ lượng", "bằng kinh nghiệm dạn dày", "với cái nhìn chiến lược", "bằng sự chu đáo"],
+      "outcomes": ["giúp tiền bạc dồi dào", "xây dựng cơ đồ vững chắc", "mang lại cuộc sống sung túc", "được mọi người tin cậy", "vượt qua các giai đoạn khó khăn", "đạt được sự viên mãn", "là kho chứa phước báu", "giúp hậu vận an nhàn", "mở ra sự phát triển thịnh", "khiến gia đạo hưng long"]
+    },
+    "Thái Âm": {
+      "actions": ["thể hiện sự dịu dàng", "bộc lộ trực giác nhạy bén", "nuôi dưỡng tâm hồn nghệ thuật", "mang lại sự giàu có thầm lặng", "lan tỏa năng lượng nữ tính", "chiếu rọi đời sống nội tâm", "tạo dựng sự ổn định kinh tế", "hướng ngoại theo cách tinh tế", "kết nối bằng tình cảm sâu sắc", "duy trì sự bình yên gia đình"],
+      "qualities": ["với tâm tính thiện mỹ", "bằng sự khéo léo", "trong phong thái thanh tao", "với trí tưởng tượng phong phú", "bằng khả năng lắng nghe", "trong sự chu đáo", "với lòng bao dung như mẹ", "bằng trực giác tâm linh", "với tư duy sâu sắc", "bằng nỗ lực âm thầm"],
+      "outcomes": ["giúp điền sản vượng phát", "mang lại cuộc đời thanh nhàn", "đạt được hạnh phúc viên mãn", "xây dựng tài chính bền vững", "được quý nhân phương xa giúp", "mở ra vận hội may mắn", "khiến tâm hồn luôn thư thái", "giúp con cái thành đạt", "là tiền đề cho phúc lộc", "tạo nên sự hài hòa tuyệt đối"]
+    },
+    "Tham Lang": {
+      "actions": ["khơi dậy khát vọng lớn", "thể hiện năng lực ngoại giao", "bộc lộ sự đa tài đa nghệ", "theo đuổi những mục tiêu cao", "tạo ra sự cuốn hút khác biệt", "xoay chuyển tình thế linh hoạt", "khám phá những lĩnh vực mới", "thỏa mãn những mong cầu bản thân", "mở rộng các mối quan hệ xã hội", "thích nghi với sự đổi thay"],
+      "qualities": ["với tư duy đột phá", "bằng sự ứng biến nhanh", "trong phong cách hào hoa", "với lòng nhiệt huyết", "bằng khả năng thuyết phục", "trong sự hào phóng", "với con mắt tinh tế", "bằng sức mạnh nội tại", "với tham vọng chính đáng", "bằng năng khiếu nghệ thuật"],
+      "outcomes": ["giúp đạt thành tựu đột phá", "mang lại cơ hội tài lộc lớn", "vượt qua những giới hạn cũ", "được nhiều người ủng hộ", "xây dựng cuộc đời sôi động", "mở ra vận hội thăng tiến", "khám phá tiềm năng tiềm ẩn", "đạt được sự sung túc", "là tiền đề cho sự nổi tiếng", "giúp cuộc sống nhiều màu sắc"]
+    },
+    "Cự Môn": {
+      "actions": ["phát huy năng lực ngôn ngữ", "thể hiện tư duy phản biện", "nghiên cứu vấn đề sâu sắc", "truyền đạt ý tưởng sắc bén", "đối mặt với thị phi dũng cảm", "tìm kiếm sự thật ẩn giấu", "khẳng định quan điểm cá nhân", "gỡ rối những vấn đề phức tạp", "xây dựng lập luận vững chắc", "tác động bằng lời nói quyền năng"],
+      "qualities": ["với óc quan sát tỉ mỉ", "bằng sự hoài nghi lành mạnh", "trong sự cẩn trọng tuyệt đối", "với trí tuệ phân tích", "bằng khả năng đàm phán", "trong sự kiên trì", "với cái nhìn đa chiều", "bằng học vấn uyên bác", "với tinh thần cầu tiến", "bằng sự nhạy bén ngôn từ"],
+      "outcomes": ["giúp hóa giải mọi hiểu lầm", "đạt thành công trong nghề nói", "vượt qua những rào cản xã hội", "khẳng định uy tín chuyên gia", "mang lại thành tựu nghiên cứu", "mở ra con đường sư phạm/luật", "được đồng nghiệp nể trọng", "xây dựng nền tảng tri thức", "giúp sự nghiệp vững vàng", "tạo nên giá trị khác biệt"]
+    },
+    "Thiên Tướng": {
+      "actions": ["thể hiện sự trung thành", "định hình phong thái uy nghiêm", "quản lý công việc chỉn chu", "bảo vệ các giá trị truyền thống", "phò tá đắc lực cho người lãnh đạo", "duy trì kỷ luật và trật tự", "mang lại sự tin cậy trong giao tế", "hướng tới sự công bằng liêm khiết", "xây dựng hệ thống vận hành tốt", "thể hiện lòng nhân hậu chính trực"],
+      "qualities": ["với tinh thần trách nhiệm", "bằng sự thận trọng", "trong trang phục tề chỉnh", "với lòng tự trọng cao", "bằng khả năng tổ chức", "trong sự ngay thẳng", "với tâm thế giúp người", "bằng năng lực hành chính", "với sự thấu hiểu quy luật", "bằng vẻ ngoài đĩnh đạc"],
+      "outcomes": ["giúp sự nghiệp ổn định", "được cấp trên tin cậy giao quyền", "xây dựng uy tín bền vững", "mang lại sự bình an gia đạo", "vượt qua mọi oan ức", "đạt được vị thế vững chắc", "là chỗ dựa cho đồng nghiệp", "giúp công việc trôi chảy", "mở ra cơ hội thăng tiến", "tạo nên sự nể trọng dài lâu"]
+    },
+    "Thiên Lương": {
+      "actions": ["thể hiện lòng từ bi", "che chở cho thế hệ sau", "phát huy vai trò người thầy", "mang lại sự cứu khốn phò nguy", "duy trì sự thanh cao đạo đức", "lan tỏa năng lượng chữa lành", "hướng tới các giá trị tâm linh", "giải quyết mâu thuẫn bằng nhân tâm", "xây dựng uy tín từ lòng tốt", "mang lại sự bình an cho cộng đồng"],
+      "qualities": ["với tâm thế bao dung", "bằng sự hiền hậu", "trong phong thái bậc trưởng thượng", "với trí tuệ minh triết", "bằng lòng kiên nhẫn", "trong sự giản dị", "với ý chí bền bỉ", "bằng khả năng thấu cảm", "với niềm tin vào nhân quả", "bằng đạo đức khiêm cung"],
+      "outcomes": ["giúp tai qua nạn khỏi", "mang lại hậu vận cực tốt", "được xã hội kính trọng", "xây dựng gia đạo phước đức", "tránh được nhiều sóng gió", "mở ra con đường tu tập/y học", "là sao giải ách mạnh nhất", "giúp cuộc đời thanh thản", "đạt đến sự trường thọ", "tạo nên di sản cho thế hệ sau"]
+    },
+    "Thất Sát": {
+      "actions": ["bộc lộ sự dũng mãnh", "định hình quyết tâm sắt đá", "đột phá mọi rào cản", "thực thi mệnh lệnh quyết liệt", "tạo dựng uy thế quân nhân", "đối mặt với hiểm nguy không lùi", "khẳng định bản lĩnh độc lập", "xoay chuyển cục diện nhanh chóng", "chịu trách nhiệm những việc khó", "hướng tới thành công vang dội"],
+      "qualities": ["với ý chí quật cường", "bằng sự quả quyết", "trong tâm thế chiến binh", "với sự lạnh lùng cần thiết", "bằng nghị lực phi thường", "trong sự độc lập tuyệt đối", "với cái nhìn sắc lạnh", "bằng khả năng hành động", "với tinh thần hy sinh", "bằng sự can trường"],
+      "outcomes": ["giúp xoay chuyển vận mệnh", "đạt được quyền lực tối cao", "vượt qua nghịch cảnh lớn", "mang lại thắng lợi vẻ vang", "xây dựng sự nghiệp lẫy lừng", "khẳng định vị thế độc tôn", "đạt được mục tiêu khó khăn", "là tiền đề cho sự bứt phá", "giúp vượt lên chính mình", "tạo nên những dấu ấn lớn"]
+    },
+    "Phá Quân": {
+      "actions": ["khởi nguồn sự đổi mới", "phá vỡ những quy tắc cũ", "sáng tạo cái mới từ tro tàn", "thể hiện năng lực tiên phong", "tạo ra sự đột biến mạnh mẽ", "dấn thân vào những mạo hiểm", "thay đổi cấu trúc cũ kỹ", "khẳng định cái tôi sáng tạo", "vượt qua những giới hạn thông thường", "tạo dựng sự nghiệp từ đôi tay"],
+      "qualities": ["với tư duy cách tân", "bằng lòng dũng cảm", "trong phong cách khác biệt", "với tham vọng chinh phục", "bằng sức mạnh bộc phát", "trong sự quyết liệt", "với cái nhìn đổi mới", "bằng nội lực thâm hậu", "với tinh thần không ngại khó", "bằng khả năng thích nghi"],
+      "outcomes": ["giúp kiến tạo tương lai mới", "đạt thành tựu từ sự đột phá", "vượt qua những bế tắc cũ", "mang lại tài lộc bất ngờ", "xây dựng đế chế riêng", "khám phá những vùng đất mới", "là động lực cho sự tăng trưởng", "giúp cuộc đời có bước chuyển", "đạt được sự nghiệp vang dội", "tạo nên sự thay đổi vĩ đại"]
+    },
+    "Thái Dương": {
+      "actions": [
+        "lan tỏa ánh sáng",
+        "thể hiện sự quang minh",
+        "bùng nổ sự nhiệt huyết",
+        "khẳng định uy tín danh tiếng",
+        "chiếu rọi mọi góc khuất",
+        "mang lại năng lượng tích cực",
+        "tạo dựng vị thế rạng rỡ",
+        "chia sẻ phước lành đến mọi người",
+        "hướng ngoại mạnh mẽ",
+        "lĩnh xướng các phong trào"
+      ],
+      "qualities": [
+        "với lòng chính trực",
+        "bằng sự cởi mở",
+        "trong phong cách lỗi lạc",
+        "với tâm thế vì cộng đồng",
+        "bằng sức mạnh ý chí",
+        "trong sự thành thật tuyệt đối",
+        "với trí tuệ quang minh",
+        "bằng sự bao dung như nắng ấm",
+        "với danh dự làm trọng",
+        "bằng nỗ lực không mệt mỏi"
+      ],
+      "outcomes": [
+        "đạt tới đỉnh cao danh vọng",
+        "được thiên hạ nể trọng",
+        "mang lại sự nghiệp lẫy lừng",
+        "xây dựng gia đạo bình an",
+        "vượt qua những đố kỵ",
+        "đạt được sự giàu sang bền vững",
+        "giúp người giúp đời thành công",
+        "khẳng định chân lý sống",
+        "trở thành điểm tựa vững chắc",
+        "tỏa sáng muôn nơi"
+      ]
+    }
+  },
+  "tones": {
+    "Kiêu hùng": {
+      "openings": ["Hùng dũng thay,", "Một cách cục đầy uy lực,", "Khí vận cuồn cuộn,"],
+      "outcomes": ["chinh phục mọi đỉnh cao.", "khẳng định vị thế bá vương.", "khiến vạn người nể phục."]
+    },
+    "Hiền triết": {
+      "openings": ["Như dòng nước thanh tịnh,", "Từ góc nhìn siêu nhiên,", "Mọi sự tùy duyên nhưng,"],
+      "outcomes": ["tìm thấy sự an nhiên.", "đạt tới cảnh giới minh triết.", "thanh thản trong tâm hồn."]
+    },
+    "Thực tế": {
+      "openings": ["Đi thẳng vào vấn đề,", "Về mặt kinh tế và thực lực,", "Xét trên hiệu quả cụ thể,"],
+      "outcomes": ["thu được lợi nhuận lớn.", "đạt hiệu quả tối ưu.", "đảm bảo cuộc sống sung túc."]
+    }
+  }
+}

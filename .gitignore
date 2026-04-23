@@ -30,3 +30,7 @@ npm-debug.log*
 *.sln
 *.sw?
 *.local
+
+# Tauri build directories
+src-tauri/target/
+.agent

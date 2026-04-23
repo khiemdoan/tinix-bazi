@@ -1,0 +1,100 @@
+{
+  "TangTueDieu": {
+    "id": "TangTueDieu",
+    "detectStars": ["Tang Môn", "Thái Tuế", "Điếu Khách"],
+    "minMatch": 2,
+    "title": "Mẫu người Tang Tuế Điếu",
+    "texts": [
+      "Tuy gặp bất lợi vì nằm trong tam hợp Tang Tuế Điếu, mẫu người thường phải gánh vác nhiều lo toan và dễ gặp sự nghịch ý, nhưng chính những trở ngại này lại là 'lửa thử vàng' cho bản lĩnh của bạn. Bạn không chấp nhận thực tại một cách thụ động mà luôn tìm cách bứt phá.",
+      "Lá số của bạn mang dấu ấn của người 'biết khó mà tiến'. Dù vận trình đôi khi đưa bạn vào thế bất lợi hoặc phải làm những việc trái tâm ý, nhưng cái chất kiên cường của bộ Tang Mã (Tang Môn gặp Thiên Mã) sẽ giúp bạn vượt lên trên nghịch cảnh.",
+      "Bạn thuộc mẫu người sống thiên về nội tâm và giàu cảm xúc. Những thử thách trong cuộc sống thường đến để thử thách lòng kiên định của bạn, thúc đẩy bạn tìm kiếm sự cân bằng giữa cái tôi cá nhân và kỳ vọng của xã hội."
+    ],
+    "texts2": [
+      "Đáng quý nhất là sự hiện diện của Thiên Mã đi kèm, mang lại trí tuệ sắc bén, sự linh hoạt và năng động đáng kể. Bạn như con ngựa chiến đầy sinh lực, càng gặp khó khăn càng thể hiện được tốc độ và khả năng thích nghi tuyệt vời.",
+      "Sự năng động và ý chí vươn lên mạnh mẽ giúp bạn biến sự bất mãn thành động lực hành động. Bạn dễ hòa đồng, thấu hiểu nhân tâm và luôn nỗ lực đổi mới bản thân để không bị tụt hậu.",
+      "Hãy tận dụng trí thông minh và khả năng quan sát tinh tế để xây dựng những con đường riêng. Đừng ngại sự khác biệt, vì chính sự khác biệt đó sẽ dẫn dắt bạn đến những thành công ngoài mong đợi."
+    ]
+  },
+  "TuePha": {
+    "id": "TuePha",
+    "detectStars": ["Tuế Phá"],
+    "minMatch": 1,
+    "title": "Tuế Phá đóng Mệnh",
+    "texts": [
+      "Đặc biệt, với sao Tuế Phá đóng mệnh, bạn sở hữu một cá tính độc lập, không chấp nhận những quy tắc lỗi thời. Bạn sẵn sàng phá vỡ những trật tự cũ để kiến tạo nên những giá trị tiến bộ và hợp thời hơn.",
+      "Ngay từ sớm, bạn đã thể hiện sự nghịch ngợm, hiếu động và một tư duy phản biện sắc sảo. Bạn không bao giờ tin vào những gì được sắp đặt sẵn mà luôn muốn tự mình kiểm chứng và thay đổi chúng.",
+      "Sao Tuế Phá mang đến cho bạn quyền năng của sự 'đập bỏ để xây dựng'. Bản chất ngang bướng ở tuổi trẻ sẽ dần chuyển hóa thành sự kiên định và quyết liệt trong sự nghiệp khi trưởng thành."
+    ],
+    "texts2": [
+      "Tinh thần kiên cường, bất khuất của bạn là vũ khí mạnh mẽ nhất. Bạn ít khi chịu khuất phục trước áp lực và luôn đứng dậy sau mỗi lần vấp ngã với một tầm vóc mới cao lớn hơn.",
+      "Cuộc đời bạn là một chuỗi những cuộc cách tân. Sự mãnh liệt trong tư tưởng giúp bạn không bao giờ đầu hàng số phận, biến mỗi sự bất mãn thành một nấc thang để bước cao hơn trên danh vọng.",
+      "Hãy giữ vững ngọn lửa nhiệt huyết này, nhưng đừng quên rèn luyện thêm sự khéo léo. Khi sự phá vỡ đi kèm với trí tuệ điều tiết, bạn sẽ trở thành người dẫn đầu cuộc chơi."
+    ]
+  },
+  "PhuDuongDuc": {
+    "id": "PhuDuongDuc",
+    "detectStars": ["Thiếu Dương", "Thiên Đức", "Nguyệt Đức"],
+    "minMatch": 2,
+    "title": "Mẫu người Phù Dương Đức",
+    "texts": [
+      "Bên cạnh đó, bạn còn sở hữu nét đặc trưng của mẫu người Phù Dương Đức, biểu hiện một trí tuệ sáng suốt và minh mẫn. Sự hiện diện của các đức tinh mang lại cho bạn một phong thái hòa ái và luôn nhận được sự tin yêu từ mọi người.",
+      "Phúc khí lớn từ Thiên Đức và Nguyệt Đức như những tấm lá chắn vô hình bảo vệ bạn trước mọi hiểm nan. Bạn có duyên với các hoạt động hướng thiện và thường gặp được những quý nhân phò tá vào đúng thời điểm.",
+      "Lá số mang đậm tính chất nhân hậu và thanh cao. Bạn là người sống có lý tưởng, coi trọng đạo đức và luôn tìm thấy sự an tâm khi được cống hiến cho cộng đồng."
+    ],
+    "texts2": [
+      "Nếu lấy chữ 'Đức' làm trọng, sự nghiệp của bạn sẽ đạt được sự bền vững và hiển hách. Phước đức dòng họ cộng hưởng với sự tu dưỡng cá nhân sẽ giúp bạn gặp hung hóa cát, vạn sự hanh thông.",
+      "Hãy tin vào trực giác thiện lương của mình. Khi tâm hướng về điều tốt đẹp, vũ trụ sẽ hợp lực để đưa đến cho bạn những cơ hội vàng và sự bình yên trọn vẹn.",
+      "Sự sáng suốt của Thiếu Dương kết hợp với lòng bao dung của bộ nhị Đức biến bạn thành một người cố vấn đáng tin cậy. Danh tiếng của bạn sẽ vang xa nhờ chính sự chân thành và tử tế."
+    ]
+  },
+  "DaoKhongSat": {
+    "id": "DaoKhongSat",
+    "detectStars": ["Đào Hoa", "Thiên Không", "Kiếp Sát"],
+    "minMatch": 2,
+    "title": "Mẫu người Đào Không Sát",
+    "texts": [
+      "Đương số sở hữu bộ sao Đào Không Sát, dấu hiệu của tài năng thiên bẩm và sức hút mãnh liệt đối với đám đông. Bạn dễ dàng nổi tiếng và trở thành tâm điểm của sự chú ý nhờ vẻ đẹp và sự duyên dáng tự nhiên.",
+      "Cách cục này cho thấy một tư duy nghệ thuật bay bổng và khả năng sáng tạo không giới hạn. Tuy nhiên, sự hiện diện của Thiên Không nhắc nhở bạn về tính chất thăng vọt và cũng dễ gây ra sự hụt hẫng nếu thiếu nền tảng vững chắc.",
+      "Bạn là mẫu người 'nghệ sĩ' trong tâm hồn, luôn khao khát cái đẹp và sự hoàn mỹ. Cuộc đời bạn sẽ có nhiều cột mốc huy hoàng rực rỡ nhưng cũng không thiếu những nốt trầm đầy chiêm nghiệm."
+    ],
+    "texts2": [
+      "Cần đặc biệt lưu ý việc kiềm chế cái tôi và rèn luyện sự kiên nhẫn. Khi tài năng đi đôi với sự thực tế, bạn sẽ phát huy được tối đa sức mạnh của Đào Hoa để đạt được những đỉnh cao danh vọng bền vững.",
+      "Sự nhạy cảm và trực giác mạnh mẽ là món quà quý giá, hãy dùng chúng để chinh phục trái tim mọi người. Tránh tham vọng quá đà để bảo vệ sự yên tĩnh trong nội tâm trước những cơn bão của thời cuộc.",
+      "Mặc dù có xu hướng cạnh tranh mạnh mẽ, nhưng nếu biết định hướng vào các lĩnh vực nghệ thuật hoặc sáng tạo chuyên sâu, bạn sẽ để lại những dấu ấn khó phai trong lòng công chúng."
+    ]
+  },
+  "KhoaQuyenLoc": {
+    "id": "KhoaQuyenLoc",
+    "title": "Khoa Quyền Lộc củng",
+    "texts": [
+      "Đương số sở hữu cách cục 'Khoa Quyền Lộc củng, danh dự chiêu dương'. Đây là một trong những cách cục hiếm có chủ về sự thành đạt toàn diện từ danh tiếng, quyền lực đến tiền tài vật chất.",
+      "Sự hội tụ của tam hóa (Khoa, Quyền, Lộc) tại vị trí trọng yếu cho thấy bạn là người có số hưởng phúc, mưu sự dễ thành và luôn được xã hội trọng vọng, đánh giá cao.",
+      "Văn phong bác học đi kèm với thực quyền và túi tiền dồi dào là những gì mà các tinh tú này cam kết cho bạn. Bạn có đủ bản lĩnh để gây dựng tài sản hưng vượng và một sự nghiệp vang lừng."
+    ],
+    "texts2": [
+      "Với tư duy chiến lược và năng lực điều hành xuất sắc, bạn dễ dàng tạo lập được vị thế vững chắc trong lĩnh vực mình theo đuổi. Sự thịnh vượng đến với bạn một cách tự nhiên nhờ sự cộng hưởng của may mắn và tài năng.",
+      "Hãy tận dụng sự thăng hoa của tri thức (Khoa) và quyền uy (Quyền) để kiến tạo giá trị bền vững. Tài lộc (Lộc) sẽ luôn túc trực như một kết quả tất yếu của quá trình nỗ lực và sự hỗ trợ của các quý nhân.",
+      "Đây là nền móng cho một cuộc đời đại phú đại quý. Chỉ cần giữ vững tinh thần khiêm cung, bạn sẽ nhận được sự ủng hộ trọn đời từ cộng đồng và cấp dưới."
+    ]
+  },
+  "LocTonHoaLoc": {
+    "id": "LocTonHoaLoc",
+    "title": "Lộc Tồn gặp Hóa Lộc",
+    "texts": [
+      "Sự hội hợp của Hóa Lộc và Lộc Tồn tại mệnh cách khẳng định bạn là người có thực tài và một vận trình tài chính vô cùng hanh thông. Kho của cải của bạn luôn đầy ắp và sinh sôi nảy nở theo thời gian.",
+      "Đây là cách cục 'Song Lộc triều viên', chủ về người có duyên lớn với tiền bạc. Bạn không chỉ giỏi kiếm tiền mà còn có khả năng tích lũy và nhân rộng tài sản một cách khôn ngoan.",
+      "Phúc khí về vật chất của bạn rất dày, giúp cuộc sống luôn dư dả và sang trọng. Bạn là người hành xử thực tế, biết nắm bắt cơ hội và luôn có những kế hoạch đầu tư sinh lời hiệu quả."
+    ]
+  },
+  "KhongKiepGiap": {
+    "id": "KhongKiepGiap",
+    "detectStars": ["Địa Không", "Địa Kiếp"],
+    "minMatch": 2,
+    "title": "Không Kiếp hội",
+    "texts": [
+      "Tuy nhiên, sự có mặt của bộ đôi sát tinh Không - Kiếp cũng mang đến những thử thách dồn dập. Bạn có thể trải qua những giai đoạn 'ba chìm bảy nổi', thăng trầm bất ngờ trong cả tài chính lẫn tình cảm.",
+      "Sát tinh hội họp nhắc nhở bạn về tính chất bạo phát bạo tàn của vận mệnh. Hãy luôn có phương án dự phòng và giữ vững tâm thế 'trong nguy có cơ' để biến những tổn thất thành bài học kinh nghiệm đắt giá.",
+      "Chính những sóng gió kịch liệt mà Không - Kiếp tạo ra sẽ rèn rũa bạn thành một thanh bảo kiếm sắc bén nhất. Bản lĩnh tái tạo sự nghiệp từ đống đổ nát là năng lực phi thường mà chỉ bạn mới có."
+    ]
+  }
+}

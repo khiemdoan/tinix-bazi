@@ -4,16 +4,17 @@ import { formatDateTime } from '../../utils/dateUtils';
 const HistoryCard = ({ item, onClick }) => {
     const isMatching = item.question_id === 'matching_ai' || item.theme_id === 'matching';
     const isQue = item.theme_id === 'xin_que' || item.metadata?.isQue;
+    const isTuVi = item.theme_id === 'tuvi';
 
     return (
-        <div className={`history-card glass-card fade-in ${isMatching ? 'is-matching' : ''} ${isQue ? 'is-que' : ''}`} onClick={onClick}>
+        <div className={`history-card glass-card fade-in ${isMatching ? 'is-matching' : ''} ${isQue ? 'is-que' : ''} ${isTuVi ? 'is-tuvi' : ''}`} onClick={onClick}>
             <div className="card-left">
                 {/* Icon removed as requested */}
             </div>
             <div className="card-main">
                 <div className="history-question-row">
                     <span className="q-type-badge">
-                        {isMatching ? '👩‍❤️‍👨 Duyên Số' : isQue ? '🔮 Xin Quẻ' : '💬 Tư vấn'}
+                        {isMatching ? '👩‍❤️‍👨 Duyên Số' : isQue ? '🔮 Xin Quẻ' : isTuVi ? '🌠 Tử Vi' : '💬 Tư vấn'}
                     </span>
                     <span className="question-text-truncate">{item.question_text}</span>
                 </div>

@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: require('path').join(__dirname, '.env') });
 process.env.TZ = 'Asia/Ho_Chi_Minh';
 const express = require('express');
 const cors = require('cors');
@@ -12,11 +12,27 @@ const adminRoutes = require('./src/routes/admin.routes');
 const authRoutes = require('./src/routes/auth.routes');
 const articlesRoutes = require('./src/routes/articles.routes');
 const queRoutes = require('./src/routes/que.routes');
+const tuviRoutes = require('./src/routes/tuvi.routes');
 // const dailyRoutes = require('./src/routes/daily.routes');
 const dbService = require('./src/services/database.service');
 
 const app = express();
-const PORT = process.env.PORT || 8888;
+
+// Parse CLI arguments for Tauri Sidecar support
+const argv = process.argv.slice(2);
+let cliPort = null;
+const portIndex = argv.indexOf('--port');
+if (portIndex !== -1 && argv[portIndex + 1]) {
+    cliPort = parseInt(argv[portIndex + 1], 10);
+}
+
+const dataDirIndex = argv.indexOf('--data-dir');
+if (dataDirIndex !== -1 && argv[dataDirIndex + 1]) {
+    process.env.APP_DATA_DIR = argv[dataDirIndex + 1];
+    console.log(`[STARTUP] Using custom data directory: ${process.env.APP_DATA_DIR}`);
+}
+
+const PORT = cliPort || process.env.PORT || 8888;
 
 // Rate limiting configurations
 const generalLimiter = rateLimit({
@@ -50,8 +66,10 @@ app.use(cors());
 app.use(express.json({ limit: '5mb' })); // Increased limit for large chart data
 app.use(generalLimiter); // Apply general rate limit to all routes
 
-// Trust proxy for real IP behind Nginx/Cloudflare
-app.set('trust proxy', true);
+// Trust proxy configuration
+// Set to 1 to trust the first proxy (common for local sidecars/proxies)
+// Using 'true' is insecure and rejected by newer express-rate-limit versions
+app.set('trust proxy', 1);
 
 
 // Access logging middleware
@@ -96,7 +114,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/auth', authLimiter, authRoutes);  // Strict auth rate limit
 app.use('/api/articles', articlesRoutes);  // Articles routes
 app.use('/api/que', queRoutes);
-// app.use('/api/daily', dailyRoutes);
+app.use('/api/tuvi', tuviRoutes);
 
 
 // Health check

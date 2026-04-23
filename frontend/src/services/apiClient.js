@@ -46,6 +46,26 @@ export const apiClient = {
     },
 
     analyze: (data) => apiClient.get('/analyze', data),
+    analyzeTuVi: (data, token) => {
+        const url = new URL(BASE_URL + '/tuvi/analyze', window.location.origin);
+        return fetch(url.toString(), {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                ...(token ? { 'Authorization': `Bearer ${token}` } : {})
+            },
+            body: JSON.stringify(data)
+        }).then(res => {
+            if (!res.ok) {
+                return res.json().then(errData => {
+                    throw new Error(errData.error || `API Error: ${res.status}`);
+                }).catch(() => {
+                    throw new Error(`Lỗi kết nối máy chủ (${res.status}). Vui lòng thử lại sau.`);
+                });
+            }
+            return res.json();
+        });
+    },
     analyzeTime: (data) => apiClient.get('/analyze-time', data),
     selectDates: (data) => apiClient.get('/select-dates', data),
     matching: (data) => apiClient.post('/matching', data),

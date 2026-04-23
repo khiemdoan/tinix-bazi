@@ -5,15 +5,24 @@ import { useAuth } from '../context/AuthContext';
 import AuthModal from './AuthModal';
 import UserProfileModal from './UserProfileModal';
 
-const tabs = [
+const baziTabs = [
     { id: 'chart', path: '/laso', label: 'LÁ SỐ', icon: '🎨' },
     { id: 'matrix', path: '/phantich', label: 'PHÂN TÍCH', icon: '⚙️' },
     { id: 'date', path: '/xemngay', label: 'XEM NGÀY', icon: '📅' },
     { id: 'matching', path: '/duyenso', label: 'DUYÊN SỐ', icon: '🎎' },
     { id: 'que', path: '/xinque', label: 'GIEO QUẺ', icon: '🎴' },
-    // { id: 'cycles', path: '/vanhan', label: 'VẬN HẠN', icon: '📈' }, // Moved to /laso page
     { id: 'consultant', path: '/tuvan', label: 'TƯ VẤN', icon: '💬' },
     { id: 'wisdom', path: '/dientich', label: 'ĐIỂN TỊCH', icon: '📜' },
+];
+
+const tuviTabs = [
+    { id: 'tuvi-laso', path: '/tuvi/laso', label: 'LÁ SỐ', icon: '🎨', params: 'tab=laso' },
+    { id: 'tuvi-luancung', path: '/tuvi/laso', label: 'LUẬN CUNG', icon: '📖', params: 'tab=luancung' },
+    { id: 'tuvi-daivan', path: '/tuvi/laso', label: 'ĐẠI VẬN', icon: '⌛', params: 'tab=daivan' },
+    { id: 'tuvi-tieuvan', path: '/tuvi/laso', label: 'TIỂU VẬN', icon: '📅', params: 'tab=tieuvan' },
+    { id: 'tuvi-nguyetvan', path: '/tuvi/laso', label: 'NGUYỆT VẬN', icon: '🌙', params: 'tab=nguyetvan' },
+    { id: 'tuvi-nhatvan', path: '/tuvi/laso', label: 'NHẬT VẬN', icon: '☀️', params: 'tab=nhatvan' },
+    { id: 'tuvi-chuyende', path: '/tuvi/laso', label: 'CHUYÊN ĐỀ', icon: '📂', params: 'tab=chuyende' },
 ];
 
 const DesktopShell = ({ children, hasData, onClearData }) => {
@@ -78,6 +87,8 @@ const DesktopShell = ({ children, hasData, onClearData }) => {
     };
 
     const isHomePage = location.pathname === '/' || location.pathname === '/input';
+    const isTuViPage = location.pathname.startsWith('/tuvi');
+    const displayTabs = isTuViPage ? tuviTabs : baziTabs;
 
     return (
         <div className="desktop-shell">
@@ -86,7 +97,7 @@ const DesktopShell = ({ children, hasData, onClearData }) => {
                     <>
                         <div className="action-bar glass-card">
                             <h1 className="mini-brand" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
-                                HUYỀN CƠ BÁT TỰ
+                                HUYỀN CƠ {isTuViPage ? 'TỬ VI' : 'BÁT TỰ'}
                             </h1>
 
                             <div className="header-right">
@@ -116,7 +127,17 @@ const DesktopShell = ({ children, hasData, onClearData }) => {
                                     </button>
                                 )}
 
-                                {hasData && (
+                                {isTuViPage && (
+                                    <button
+                                        className="premium-button small"
+                                        onClick={() => navigate({ pathname: '/laso', search: location.search })}
+                                        style={{ background: 'linear-gradient(135deg, #2c3e50, #000)', border: '1px solid #444' }}
+                                    >
+                                        ☯️ XEM BÁT TỰ
+                                    </button>
+                                )}
+
+                                {hasData && !isTuViPage && (
                                     <button className="premium-button small" onClick={handleClearData}>
                                         XEM LÁ SỐ KHÁC
                                     </button>
@@ -125,16 +146,27 @@ const DesktopShell = ({ children, hasData, onClearData }) => {
                         </div>
 
                         <nav className="main-nav-tabs glass-card">
-                            {tabs.map(tab => (
-                                <NavLink
-                                    key={tab.id}
-                                    to={{ pathname: tab.path, search: location.search }}
-                                    className={({ isActive }) => `nav-tab-btn ${isActive ? 'active' : ''}`}
-                                >
-                                    <span className="tab-icon">{tab.icon}</span>
-                                    <span className="tab-label">{tab.label}</span>
-                                </NavLink>
-                            ))}
+                            {displayTabs.map(tab => {
+                                const newParams = new URLSearchParams(location.search);
+                                if (tab.params) {
+                                    const [key, val] = tab.params.split('=');
+                                    newParams.set(key, val);
+                                }
+                                return (
+                                    <NavLink
+                                        key={tab.id}
+                                        to={{ pathname: tab.path, search: newParams.toString() }}
+                                        className={({ isActive }) => {
+                                            const currentTab = new URLSearchParams(location.search).get('tab') || 'laso';
+                                            const isTabActive = isTuViPage ? (tab.params && tab.params.includes(`tab=${currentTab}`)) : isActive;
+                                            return `nav-tab-btn ${isTabActive ? 'active' : ''}`;
+                                        }}
+                                    >
+                                        <span className="tab-icon">{tab.icon}</span>
+                                        <span className="tab-label">{tab.label}</span>
+                                    </NavLink>
+                                );
+                            })}
                         </nav>
                     </>
                 )}

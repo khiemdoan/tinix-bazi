@@ -196,7 +196,7 @@ class QueService {
                     year: baziContext.thong_tin_co_ban.nam_sinh,
                     month: baziContext.thong_tin_co_ban.thang_sinh,
                     day: baziContext.thong_tin_co_ban.ngay_sinh,
-                    hour: baziContext.thong_tin_co_ban.gio_sinh || 12,
+                    hour: baziContext.thong_tin_co_ban.gio_sinh !== undefined && baziContext.thong_tin_co_ban.gio_sinh !== null ? baziContext.thong_tin_co_ban.gio_sinh : 12,
                     minute: baziContext.thong_tin_co_ban.phut_sinh || 0,
                     gender: baziContext.thong_tin_co_ban.gioi_tinh || 'Nam',
                     calendar: 'solar'

@@ -467,7 +467,7 @@ router.post('/matching', async (req, res) => {
                 year: parseInt(person1.year),
                 month: parseInt(person1.month),
                 day: parseInt(person1.day),
-                hour: parseInt(person1.hour) || 12,
+                hour: parseInt(person1.hour) >= 0 ? parseInt(person1.hour) : 12,
                 gender: person1.gender || 'Nam',
                 name: person1.name || 'Người 1'
             },
@@ -475,7 +475,7 @@ router.post('/matching', async (req, res) => {
                 year: parseInt(person2.year),
                 month: parseInt(person2.month),
                 day: parseInt(person2.day),
-                hour: parseInt(person2.hour) || 12,
+                hour: parseInt(person2.hour) >= 0 ? parseInt(person2.hour) : 12,
                 gender: person2.gender || 'Nữ',
                 name: person2.name || 'Người 2'
             },
@@ -533,7 +533,7 @@ router.post('/matching/ai', authRoutes.authMiddleware, async (req, res) => {
                 year: parseInt(person.year),
                 month: parseInt(person.month),
                 day: parseInt(person.day),
-                hour: parseInt(person.hour) || 12,
+                hour: parseInt(person.hour) >= 0 ? parseInt(person.hour) : 12,
                 minute: parseInt(person.minute) || 0,
                 isFemale: isFemale,
                 isSolar: true

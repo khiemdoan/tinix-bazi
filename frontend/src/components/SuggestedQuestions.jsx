@@ -70,7 +70,7 @@ const SuggestedQuestions = () => {
                 year: user.bazi_data.year,
                 month: user.bazi_data.month,
                 day: user.bazi_data.day,
-                hour: user.bazi_data.hour || 10,
+                hour: user.bazi_data.hour !== undefined && user.bazi_data.hour !== null ? user.bazi_data.hour : 10,
                 minute: user.bazi_data.minute || 0,
                 calendar: user.bazi_data.calendar || 'solar'
             };
